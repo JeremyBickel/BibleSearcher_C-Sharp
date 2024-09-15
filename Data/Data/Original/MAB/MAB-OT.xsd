@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="verse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="vid">
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:unsignedByte">
+								<xs:attribute name="id" type="xs:string" use="required" />
+								<xs:attribute name="onclick" type="xs:string" use="required" />
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="cl">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="div">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="div">
+											<xs:complexType mixed="true">
+												<xs:sequence>
+													<xs:choice maxOccurs="unbounded">
+														<xs:element maxOccurs="unbounded" name="div">
+															<xs:complexType>
+																<xs:sequence>
+																	<xs:element minOccurs="0" maxOccurs="unbounded" name="heb">
+																		<xs:complexType>
+																			<xs:simpleContent>
+																				<xs:extension base="xs:string">
+																					<xs:attribute name="id" type="xs:string" use="optional" />
+																					<xs:attribute name="class" type="xs:string" use="optional" />
+																					<xs:attribute name="onclick" type="xs:string" use="optional" />
+																					<xs:attribute name="onmouseover" type="xs:string" use="optional" />
+																					<xs:attribute name="onmouseout" type="xs:string" use="optional" />
+																					<xs:attribute name="ondblclick" type="xs:string" use="optional" />
+																				</xs:extension>
+																			</xs:simpleContent>
+																		</xs:complexType>
+																	</xs:element>
+																	<xs:element minOccurs="0" name="hbint" type="xs:string" />
+																	<xs:element minOccurs="0" name="ptyp">
+																		<xs:complexType mixed="true">
+																			<xs:sequence minOccurs="0">
+																				<xs:element minOccurs="0" name="det" type="xs:string" />
+																				<xs:element minOccurs="0" name="undet" type="xs:string" />
+																			</xs:sequence>
+																		</xs:complexType>
+																	</xs:element>
+																	<xs:element minOccurs="0" name="pfunction" type="xs:string" />
+																</xs:sequence>
+																<xs:attribute name="id" type="xs:string" use="optional" />
+																<xs:attribute name="class" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="heb" type="xs:string" />
+														<xs:element maxOccurs="unbounded" name="ref">
+															<xs:complexType mixed="true">
+																<xs:sequence minOccurs="0">
+																	<xs:element name="clid" type="xs:string" />
+																</xs:sequence>
+																<xs:attribute name="onclick" type="xs:string" use="required" />
+															</xs:complexType>
+														</xs:element>
+														<xs:element name="ckind" type="xs:string" />
+														<xs:element name="ctyp" type="xs:string" />
+													</xs:choice>
+												</xs:sequence>
+												<xs:attribute name="id" type="xs:string" use="optional" />
+												<xs:attribute name="class" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="class" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

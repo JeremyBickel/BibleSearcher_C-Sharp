@@ -1,0 +1,31 @@
+Data Manager
+-Data\*
+
+Bible Manager
+-Bible Texts
+
+Bible Text
+-Verse
+-Word
+-POS
+-Grammar [LexiconManager\*]
+
+[Word]
+-Synonyms
+-SyllableCloseness
+
+Lexicon Manager
+
+-BLBGreek
+-BLBLHebrew
+-STEPGreek
+-STEPHebrew
+
+Pericope Manager
+-PericopeSections
+-PGroupWordClusters
+
+Analysis
+-SVO
+-CrossReferences
+-TextualLogic

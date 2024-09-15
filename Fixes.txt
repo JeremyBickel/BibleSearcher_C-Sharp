@@ -1,0 +1,29 @@
+ProcessedPericopes
+-Book Name normalization
+-Are multiple pericopes printing in the same line?
+
+BLB[Greek|Hebrew]SyllableComparisons
+-Total recheck
+
+BookWordCounts
+-Book Name normalization
+
+Counts for Phrases with Multiple Strongs Numbers, First English Translation
+-Parenthesis
+--ie. 19 ^ etc...) up-not translated ^ 129
+
+CrossReferences
+-Are the %Word Positions necessary?
+
+EnglishPhraseCountsByCount
+-Reorder by count DESCENDING
+
+EnglishPhraseCountsByPhrase
+-Purge the first line, which is a blank word
+
+LocalPhraseClusters
+-Change name to ComplexPOS
+
+References
+-Book Name normalization
+

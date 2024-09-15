@@ -1,0 +1,81 @@
+[the] book ^ 40 ^ 1 ^ 1 ^ 1 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w1-w8 ^ subject ^ 1 ^ 1 ^ 976 ^ Noun, Nominative, Singular, Feminine ^ βίβλος
+of [the] genealogy ^ 40 ^ 1 ^ 1 ^ 2 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w2-w8 ^ qualifier ^ 1 ^ 2 ^ 1078 ^ Noun, Genitive, Singular, Feminine ^ γενέσεως
+of jesus ^ 40 ^ 1 ^ 1 ^ 3 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w3-w8 ^ qualifier ^ 1 ^ 3 ^ 2424 ^ Noun, Genitive, Singular, Masculine, Person ^ ἰησοῦ
+christ, ^ 40 ^ 1 ^ 1 ^ 4 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w4-w8 ^ definer ^ 1 ^ 4 ^ 5547 ^ Noun, Genitive, Singular, Masculine, Title ^ χριστοῦ
+son ^ 40 ^ 1 ^ 1 ^ 5 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w5-w6 ^ definer ^ 1 ^ 5 ^ 5207 ^ Noun, Genitive, Singular, Masculine ^ υἱοῦ
+of david, ^ 40 ^ 1 ^ 1 ^ 6 ^ qualifier ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w5-w6 ^ definer ^ 1 ^ 6 ^ 1138 ^ Noun, Genitive, Singular, Masculine, Person ^ δαυὶδ
+son ^ 40 ^ 1 ^ 1 ^ 7 ^ head ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w7-w8 ^ definer ^ 1 ^ 7 ^ 5207 ^ Noun, Genitive, Singular, Masculine ^ υἱοῦ
+of abraham: ^ 40 ^ 1 ^ 1 ^ 8 ^ qualifier ^ 1 ^ 1:1.w1-w8_2 ^  ^ 1:1.w7-w8 ^ definer ^ 1 ^ 8 ^ 11 ^ Noun, Genitive, Singular, Masculine, Person ^ ἀβραάμ
+
+{Subject:[This is] the book}                  Noun F Nom
+{Qualifier: of the genealogy}                 Noun F Gen
+{Qualifier: of Jesus}                         Noun M Gen Person
+{Definer: Christ,}                            Noun M Gen Title
+({Definer: son} <--                           Noun M Gen
+{Definer: of David,})      		      Noun M Gen Person
+({Definer: son} <--                           Noun M Gen
+{Definer: of Abraham:})   		      Noun M Gen Person
+
+[the] beginning ^ 41 ^ 1 ^ 1 ^ 1 ^ head ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w1-w7 ^ subject ^ 3684 ^ 18347 ^ 746 ^ Noun, Nominative, Singular, Feminine ^ ἀρχὴ
+of the ^ 41 ^ 1 ^ 1 ^ 2 ^ specifier ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w2-w7 ^ qualifier ^ 3684 ^ 18348 ^ 3588 ^ definite article, Genitive, Singular, Neuter ^ τοῦ
+gospel ^ 41 ^ 1 ^ 1 ^ 3 ^ head ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w2-w7 ^ qualifier ^ 3684 ^ 18349 ^ 2098 ^ Noun, Genitive, Singular, Neuter ^ εὐαγγελίου
+of jesus ^ 41 ^ 1 ^ 1 ^ 4 ^ head ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w4-w7 ^ qualifier ^ 3684 ^ 18350 ^ 2424 ^ Noun, Genitive, Singular, Masculine, Person ^ ἰησοῦ
+christ, ^ 41 ^ 1 ^ 1 ^ 5 ^ head ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w5-w7 ^ definer ^ 3684 ^ 18351 ^ 5547 ^ Noun, Genitive, Singular, Masculine, Title ^ χριστοῦ
+son ^ 41 ^ 1 ^ 1 ^ 6 ^ head ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w6-w7 ^ definer ^ 3684 ^ 18352 ^ 5207 ^ Noun, Genitive, Singular, Masculine ^ υἱοῦ
+of god. ^ 41 ^ 1 ^ 1 ^ 7 ^ qualifier ^ 1 ^ 1:1.w1-w7_2 ^ adjunct ^ 1:1.w6-w7 ^ definer ^ 3684 ^ 18353 ^ 2316 ^ Noun, Genitive, Singular, Masculine ^ θεοῦ
+
+{Subject: The beginning}                              Noun F Nom
+({Qualifier: of the} -->                              DArt N Gen
+{Qualifier: gospel})				      Noun N Gen
+{Qualifier: of Jesus}                                 Noun M Gen Person
+{Definer: Christ,}                                    Noun M Gen Title
+({Definer: son} <-- 				      Noun M Gen
+{Definer: of God.})               		      Noun M Gen
+
+(Inasmuch as many have undertaken to draw up a narration (concerning the (having been accomplished (among us)) things,))
+as delivered them to us those from the beginning eyewitnesses and servants have been of the word, it seemed good
+also to me, having been acquainted from the first with all things, carefully with method to you to write,
+most excellent theophilus, so that you may know concerning which you were instructed, of the things, the certainty.
+
+inasmuch as ^ 42 ^ 1 ^ 1 ^ 1 ^ head ^ 2 ^ 1:1.w1-w11 @1:3.w1-w11 ^ definer ^ 1:1.w1 ^ conjunction ^ 6101 ^ 29651 ^ 1895 ^ CONJunction or conjunctive particle ^ ἐπειδήπερ
+many ^ 42 ^ 1 ^ 1 ^ 2 ^ head ^ 2 ^ 1:1.w1-w11 @1:3.w1-w11 ^ definer ^ 1:1.w2 ^ subject ^ 6101 ^ 29652 ^ 4183 ^ Adjective, Nominative, Plural, Masculine ^ πολλοὶ
+have undertaken ^ 42 ^ 1 ^ 1 ^ 3 ^ head ^ 2 ^ 1:1.w1-w11 @1:3.w1-w11 ^ definer ^ 1:1.w3 ^ predicator ^ 6101 ^ 29653 ^ 2021 ^ Verb, Aorist, Active, Indicative, third, Plural ^ ἐπεχείρησαν
+to draw up ^ 42 ^ 1 ^ 1 ^ 4 ^ head ^ 1 ^ 1:1.w4-w11 ^ definer ^ 1:1.w4 ^ predicator ^ 6101 ^ 29654 ^ 392 ^ Verb, Aorist, middle Deponent, iNfinitive ^ ἀνατάξασθαι
+a narration ^ 42 ^ 1 ^ 1 ^ 5 ^ head ^ 1 ^ 1:1.w4-w11 ^ definer ^ 1:1.w5 ^ complement ^ 6101 ^ 29655 ^ 1335 ^ Noun, Accusative, Singular, Feminine ^ διήγησιν
+concerning ^ 42 ^ 1 ^ 1 ^ 6 ^ specifier ^ 1 ^ 1:1.w4-w11 ^ definer ^ 1:1.w6-w11 ^ adjunct ^ 6101 ^ 29656 ^ 4012 ^ PREPosition ^ περὶ
+the ^ 42 ^ 1 ^ 1 ^ 7 ^ specifier ^ 1 ^ 1:1.w4-w11 ^ definer ^ 1:1.w6-w11 ^ adjunct ^ 6101 ^ 29657 ^ 3588 ^ definite article, Genitive, Plural, Neuter ^ τῶν
+having been accomplished ^ 42 ^ 1 ^ 1 ^ 8 ^ head ^ 1 ^ 1:1.w8-w10 ^ definer ^ 1:1.w8 ^ predicator ^ 6101 ^ 29658 ^ 4135 ^ Verb, peRfect, Passive, Participle, Genitive, Plural, Neuter ^ πεπληροφορημένων
+among ^ 42 ^ 1 ^ 1 ^ 9 ^ specifier ^ 1 ^ 1:1.w8-w10 ^ definer ^ 1:1.w9-w10 ^ adjunct ^ 6101 ^ 29659 ^ 1722 ^ PREPosition ^ ἐν
+us ^ 42 ^ 1 ^ 1 ^ 10 ^ head ^ 1 ^ 1:1.w8-w10 ^ definer ^ 1:1.w9-w10 ^ adjunct ^ 6101 ^ 29660 ^ 1473 ^ Personal pronoun, first, Dative, Plural ^ ἡμῖν
+things, ^ 42 ^ 1 ^ 1 ^ 11 ^ head ^ 1 ^ 1:1.w8-w10 ^ definer ^ 1:1.w9-w10 ^ adjunct ^ 6101 ^ 29661 ^ 4229 ^ Noun, Genitive, Plural, Neuter ^ πραγμάτων
+as ^ 42 ^ 1 ^ 2 ^ 1 ^ head ^ 3 ^ 1:2.w1-w12 @1:1.w1-w11 ^ definer ^ 1:2.w1 ^ conjunction ^ 6102 ^ 29662 ^ 2531 ^ CONJunction or conjunctive particle ^ καθὼς
+delivered [them] ^ 42 ^ 1 ^ 2 ^ 2 ^ head ^ 3 ^ 1:2.w1-w12 @1:1.w1-w11 ^ definer ^ 1:2.w2 ^ predicator ^ 6102 ^ 29663 ^ 3860 ^ Verb, second Aorist, Active, Indicative, third, Plural ^ παρέδοσαν
+to us ^ 42 ^ 1 ^ 2 ^ 3 ^ head ^ 3 ^ 1:2.w1-w12 @1:1.w1-w11 ^ definer ^ 1:2.w3 ^ complement ^ 6102 ^ 29664 ^ 1473 ^ Personal pronoun, first, Dative, Plural ^ ἡμῖν
+those ^ 42 ^ 1 ^ 2 ^ 4 ^ specifier ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w4 --> 1:2.w10 ^ predicator ^ 6102 ^ 29665 ^ 3588 ^ definite article, Nominative, Plural, Masculine ^ οἱ
+from ^ 42 ^ 1 ^ 2 ^ 5 ^ specifier ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w5-w6 ^ adjunct ^ 6102 ^ 29666 ^ 575 ^ PREPosition ^ ἀπ᾽
+[the] beginning ^ 42 ^ 1 ^ 2 ^ 6 ^ head ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w5-w6 ^ adjunct ^ 6102 ^ 29667 ^ 746 ^ Noun, Genitive, Singular, Feminine ^ ἀρχῆς
+eyewitnesses ^ 42 ^ 1 ^ 2 ^ 7 ^ head ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w7 ^ complement ^ 6102 ^ 29668 ^ 845 ^ Noun, Nominative, Plural, Masculine ^ αὐτόπται
+and ^ 42 ^ 1 ^ 2 ^ 8 ^ connector ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w8-w9 ^ complement ^ 6102 ^ 29669 ^ 2532 ^ CONJunction or conjunctive particle ^ καὶ
+servants ^ 42 ^ 1 ^ 2 ^ 9 ^ head ^ 1 ^ 1:2.w4-w12 ^ definer ^ 1:2.w8-w9 ^ complement ^ 6102 ^ 29670 ^ 5257 ^ Noun, Nominative, Plural, Masculine ^ ὑπηρέται
+having been ^ 42 ^ 1 ^ 2 ^ 10 ^ head ^ 1 ^ 1:2.w4 ^ definer ^ 1:2.w10 ^ complement ^ 6102 ^ 29671 ^ 1096 ^ Verb, second Aorist, middle Deponent, Participle, Nominative, Plural, Masculine ^ γενόμενοι
+of the ^ 42 ^ 1 ^ 2 ^ 11 ^ specifier ^ 1 ^ 1:2.w7-w9 ^ definer ^ 1:2.w11-w12 ^ qualifier ^ 6102 ^ 29672 ^ 3588 ^ definite article, Genitive, Singular, Masculine ^ τοῦ
+word, ^ 42 ^ 1 ^ 2 ^ 12 ^ head ^ 1 ^ 1:2.w7-w9 ^ definer ^ 1:2.w11-w12 ^ qualifier ^ 6102 ^ 29673 ^ 3056 ^ Noun, Genitive, Singular, Masculine ^ λόγου
+it seemed good ^ 42 ^ 1 ^ 3 ^ 1 ^ head ^ 1 ^ 1:3.w1-w11 ^ definer ^ 1:3.w1 ^ predicator ^ 6103 ^ 29674 ^ 1380 ^ Verb, Aorist, Active, Indicative, third, Singular ^ ἔδοξε
+also to me, ^ 42 ^ 1 ^ 3 ^ 2 ^ head ^ 1 ^ 1:3.w1-w11 ^ definer ^ 1:3.w2-w6 ^ complement ^ 6103 ^ 29675 ^ 2504 ^ Personal pronoun, first, Dative, Singular, Kai ^ κἀμοὶ
+having been acquainted ^ 42 ^ 1 ^ 3 ^ 3 ^ head ^ 1 ^ 1:3.w3-w6 ^ definer ^ 1:3.w3 ^ predicator ^ 6104 ^ 29676 ^ 3877 ^ Verb, peRfect, Active, Participle, Dative, Singular, Masculine ^ παρηκολουθηκότι
+from the first ^ 42 ^ 1 ^ 3 ^ 4 ^ head ^ 1 ^ 1:3.w3-w6 ^ definer ^ 1:3.w4 ^ adjunct ^ 6104 ^ 29677 ^ 509 ^ ADVerb or adverb and particle combined ^ ἄνωθεν
+with all things, ^ 42 ^ 1 ^ 3 ^ 5 ^ head ^ 1 ^ 1:3.w3-w6 ^ definer ^ 1:3.w5 ^ complement ^ 6104 ^ 29678 ^ 3956 ^ Adjective, Dative, Plural, Neuter ^ πᾶσιν
+carefully ^ 42 ^ 1 ^ 3 ^ 6 ^ head ^ 1 ^ 1:3.w3-w6 ^ definer ^ 1:3.w6 ^ adjunct ^ 6104 ^ 29679 ^ 199 ^ ADVerb or adverb and particle combined ^ ἀκριβῶς
+with method ^ 42 ^ 1 ^ 3 ^ 7 ^ head ^ 1 ^ 1:3.w7-w9 ^ definer ^ 1:3.w7 ^ adjunct ^ 6105 ^ 29680 ^ 2517 ^ ADVerb or adverb and particle combined ^ καθεξῆς
+to you ^ 42 ^ 1 ^ 3 ^ 8 ^ head ^ 1 ^ 1:3.w7-w9 ^ definer ^ 1:3.w8 ^ complement ^ 6105 ^ 29681 ^ 4771 ^ Personal pronoun, second, Dative, Singular ^ σοι
+to write, ^ 42 ^ 1 ^ 3 ^ 9 ^ head ^ 1 ^ 1:3.w7-w9 ^ definer ^ 1:3.w9 ^ predicator ^ 6105 ^ 29682 ^ 1125 ^ Verb, Aorist, Active, iNfinitive ^ γράψαι
+most excellent ^ 42 ^ 1 ^ 3 ^ 10 ^ definer ^ 1 ^ 1:3.w7-w9 ^ definer ^ 1:3.w10-w11 ^ addressee ^ 6105 ^ 29683 ^ 2903 ^ Adjective, Vocative, Singular, Masculine ^ κράτιστε
+theophilus, ^ 42 ^ 1 ^ 3 ^ 11 ^ head ^ 1 ^ 1:3.w7-w9 ^ definer ^ 1:3.w10-w11 ^ addressee ^ 6105 ^ 29684 ^ 2321 ^ Noun, Vocative, Singular, Masculine, Person ^ θεόφιλε
+so that ^ 42 ^ 1 ^ 4 ^ 1 ^ head ^ 2 ^ 1:4.w1-w8 @1:3.w1-w11 ^ definer ^ 1:4.w1 ^ conjunction ^ 6106 ^ 29685 ^ 2443 ^ CONJunction or conjunctive particle ^ ἵνα
+you may know ^ 42 ^ 1 ^ 4 ^ 2 ^ head ^ 2 ^ 1:4.w1-w8 @1:3.w1-w11 ^ definer ^ 1:4.w2 ^ predicator ^ 6106 ^ 29686 ^ 1921 ^ Verb, second Aorist, Active, Subjunctive, second, Singular ^ ἐπιγνῷς
+concerning ^ 42 ^ 1 ^ 4 ^ 3 ^ specifier ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w3-w4 ^ adjunct ^ 6106 ^ 29687 ^ 4012 ^ PREPosition ^ περὶ
+which ^ 42 ^ 1 ^ 4 ^ 4 ^ head ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w3-w4 ^ adjunct ^ 6106 ^ 29688 ^ 3739 ^ Relative pronoun, Genitive, Plural, Masculine ^ ὧν
+you were instructed, ^ 42 ^ 1 ^ 4 ^ 5 ^ head ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w5 ^ predicator ^ 6106 ^ 29689 ^ 2727 ^ Verb, Aorist, Passive, Indicative, second, Singular ^ κατηχήθης
+[of the] things, ^ 42 ^ 1 ^ 4 ^ 6 ^ head ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w5 ^ predicator ^ 6106 ^ 29690 ^ 3056 ^ Noun, Genitive, Plural, Masculine ^ λόγων
+the ^ 42 ^ 1 ^ 4 ^ 7 ^ specifier ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w5 ^ predicator ^ 6106 ^ 29691 ^ 3588 ^ definite article, Accusative, Singular, Feminine ^ τὴν
+certainty. ^ 42 ^ 1 ^ 4 ^ 8 ^ head ^ 1 ^ 1:4.w3-w5 ^ definer ^ 1:4.w5 ^ predicator ^ 6106 ^ 29692 ^ 803 ^ Noun, Accusative, Singular, Feminine ^ ἀσφάλειαν

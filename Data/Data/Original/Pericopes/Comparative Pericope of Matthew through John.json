@@ -1,0 +1,3007 @@
+[
+    {
+        "Pericope": "Jesus is the Word",
+        "Reference Start": "John 1:1",
+        "Reference End": "John 1:5"
+    },
+    {
+        "Pericope": "God became a human being",
+        "Reference Start": "John 1:10",
+        "Reference End": "John 1:18"
+    },
+    {
+        "Pericope": "Jesus' ancestry back to Adam",
+        "Reference Start": "Luke 3:23",
+        "Reference End": "Luke 3:38"
+    },
+    {
+        "Pericope": "Jesus' ancestry from Abraham",
+        "Reference Start": "Matt 1:1",
+        "Reference End": "Matt 1:17"
+    },
+    {
+        "Pericope": "Luke's purpose in writing",
+        "Reference Start": "Luke 1:1",
+        "Reference End": "Luke 1:4"
+    },
+    {
+        "Pericope": "The angel Gabriel promises the birth of John to Zechariah",
+        "Reference Start": "Luke 1:5",
+        "Reference End": "Luke 1:25"
+    },
+    {
+        "Pericope": "The angel Gabriel promises the birth of Jesus to Mary",
+        "Reference Start": "Luke 1:26",
+        "Reference End": "Luke 1:38"
+    },
+    {
+        "Pericope": "Mary visits Elizabeth",
+        "Reference Start": "Luke 1:39",
+        "Reference End": "Luke 1:56"
+    },
+    {
+        "Pericope": "John the Baptist is born",
+        "Reference Start": "Luke 1:57",
+        "Reference End": "Luke 1:80"
+    },
+    {
+        "Pericope": "An angel appears to Joseph",
+        "Reference Start": "Matt 1:18",
+        "Reference End": "Matt 1:25"
+    },
+    {
+        "Pericope": "Jesus is born in Bethlehem",
+        "Reference Start": "Luke 2:1",
+        "Reference End": "Luke 2:7"
+    },
+    {
+        "Pericope": "Shepherds visit Jesus",
+        "Reference Start": "Luke 2:8",
+        "Reference End": "Luke 2:20"
+    },
+    {
+        "Pericope": "Wise men visit from eastern lands",
+        "Reference Start": "Matt 2:1",
+        "Reference End": "Matt 2:12"
+    },
+    {
+        "Pericope": "Mary and Joseph bring Jesus to the temple",
+        "Reference Start": "Luke 2:21",
+        "Reference End": "Luke 2:38"
+    },
+    {
+        "Pericope": "Joseph takes his family to Egypt",
+        "Reference Start": "Matt 2:13",
+        "Reference End": "Matt 2:18"
+    },
+    {
+        "Pericope": "Joseph returns with his family to Nazareth",
+        "Reference Start": "Matt 2:19",
+        "Reference End": "Matt 2:23"
+    },
+    {
+        "Pericope": "Jesus grows up in Nazareth",
+        "Reference Start": "Luke 2:39",
+        "Reference End": "Luke 2:40"
+    },
+    {
+        "Pericope": "Jesus speaks with religious teachers in the temple",
+        "Reference Start": "Luke 2:41",
+        "Reference End": "Luke 2:52"
+    },
+    {
+        "Pericope": "John the Baptist comes as a witness to the light",
+        "Reference Start": "John 1:6",
+        "Reference End": "John 1:9"
+    },
+    {
+        "Pericope": "John the Baptist prepares the way for Jesus",
+        "Reference Start": "Matt 3:1",
+        "Reference End": "Matt 3:6"
+    },
+    {
+        "Pericope": "John the Baptist prepares the way for Jesus",
+        "Reference Start": "Mark 1:1",
+        "Reference End": "Mark 1:6"
+    },
+    {
+        "Pericope": "John the Baptist prepares the way for Jesus",
+        "Reference Start": "Luke 3:1",
+        "Reference End": "Luke 3:6"
+    },
+    {
+        "Pericope": "John the Baptist calls for repentence",
+        "Reference Start": "Matt 3:7",
+        "Reference End": "Matt 3:10"
+    },
+    {
+        "Pericope": "John the Baptist calls for repentence",
+        "Reference Start": "Luke 3:7",
+        "Reference End": "Luke 3:9"
+    },
+    {
+        "Pericope": "John the Baptist tells people how to show their repentence",
+        "Reference Start": "Luke 3:10",
+        "Reference End": "Luke 3:14"
+    },
+    {
+        "Pericope": "John the Baptist tells about the Christ",
+        "Reference Start": "Matt 3:11",
+        "Reference End": "Matt 3:12"
+    },
+    {
+        "Pericope": "John the Baptist tells about the Christ",
+        "Reference Start": "Mark 1:7",
+        "Reference End": "Mark 1:8"
+    },
+    {
+        "Pericope": "John the Baptist tells about the Christ",
+        "Reference Start": "Luke 3:15",
+        "Reference End": "Luke 3:18"
+    },
+    {
+        "Pericope": "John baptizes Jesus",
+        "Reference Start": "Matt 3:13",
+        "Reference End": "Matt 3:17"
+    },
+    {
+        "Pericope": "John baptizes Jesus",
+        "Reference Start": "Mark 1:9",
+        "Reference End": "Mark 1:11"
+    },
+    {
+        "Pericope": "John baptizes Jesus",
+        "Reference Start": "Luke 3:21",
+        "Reference End": "Luke 3:22"
+    },
+    {
+        "Pericope": "Satan tempts Jesus in the desert",
+        "Reference Start": "Matt 4:1",
+        "Reference End": "Matt 4:11"
+    },
+    {
+        "Pericope": "Satan tempts Jesus in the desert",
+        "Reference Start": "Mark 1:12",
+        "Reference End": "Mark 1:13"
+    },
+    {
+        "Pericope": "Satan tempts Jesus in the desert",
+        "Reference Start": "Luke 4:1",
+        "Reference End": "Luke 4:13"
+    },
+    {
+        "Pericope": "John the Baptist declares his mission",
+        "Reference Start": "John 1:19",
+        "Reference End": "John 1:28"
+    },
+    {
+        "Pericope": "John the Baptist proclaims Jesus as the Messiah",
+        "Reference Start": "John 1:29",
+        "Reference End": "John 1:34"
+    },
+    {
+        "Pericope": "The first disciples follow Jesus",
+        "Reference Start": "John 1:35",
+        "Reference End": "John 1:51"
+    },
+    {
+        "Pericope": "Jesus turns water into wine",
+        "Reference Start": "John 2:1",
+        "Reference End": "John 2:11"
+    },
+    {
+        "Pericope": "Jesus stays in Capernaum",
+        "Reference Start": "John 2:12",
+        "Reference End": "John 2:12"
+    },
+    {
+        "Pericope": "Jesus clears the temple",
+        "Reference Start": "John 2:13",
+        "Reference End": "John 2:22"
+    },
+    {
+        "Pericope": "Jesus does not trust himself to people",
+        "Reference Start": "John 2:23",
+        "Reference End": "John 2:25"
+    },
+    {
+        "Pericope": "Nicodemus visits Jesus at night",
+        "Reference Start": "John 3:1",
+        "Reference End": "John 3:21"
+    },
+    {
+        "Pericope": "Jesus and his disciples baptize in Judea",
+        "Reference Start": "John 3:22",
+        "Reference End": "John 3:22"
+    },
+    {
+        "Pericope": "John the Baptist accepts Jesus' growing popularity",
+        "Reference Start": "John 3:23",
+        "Reference End": "John 3:36"
+    },
+    {
+        "Pericope": "Jesus leaves Judea for Galilee",
+        "Reference Start": "John 4:1",
+        "Reference End": "John 4:3"
+    },
+    {
+        "Pericope": "Jesus talks to a Samaritan woman at the well",
+        "Reference Start": "John 4:4",
+        "Reference End": "John 4:26"
+    },
+    {
+        "Pericope": "Jesus tells about the spiritual harvest",
+        "Reference Start": "John 4:27",
+        "Reference End": "John 4:38"
+    },
+    {
+        "Pericope": "Many Samaritans believe in Jesus",
+        "Reference Start": "John 4:39",
+        "Reference End": "John 4:42"
+    },
+    {
+        "Pericope": "Herod puts John in prison",
+        "Reference Start": "Luke 3:19",
+        "Reference End": "Luke 3:20"
+    },
+    {
+        "Pericope": "Jesus preaches in Galilee",
+        "Reference Start": "Matt 4:12",
+        "Reference End": "Matt 4:17"
+    },
+    {
+        "Pericope": "Jesus preaches in Galilee",
+        "Reference Start": "Mark 1:14",
+        "Reference End": "Mark 1:15"
+    },
+    {
+        "Pericope": "Jesus preaches in Galilee",
+        "Reference Start": "Luke 4:14",
+        "Reference End": "Luke 4:15"
+    },
+    {
+        "Pericope": "Jesus preaches in Galilee",
+        "Reference Start": "John 4:43",
+        "Reference End": "John 4:45"
+    },
+    {
+        "Pericope": "Jesus heals a royal official's son",
+        "Reference Start": "John 4:46",
+        "Reference End": "John 4:54"
+    },
+    {
+        "Pericope": "Jesus is rejected at Nazareth",
+        "Reference Start": "Luke 4:16",
+        "Reference End": "Luke 4:30"
+    },
+    {
+        "Pericope": "Jesus calls four fishermen to follow him",
+        "Reference Start": "Matt 4:18",
+        "Reference End": "Matt 4:22"
+    },
+    {
+        "Pericope": "Jesus calls four fishermen to follow him",
+        "Reference Start": "Mark 1:16",
+        "Reference End": "Mark 1:20"
+    },
+    {
+        "Pericope": "Jesus teaches with authority",
+        "Reference Start": "Mark 1:21",
+        "Reference End": "Mark 1:28"
+    },
+    {
+        "Pericope": "Jesus teaches with authority",
+        "Reference Start": "Luke 4:31",
+        "Reference End": "Luke 4:37"
+    },
+    {
+        "Pericope": "Jesus heals Peter's mother-in-law and many others in Capernaum",
+        "Reference Start": "Matt 8:14",
+        "Reference End": "Matt 8:17"
+    },
+    {
+        "Pericope": "Jesus heals Peter's mother-in-law and many others in Capernaum",
+        "Reference Start": "Mark 1:29",
+        "Reference End": "Mark 1:34"
+    },
+    {
+        "Pericope": "Jesus heals Peter's mother-in-law and many others in Capernaum",
+        "Reference Start": "Luke 4:38",
+        "Reference End": "Luke 4:41"
+    },
+    {
+        "Pericope": "Jesus goes out alone to pray",
+        "Reference Start": "Mark 1:35",
+        "Reference End": "Mark 1:38"
+    },
+    {
+        "Pericope": "Jesus goes out alone to pray",
+        "Reference Start": "Luke 4:42",
+        "Reference End": "Luke 4:43"
+    },
+    {
+        "Pericope": "Jesus preaches throughout Galilee",
+        "Reference Start": "Matt 4:23",
+        "Reference End": "Matt 4:25"
+    },
+    {
+        "Pericope": "Jesus preaches throughout Galilee",
+        "Reference Start": "Mark 1:39",
+        "Reference End": "Mark 1:39"
+    },
+    {
+        "Pericope": "Jesus preaches throughout Galilee",
+        "Reference Start": "Luke 4:44",
+        "Reference End": "Luke 4:44"
+    },
+    {
+        "Pericope": "Jesus provides a miraculous catch of fish",
+        "Reference Start": "Luke 5:1",
+        "Reference End": "Luke 5:11"
+    },
+    {
+        "Pericope": "Jesus heals a man with leprosy",
+        "Reference Start": "Matt 8:1",
+        "Reference End": "Matt 8:4"
+    },
+    {
+        "Pericope": "Jesus heals a man with leprosy",
+        "Reference Start": "Mark 1:40",
+        "Reference End": "Mark 1:45"
+    },
+    {
+        "Pericope": "Jesus heals a man with leprosy",
+        "Reference Start": "Luke 5:12",
+        "Reference End": "Luke 5:16"
+    },
+    {
+        "Pericope": "Jesus heals a paralyzed man",
+        "Reference Start": "Matt 9:1",
+        "Reference End": "Matt 9:8"
+    },
+    {
+        "Pericope": "Jesus heals a paralyzed man",
+        "Reference Start": "Mark 2:1",
+        "Reference End": "Mark 2:12"
+    },
+    {
+        "Pericope": "Jesus heals a paralyzed man",
+        "Reference Start": "Luke 5:17",
+        "Reference End": "Luke 5:26"
+    },
+    {
+        "Pericope": "Jesus calls a tax collector to follow him",
+        "Reference Start": "Matt 9:9",
+        "Reference End": "Matt 9:13"
+    },
+    {
+        "Pericope": "Jesus calls a tax collector to follow him",
+        "Reference Start": "Mark 2:13",
+        "Reference End": "Mark 2:17"
+    },
+    {
+        "Pericope": "Jesus calls a tax collector to follow him",
+        "Reference Start": "Luke 5:27",
+        "Reference End": "Luke 5:32"
+    },
+    {
+        "Pericope": "The religious leaders ask Jesus about fasting",
+        "Reference Start": "Matt 9:14",
+        "Reference End": "Matt 9:17"
+    },
+    {
+        "Pericope": "The religious leaders ask Jesus about fasting",
+        "Reference Start": "Mark 2:18",
+        "Reference End": "Mark 2:22"
+    },
+    {
+        "Pericope": "The religious leaders ask Jesus about fasting",
+        "Reference Start": "Luke 5:33",
+        "Reference End": "Luke 5:39"
+    },
+    {
+        "Pericope": "Jesus heals a lame man by the pool of Bethesda",
+        "Reference Start": "John 5:1",
+        "Reference End": "John 5:18"
+    },
+    {
+        "Pericope": "Jesus claims to be God's Son",
+        "Reference Start": "John 5:19",
+        "Reference End": "John 5:30"
+    },
+    {
+        "Pericope": "Jesus supports his claim to be God's Son",
+        "Reference Start": "John 5:31",
+        "Reference End": "John 5:47"
+    },
+    {
+        "Pericope": "The disciples pick wheat on the Sabbath",
+        "Reference Start": "Matt 12:1",
+        "Reference End": "Matt 12:8"
+    },
+    {
+        "Pericope": "The disciples pick wheat on the Sabbath",
+        "Reference Start": "Mark 2:23",
+        "Reference End": "Mark 2:28"
+    },
+    {
+        "Pericope": "The disciples pick wheat on the Sabbath",
+        "Reference Start": "Luke 6:1",
+        "Reference End": "Luke 6:5"
+    },
+    {
+        "Pericope": "Jesus heals a man's hand on the Sabbath",
+        "Reference Start": "Matt 12:9",
+        "Reference End": "Matt 12:14"
+    },
+    {
+        "Pericope": "Jesus heals a man's hand on the Sabbath",
+        "Reference Start": "Mark 3:1",
+        "Reference End": "Mark 3:6"
+    },
+    {
+        "Pericope": "Jesus heals a man's hand on the Sabbath",
+        "Reference Start": "Luke 6:6",
+        "Reference End": "Luke 6:11"
+    },
+    {
+        "Pericope": "Large crowds follow Jesus",
+        "Reference Start": "Matt 12:15",
+        "Reference End": "Matt 12:21"
+    },
+    {
+        "Pericope": "Large crowds follow Jesus",
+        "Reference Start": "Mark 3:7",
+        "Reference End": "Mark 3:12"
+    },
+    {
+        "Pericope": "Jesus selects the twelve disciples",
+        "Reference Start": "Mark 3:13",
+        "Reference End": "Mark 3:19"
+    },
+    {
+        "Pericope": "Jesus selects the twelve disciples",
+        "Reference Start": "Luke 6:12",
+        "Reference End": "Luke 6:16"
+    },
+    {
+        "Pericope": "Jesus gives the Beatitudes",
+        "Reference Start": "Matt 5:1",
+        "Reference End": "Matt 5:12"
+    },
+    {
+        "Pericope": "Jesus gives the Beatitudes",
+        "Reference Start": "Luke 6:17",
+        "Reference End": "Luke 6:23"
+    },
+    {
+        "Pericope": "Jesus warns against temporary comfort",
+        "Reference Start": "Luke 6:24",
+        "Reference End": "Luke 6:26"
+    },
+    {
+        "Pericope": "Jesus teaches about salt",
+        "Reference Start": "Matt 5:13",
+        "Reference End": "Matt 5:13"
+    },
+    {
+        "Pericope": "Jesus teaches about light",
+        "Reference Start": "Matt 5:14",
+        "Reference End": "Matt 5:16"
+    },
+    {
+        "Pericope": "Jesus teaches about light",
+        "Reference Start": "Luke 11:33",
+        "Reference End": "Luke 11:33"
+    },
+    {
+        "Pericope": "Jesus teaches about fulfilling the law",
+        "Reference Start": "Matt 5:17",
+        "Reference End": "Matt 5:20"
+    },
+    {
+        "Pericope": "Jesus teaches about anger",
+        "Reference Start": "Matt 5:21",
+        "Reference End": "Matt 5:26"
+    },
+    {
+        "Pericope": "Jesus teaches about lust",
+        "Reference Start": "Matt 5:27",
+        "Reference End": "Matt 5:30"
+    },
+    {
+        "Pericope": "Jesus teaches about divorce",
+        "Reference Start": "Matt 5:31",
+        "Reference End": "Matt 5:32"
+    },
+    {
+        "Pericope": "Jesus teaches about oaths",
+        "Reference Start": "Matt 5:33",
+        "Reference End": "Matt 5:37"
+    },
+    {
+        "Pericope": "Jesus teaches about retaliation",
+        "Reference Start": "Matt 5:38",
+        "Reference End": "Matt 5:42"
+    },
+    {
+        "Pericope": "Jesus teaches about loving enemies",
+        "Reference Start": "Matt 5:43",
+        "Reference End": "Matt 5:48"
+    },
+    {
+        "Pericope": "Jesus teaches about loving enemies",
+        "Reference Start": "Luke 6:27",
+        "Reference End": "Luke 6:36"
+    },
+    {
+        "Pericope": "Jesus teaches about giving to the needy",
+        "Reference Start": "Matt 6:1",
+        "Reference End": "Matt 6:4"
+    },
+    {
+        "Pericope": "Jesus teaches about prayer",
+        "Reference Start": "Matt 6:5",
+        "Reference End": "Matt 6:15"
+    },
+    {
+        "Pericope": "Jesus teaches about fasting",
+        "Reference Start": "Matt 6:16",
+        "Reference End": "Matt 6:18"
+    },
+    {
+        "Pericope": "Jesus teaches about treasure",
+        "Reference Start": "Matt 6:19",
+        "Reference End": "Matt 6:21"
+    },
+    {
+        "Pericope": "Jesus teaches about treasure",
+        "Reference Start": "Luke 12:33",
+        "Reference End": "Luke 12:34"
+    },
+    {
+        "Pericope": "Jesus teaches about having a sound eye",
+        "Reference Start": "Matt 6:22",
+        "Reference End": "Matt 6:23"
+    },
+    {
+        "Pericope": "Jesus teaches about having a sound eye",
+        "Reference Start": "Luke 11:34",
+        "Reference End": "Luke 11:36"
+    },
+    {
+        "Pericope": "Jesus teaches about serving two masters",
+        "Reference Start": "Matt 6:24",
+        "Reference End": "Matt 6:24"
+    },
+    {
+        "Pericope": "Jesus teaches about serving two masters",
+        "Reference Start": "Luke 16:13",
+        "Reference End": "Luke 16:13"
+    },
+    {
+        "Pericope": "Jesus teaches about worry",
+        "Reference Start": "Matt 6:25",
+        "Reference End": "Matt 6:34"
+    },
+    {
+        "Pericope": "Jesus teaches about worry",
+        "Reference Start": "Luke 12:22",
+        "Reference End": "Luke 12:32"
+    },
+    {
+        "Pericope": "Jesus teaches about criticizing others",
+        "Reference Start": "Matt 7:1",
+        "Reference End": "Matt 7:5"
+    },
+    {
+        "Pericope": "Jesus teaches about criticizing others",
+        "Reference Start": "Luke 6:37",
+        "Reference End": "Luke 6:42"
+    },
+    {
+        "Pericope": "Jesus teaches about profaning holy things",
+        "Reference Start": "Matt 7:6",
+        "Reference End": "Matt 7:6"
+    },
+    {
+        "Pericope": "Jesus teaches about asking, seeking, knocking",
+        "Reference Start": "Matt 7:7",
+        "Reference End": "Matt 7:11"
+    },
+    {
+        "Pericope": "Jesus teaches about asking, seeking, knocking",
+        "Reference Start": "Luke 11:9",
+        "Reference End": "Luke 11:13"
+    },
+    {
+        "Pericope": "Jesus sums up the Law",
+        "Reference Start": "Matt 7:12",
+        "Reference End": "Matt 7:12"
+    },
+    {
+        "Pericope": "Jesus teaches about the narrow road to life",
+        "Reference Start": "Matt 7:13",
+        "Reference End": "Matt 7:14"
+    },
+    {
+        "Pericope": "Jesus teaches about the fruit of people's lives",
+        "Reference Start": "Matt 7:15",
+        "Reference End": "Matt 7:20"
+    },
+    {
+        "Pericope": "Jesus teaches about the fruit of people's lives",
+        "Reference Start": "Luke 6:43",
+        "Reference End": "Luke 6:45"
+    },
+    {
+        "Pericope": "Jesus teaches about putting his words into practice",
+        "Reference Start": "Matt 7:21",
+        "Reference End": "Matt 7:27"
+    },
+    {
+        "Pericope": "Jesus teaches about putting his words into practice",
+        "Reference Start": "Luke 6:46",
+        "Reference End": "Luke 6:49"
+    },
+    {
+        "Pericope": "The crowds are astonished at Jesus' teaching",
+        "Reference Start": "Matt 7:28",
+        "Reference End": "Matt 7:29"
+    },
+    {
+        "Pericope": "A Roman centurion shows great faith",
+        "Reference Start": "Matt 8:5",
+        "Reference End": "Matt 8:13"
+    },
+    {
+        "Pericope": "A Roman centurion shows great faith",
+        "Reference Start": "Luke 7:1",
+        "Reference End": "Luke 7:10"
+    },
+    {
+        "Pericope": "Jesus raises a widow's son from the dead",
+        "Reference Start": "Luke 7:11",
+        "Reference End": "Luke 7:17"
+    },
+    {
+        "Pericope": "Jesus eases John the Baptist's doubts",
+        "Reference Start": "Matt 11:1",
+        "Reference End": "Matt 11:6"
+    },
+    {
+        "Pericope": "Jesus eases John the Baptist's doubts",
+        "Reference Start": "Luke 7:18",
+        "Reference End": "Luke 7:23"
+    },
+    {
+        "Pericope": "Jesus teaches about John the Baptist",
+        "Reference Start": "Matt 11:7",
+        "Reference End": "Matt 11:19"
+    },
+    {
+        "Pericope": "Jesus teaches about John the Baptist",
+        "Reference Start": "Luke 7:24",
+        "Reference End": "Luke 7:35"
+    },
+    {
+        "Pericope": "A sinful woman anoints Jesus' feet",
+        "Reference Start": "Luke 7:36",
+        "Reference End": "Luke 7:50"
+    },
+    {
+        "Pericope": "Women accompany Jesus and the disciples",
+        "Reference Start": "Luke 8:1",
+        "Reference End": "Luke 8:3"
+    },
+    {
+        "Pericope": "Jesus describes his true family",
+        "Reference Start": "Matt 12:46",
+        "Reference End": "Matt 12:50"
+    },
+    {
+        "Pericope": "Jesus describes his true family",
+        "Reference Start": "Mark 3:31",
+        "Reference End": "Mark 3:35"
+    },
+    {
+        "Pericope": "Jesus describes his true family",
+        "Reference Start": "Luke 8:19",
+        "Reference End": "Luke 8:21"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the four soils",
+        "Reference Start": "Matt 13:1",
+        "Reference End": "Matt 13:9"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the four soils",
+        "Reference Start": "Mark 4:1",
+        "Reference End": "Mark 4:9"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the four soils",
+        "Reference Start": "Luke 8:4",
+        "Reference End": "Luke 8:8"
+    },
+    {
+        "Pericope": "Jesus explains why he speaks in parables",
+        "Reference Start": "Matt 13:10",
+        "Reference End": "Matt 13:17"
+    },
+    {
+        "Pericope": "Jesus explains why he speaks in parables",
+        "Reference Start": "Mark 4:10",
+        "Reference End": "Mark 4:12"
+    },
+    {
+        "Pericope": "Jesus explains why he speaks in parables",
+        "Reference Start": "Luke 8:9",
+        "Reference End": "Luke 8:10"
+    },
+    {
+        "Pericope": "Jesus explains the parable of the four soils",
+        "Reference Start": "Matt 13:18",
+        "Reference End": "Matt 13:23"
+    },
+    {
+        "Pericope": "Jesus explains the parable of the four soils",
+        "Reference Start": "Mark 4:13",
+        "Reference End": "Mark 4:20"
+    },
+    {
+        "Pericope": "Jesus explains the parable of the four soils",
+        "Reference Start": "Luke 8:11",
+        "Reference End": "Luke 8:15"
+    },
+    {
+        "Pericope": "Jesus teaches people to consider carefully what they hear",
+        "Reference Start": "Mark 4:21",
+        "Reference End": "Mark 4:25"
+    },
+    {
+        "Pericope": "Jesus teaches people to consider carefully what they hear",
+        "Reference Start": "Luke 8:16",
+        "Reference End": "Luke 8:18"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the growing seed",
+        "Reference Start": "Mark 4:26",
+        "Reference End": "Mark 4:29"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the weeds",
+        "Reference Start": "Matt 13:24",
+        "Reference End": "Matt 13:30"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the mustard seed",
+        "Reference Start": "Matt 13:31",
+        "Reference End": "Matt 13:32"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the mustard seed",
+        "Reference Start": "Mark 4:30",
+        "Reference End": "Mark 4:32"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the mustard seed",
+        "Reference Start": "Luke 13:18",
+        "Reference End": "Luke 13:19"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the yeast",
+        "Reference Start": "Matt 13:33",
+        "Reference End": "Matt 13:33"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the yeast",
+        "Reference Start": "Luke 13:20",
+        "Reference End": "Luke 13:21"
+    },
+    {
+        "Pericope": "Jesus uses many parables in his teaching",
+        "Reference Start": "Matt 13:34",
+        "Reference End": "Matt 13:35"
+    },
+    {
+        "Pericope": "Jesus uses many parables in his teaching",
+        "Reference Start": "Mark 4:33",
+        "Reference End": "Mark 4:34"
+    },
+    {
+        "Pericope": "Jesus explains the parable of the weeds",
+        "Reference Start": "Matt 13:36",
+        "Reference End": "Matt 13:43"
+    },
+    {
+        "Pericope": "Jesus tells the parable of hidden treasure",
+        "Reference Start": "Matt 13:44",
+        "Reference End": "Matt 13:44"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the pearl merchant",
+        "Reference Start": "Matt 13:45",
+        "Reference End": "Matt 13:46"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the fishing net",
+        "Reference Start": "Matt 13:47",
+        "Reference End": "Matt 13:50"
+    },
+    {
+        "Pericope": "Jesus teaches about new and old treasure",
+        "Reference Start": "Matt 13:51",
+        "Reference End": "Matt 13:52"
+    },
+    {
+        "Pericope": "Jesus calms the storm",
+        "Reference Start": "Matt 8:23",
+        "Reference End": "Matt 8:27"
+    },
+    {
+        "Pericope": "Jesus calms the storm",
+        "Reference Start": "Mark 4:35",
+        "Reference End": "Mark 4:41"
+    },
+    {
+        "Pericope": "Jesus calms the storm",
+        "Reference Start": "Luke 8:22",
+        "Reference End": "Luke 8:25"
+    },
+    {
+        "Pericope": "Jesus sends demons into a herd of pigs",
+        "Reference Start": "Matt 8:28",
+        "Reference End": "Matt 8:32"
+    },
+    {
+        "Pericope": "Jesus sends demons into a herd of pigs",
+        "Reference Start": "Mark 5:1",
+        "Reference End": "Mark 5:13"
+    },
+    {
+        "Pericope": "Jesus sends demons into a herd of pigs",
+        "Reference Start": "Luke 8:26",
+        "Reference End": "Luke 8:33"
+    },
+    {
+        "Pericope": "The Gerasenes ask Jesus to leave",
+        "Reference Start": "Matt 8:33",
+        "Reference End": "Matt 8:34"
+    },
+    {
+        "Pericope": "The Gerasenes ask Jesus to leave",
+        "Reference Start": "Mark 5:14",
+        "Reference End": "Mark 5:20"
+    },
+    {
+        "Pericope": "The Gerasenes ask Jesus to leave",
+        "Reference Start": "Luke 8:34",
+        "Reference End": "Luke 8:39"
+    },
+    {
+        "Pericope": "A synagogue ruler asks Jesus to help his daughter",
+        "Reference Start": "Matt 9:18",
+        "Reference End": "Matt 9:19"
+    },
+    {
+        "Pericope": "A synagogue ruler asks Jesus to help his daughter",
+        "Reference Start": "Mark 5:21",
+        "Reference End": "Mark 5:24"
+    },
+    {
+        "Pericope": "A synagogue ruler asks Jesus to help his daughter",
+        "Reference Start": "Luke 8:40",
+        "Reference End": "Luke 8:42"
+    },
+    {
+        "Pericope": "Jesus heals a bleeding woman",
+        "Reference Start": "Matt 9:20",
+        "Reference End": "Matt 9:22"
+    },
+    {
+        "Pericope": "Jesus heals a bleeding woman",
+        "Reference Start": "Mark 5:25",
+        "Reference End": "Mark 5:34"
+    },
+    {
+        "Pericope": "Jesus heals a bleeding woman",
+        "Reference Start": "Luke 8:43",
+        "Reference End": "Luke 8:48"
+    },
+    {
+        "Pericope": "Jesus restores the daughter of a synagogue rule to life",
+        "Reference Start": "Matt 9:23",
+        "Reference End": "Matt 9:26"
+    },
+    {
+        "Pericope": "Jesus restores the daughter of a synagogue rule to life",
+        "Reference Start": "Mark 5:35",
+        "Reference End": "Mark 5:43"
+    },
+    {
+        "Pericope": "Jesus restores the daughter of a synagogue rule to life",
+        "Reference Start": "Luke 8:49",
+        "Reference End": "Luke 8:56"
+    },
+    {
+        "Pericope": "Jesus heals two blind men",
+        "Reference Start": "Matt 9:27",
+        "Reference End": "Matt 9:31"
+    },
+    {
+        "Pericope": "Jesus heals a mute demoniac",
+        "Reference Start": "Matt 9:32",
+        "Reference End": "Matt 9:34"
+    },
+    {
+        "Pericope": "The people of Nazareth refuse to believe in Jesus",
+        "Reference Start": "Matt 13:53",
+        "Reference End": "Matt 13:58"
+    },
+    {
+        "Pericope": "The people of Nazareth refuse to believe in Jesus",
+        "Reference Start": "Mark 6:1",
+        "Reference End": "Mark 6:6"
+    },
+    {
+        "Pericope": "Jesus tells the disciples to pray for workers",
+        "Reference Start": "Matt 9:35",
+        "Reference End": "Matt 9:38"
+    },
+    {
+        "Pericope": "Jesus sends out the twelve disciples",
+        "Reference Start": "Matt 10:1",
+        "Reference End": "Matt 10:16"
+    },
+    {
+        "Pericope": "Jesus sends out the twelve disciples",
+        "Reference Start": "Mark 6:7",
+        "Reference End": "Mark 6:13"
+    },
+    {
+        "Pericope": "Jesus sends out the twelve disciples",
+        "Reference Start": "Luke 9:1",
+        "Reference End": "Luke 9:6"
+    },
+    {
+        "Pericope": "Jesus prepares the disciples for persecution",
+        "Reference Start": "Matt 10:17",
+        "Reference End": "Matt 10:42"
+    },
+    {
+        "Pericope": "Herod wonders if John the Baptist has been raised from the dead",
+        "Reference Start": "Matt 14:1",
+        "Reference End": "Matt 14:2"
+    },
+    {
+        "Pericope": "Herod wonders if John the Baptist has been raised from the dead",
+        "Reference Start": "Mark 6:14",
+        "Reference End": "Mark 6:16"
+    },
+    {
+        "Pericope": "Herod wonders if John the Baptist has been raised from the dead",
+        "Reference Start": "Luke 9:7",
+        "Reference End": "Luke 9:9"
+    },
+    {
+        "Pericope": "Herod kills John the Baptist",
+        "Reference Start": "Matt 14:3",
+        "Reference End": "Matt 14:12"
+    },
+    {
+        "Pericope": "Herod kills John the Baptist",
+        "Reference Start": "Mark 6:17",
+        "Reference End": "Mark 6:29"
+    },
+    {
+        "Pericope": "Jesus feeds five thousand",
+        "Reference Start": "Matt 14:13",
+        "Reference End": "Matt 14:21"
+    },
+    {
+        "Pericope": "Jesus feeds five thousand",
+        "Reference Start": "Mark 6:30",
+        "Reference End": "Mark 6:44"
+    },
+    {
+        "Pericope": "Jesus feeds five thousand",
+        "Reference Start": "Luke 9:10",
+        "Reference End": "Luke 9:17"
+    },
+    {
+        "Pericope": "Jesus feeds five thousand",
+        "Reference Start": "John 6:1",
+        "Reference End": "John 6:15"
+    },
+    {
+        "Pericope": "Jesus walks on water",
+        "Reference Start": "Matt 14:22",
+        "Reference End": "Matt 14:33"
+    },
+    {
+        "Pericope": "Jesus walks on water",
+        "Reference Start": "Mark 6:45",
+        "Reference End": "Mark 6:52"
+    },
+    {
+        "Pericope": "Jesus walks on water",
+        "Reference Start": "John 6:16",
+        "Reference End": "John 6:21"
+    },
+    {
+        "Pericope": "Jesus heals all who touch him",
+        "Reference Start": "Matt 14:34",
+        "Reference End": "Matt 14:36"
+    },
+    {
+        "Pericope": "Jesus heals all who touch him",
+        "Reference Start": "Mark 6:53",
+        "Reference End": "Mark 6:56"
+    },
+    {
+        "Pericope": "Jesus proclaims he is the true bread from heaven",
+        "Reference Start": "John 6:22",
+        "Reference End": "John 6:40"
+    },
+    {
+        "Pericope": "The Jews disagree that Jesus is from heaven",
+        "Reference Start": "John 6:41",
+        "Reference End": "John 6:59"
+    },
+    {
+        "Pericope": "Many disciples desert Jesus",
+        "Reference Start": "John 6:60",
+        "Reference End": "John 6:71"
+    },
+    {
+        "Pericope": "The religious leaders criticize Jesus about ceremonial washing",
+        "Reference Start": "Matt 15:1",
+        "Reference End": "Matt 15:9"
+    },
+    {
+        "Pericope": "The religious leaders criticize Jesus about ceremonial washing",
+        "Reference Start": "Mark 7:1",
+        "Reference End": "Mark 7:13"
+    },
+    {
+        "Pericope": "Jesus teaches the crowd about the source of uncleanness ",
+        "Reference Start": "Matt 15:10",
+        "Reference End": "Matt 15:11"
+    },
+    {
+        "Pericope": "Jesus teaches the crowd about the source of uncleanness ",
+        "Reference Start": "Mark 7:14",
+        "Reference End": "Mark 7:16"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples about the source of uncleanness ",
+        "Reference Start": "Matt 15:12",
+        "Reference End": "Matt 15:20"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples about the source of uncleanness ",
+        "Reference Start": "Mark 7:17",
+        "Reference End": "Mark 7:23"
+    },
+    {
+        "Pericope": "Jesus sends a demon out of a girl",
+        "Reference Start": "Matt 15:21",
+        "Reference End": "Matt 15:28"
+    },
+    {
+        "Pericope": "Jesus sends a demon out of a girl",
+        "Reference Start": "Mark 7:24",
+        "Reference End": "Mark 7:30"
+    },
+    {
+        "Pericope": "Jesus heals a deaf man",
+        "Reference Start": "Mark 7:31",
+        "Reference End": "Mark 7:37"
+    },
+    {
+        "Pericope": "The crowd marvels at Jesus' healings",
+        "Reference Start": "Matt 15:29",
+        "Reference End": "Matt 15:31"
+    },
+    {
+        "Pericope": "Jesus feeds four thousand",
+        "Reference Start": "Matt 15:32",
+        "Reference End": "Matt 15:39"
+    },
+    {
+        "Pericope": "Jesus feeds four thousand",
+        "Reference Start": "Mark 8:1",
+        "Reference End": "Mark 8:10"
+    },
+    {
+        "Pericope": "The religious leaders ask for a sign in the sky",
+        "Reference Start": "Matt 16:1",
+        "Reference End": "Matt 16:4"
+    },
+    {
+        "Pericope": "The religious leaders ask for a sign in the sky",
+        "Reference Start": "Mark 8:11",
+        "Reference End": "Mark 8:13"
+    },
+    {
+        "Pericope": "Jesus warns against wrong teaching",
+        "Reference Start": "Matt 16:5",
+        "Reference End": "Matt 16:12"
+    },
+    {
+        "Pericope": "Jesus warns against wrong teaching",
+        "Reference Start": "Mark 8:14",
+        "Reference End": "Mark 8:21"
+    },
+    {
+        "Pericope": "Jesus restores sight to a blind man",
+        "Reference Start": "Mark 8:22",
+        "Reference End": "Mark 8:26"
+    },
+    {
+        "Pericope": "Peter declares Jesus is the Messiah",
+        "Reference Start": "Matt 16:13",
+        "Reference End": "Matt 16:20"
+    },
+    {
+        "Pericope": "Peter declares Jesus is the Messiah",
+        "Reference Start": "Mark 8:27",
+        "Reference End": "Mark 8:30"
+    },
+    {
+        "Pericope": "Peter declares Jesus is the Messiah",
+        "Reference Start": "Luke 9:18",
+        "Reference End": "Luke 9:21"
+    },
+    {
+        "Pericope": "Jesus predicts his death the first time",
+        "Reference Start": "Matt 16:21",
+        "Reference End": "Matt 16:23"
+    },
+    {
+        "Pericope": "Jesus predicts his death the first time",
+        "Reference Start": "Mark 8:31",
+        "Reference End": "Mark 8:33"
+    },
+    {
+        "Pericope": "Jesus predicts his death the first time",
+        "Reference Start": "Luke 9:22",
+        "Reference End": "Luke 9:22"
+    },
+    {
+        "Pericope": "Jesus calls his disciples to deny themselves",
+        "Reference Start": "Matt 16:24",
+        "Reference End": "Matt 16:28"
+    },
+    {
+        "Pericope": "Jesus calls his disciples to deny themselves",
+        "Reference Start": "Mark 8:34",
+        "Reference End": "Mark 9:1"
+    },
+    {
+        "Pericope": "Jesus calls his disciples to deny themselves",
+        "Reference Start": "Luke 9:23",
+        "Reference End": "Luke 9:27"
+    },
+    {
+        "Pericope": "Jesus is transfigured on the mountain",
+        "Reference Start": "Matt 17:1",
+        "Reference End": "Matt 17:9"
+    },
+    {
+        "Pericope": "Jesus is transfigured on the mountain",
+        "Reference Start": "Mark 9:2",
+        "Reference End": "Mark 9:10"
+    },
+    {
+        "Pericope": "Jesus is transfigured on the mountain",
+        "Reference Start": "Luke 9:28",
+        "Reference End": "Luke 9:36"
+    },
+    {
+        "Pericope": "The disciples ask about the coming of Elijah",
+        "Reference Start": "Matt 17:10",
+        "Reference End": "Matt 17:13"
+    },
+    {
+        "Pericope": "The disciples ask about the coming of Elijah",
+        "Reference Start": "Mark 9:11",
+        "Reference End": "Mark 9:13"
+    },
+    {
+        "Pericope": "Jesus heals a demon-possessed boy",
+        "Reference Start": "Matt 17:14",
+        "Reference End": "Matt 17:18"
+    },
+    {
+        "Pericope": "Jesus heals a demon-possessed boy",
+        "Reference Start": "Mark 9:14",
+        "Reference End": "Mark 9:27"
+    },
+    {
+        "Pericope": "Jesus heals a demon-possessed boy",
+        "Reference Start": "Luke 9:37",
+        "Reference End": "Luke 9:42"
+    },
+    {
+        "Pericope": "The disciples ask why they couldn't heal the demon-possessed boy",
+        "Reference Start": "Matt 17:19",
+        "Reference End": "Matt 17:21"
+    },
+    {
+        "Pericope": "The disciples ask why they couldn't heal the demon-possessed boy",
+        "Reference Start": "Mark 9:28",
+        "Reference End": "Mark 9:29"
+    },
+    {
+        "Pericope": "Jesus predicts his death the second time",
+        "Reference Start": "Matt 17:22",
+        "Reference End": "Matt 17:23"
+    },
+    {
+        "Pericope": "Jesus predicts his death the second time",
+        "Reference Start": "Mark 9:30",
+        "Reference End": "Mark 9:32"
+    },
+    {
+        "Pericope": "Jesus predicts his death the second time",
+        "Reference Start": "Luke 9:43",
+        "Reference End": "Luke 9:45"
+    },
+    {
+        "Pericope": "Peter finds the coin in the fish's mouth",
+        "Reference Start": "Matt 17:24",
+        "Reference End": "Matt 17:27"
+    },
+    {
+        "Pericope": "Jesus teaches about being the least of all",
+        "Reference Start": "Matt 18:1",
+        "Reference End": "Matt 18:5"
+    },
+    {
+        "Pericope": "Jesus teaches about being the least of all",
+        "Reference Start": "Mark 9:33",
+        "Reference End": "Mark 9:37"
+    },
+    {
+        "Pericope": "Jesus teaches about being the least of all",
+        "Reference Start": "Luke 9:46",
+        "Reference End": "Luke 9:48"
+    },
+    {
+        "Pericope": "Jesus warns against forbidding others to work in his name",
+        "Reference Start": "Mark 9:38",
+        "Reference End": "Mark 9:41"
+    },
+    {
+        "Pericope": "Jesus warns against forbidding others to work in his name",
+        "Reference Start": "Luke 9:49",
+        "Reference End": "Luke 9:50"
+    },
+    {
+        "Pericope": "Jesus warns against temptations to sin",
+        "Reference Start": "Matt 18:6",
+        "Reference End": "Matt 18:9"
+    },
+    {
+        "Pericope": "Jesus warns against temptations to sin",
+        "Reference Start": "Mark 9:42",
+        "Reference End": "Mark 9:50"
+    },
+    {
+        "Pericope": "Jesus warns against temptations to sin",
+        "Reference Start": "Luke 17:1",
+        "Reference End": "Luke 17:2"
+    },
+    {
+        "Pericope": "Jesus warns against looking down on others",
+        "Reference Start": "Matt 18:10",
+        "Reference End": "Matt 18:14"
+    },
+    {
+        "Pericope": "Jesus teaches how to treat a believer who sins",
+        "Reference Start": "Matt 18:15",
+        "Reference End": "Matt 18:18"
+    },
+    {
+        "Pericope": "Jesus teaches about the power of agreeing in prayer",
+        "Reference Start": "Matt 18:19",
+        "Reference End": "Matt 18:20"
+    },
+    {
+        "Pericope": "Jesus teaches about forgiving others",
+        "Reference Start": "Matt 18:21",
+        "Reference End": "Matt 18:22"
+    },
+    {
+        "Pericope": "Jesus teaches about forgiving others",
+        "Reference Start": "Luke 17:3",
+        "Reference End": "Luke 17:4"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the unforgiving debtor",
+        "Reference Start": "Matt 18:23",
+        "Reference End": "Matt 18:35"
+    },
+    {
+        "Pericope": "Jesus sends out seventy-two messengers",
+        "Reference Start": "Luke 10:1",
+        "Reference End": "Luke 10:12"
+    },
+    {
+        "Pericope": "Jesus warns cities that have not repented",
+        "Reference Start": "Matt 11:20",
+        "Reference End": "Matt 11:24"
+    },
+    {
+        "Pericope": "Jesus warns cities that have not repented",
+        "Reference Start": "Luke 10:13",
+        "Reference End": "Luke 10:15"
+    },
+    {
+        "Pericope": "Jesus teaches about people's response to his messengers ",
+        "Reference Start": "Luke 10:16",
+        "Reference End": "Luke 10:16"
+    },
+    {
+        "Pericope": "The seventy-two messengers return",
+        "Reference Start": "Luke 10:17",
+        "Reference End": "Luke 10:20"
+    },
+    {
+        "Pericope": "Jesus praises the Father for revealing His truth",
+        "Reference Start": "Matt 11:25",
+        "Reference End": "Matt 11:27"
+    },
+    {
+        "Pericope": "Jesus praises the Father for revealing His truth",
+        "Reference Start": "Luke 10:21",
+        "Reference End": "Luke 10:22"
+    },
+    {
+        "Pericope": "Jesus promises rest for the soul",
+        "Reference Start": "Matt 11:28",
+        "Reference End": "Matt 11:30"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples that they are blessed for what they see",
+        "Reference Start": "Luke 10:23",
+        "Reference End": "Luke 10:24"
+    },
+    {
+        "Pericope": "A lawyer asks Jesus about eternal life",
+        "Reference Start": "Luke 10:25",
+        "Reference End": "Luke 10:28"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the Good Samaritan",
+        "Reference Start": "Luke 10:29",
+        "Reference End": "Luke 10:37"
+    },
+    {
+        "Pericope": "Jesus visits Mary and Martha",
+        "Reference Start": "Luke 10:38",
+        "Reference End": "Luke 10:42"
+    },
+    {
+        "Pericope": "Jesus teaches his disciples how to pray",
+        "Reference Start": "Luke 11:1",
+        "Reference End": "Luke 11:4"
+    },
+    {
+        "Pericope": "Jesus tells about the friend who asks for help at midnight",
+        "Reference Start": "Luke 11:5",
+        "Reference End": "Luke 11:8"
+    },
+    {
+        "Pericope": "Jesus answers accusers about how he drives out demons",
+        "Reference Start": "Matt 12:22",
+        "Reference End": "Matt 12:30"
+    },
+    {
+        "Pericope": "Jesus answers accusers about how he drives out demons",
+        "Reference Start": "Mark 3:20",
+        "Reference End": "Mark 3:27"
+    },
+    {
+        "Pericope": "Jesus answers accusers about how he drives out demons",
+        "Reference Start": "Luke 11:14",
+        "Reference End": "Luke 11:23"
+    },
+    {
+        "Pericope": "Jesus warns against blaspheming the Holy Spirit",
+        "Reference Start": "Matt 12:31",
+        "Reference End": "Matt 12:32"
+    },
+    {
+        "Pericope": "Jesus warns against blaspheming the Holy Spirit",
+        "Reference Start": "Mark 3:28",
+        "Reference End": "Mark 3:30"
+    },
+    {
+        "Pericope": "Jesus warns the religious leaders about their words and their hearts",
+        "Reference Start": "Matt 12:33",
+        "Reference End": "Matt 12:37"
+    },
+    {
+        "Pericope": "Jesus warns about demons returning",
+        "Reference Start": "Matt 12:43",
+        "Reference End": "Matt 12:45"
+    },
+    {
+        "Pericope": "Jesus warns about demons returning",
+        "Reference Start": "Luke 11:24",
+        "Reference End": "Luke 11:26"
+    },
+    {
+        "Pericope": "Jesus tells a woman about obeying God's word",
+        "Reference Start": "Luke 11:27",
+        "Reference End": "Luke 11:28"
+    },
+    {
+        "Pericope": "Jesus warns against unbelief",
+        "Reference Start": "Matt 12:38",
+        "Reference End": "Matt 12:42"
+    },
+    {
+        "Pericope": "Jesus warns against unbelief",
+        "Reference Start": "Luke 11:29",
+        "Reference End": "Luke 11:32"
+    },
+    {
+        "Pericope": "Jesus criticizes the religious leaders",
+        "Reference Start": "Luke 11:37",
+        "Reference End": "Luke 11:54"
+    },
+    {
+        "Pericope": "Jesus teaches about acknowledging him before others",
+        "Reference Start": "Luke 12:1",
+        "Reference End": "Luke 12:12"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the rich fool",
+        "Reference Start": "Luke 12:13",
+        "Reference End": "Luke 12:21"
+    },
+    {
+        "Pericope": "Jesus warns about coming division",
+        "Reference Start": "Luke 12:49",
+        "Reference End": "Luke 12:53"
+    },
+    {
+        "Pericope": "Jesus warns about the future crisis",
+        "Reference Start": "Luke 12:54",
+        "Reference End": "Luke 12:56"
+    },
+    {
+        "Pericope": "Jesus teaches about reconciliation",
+        "Reference Start": "Luke 12:57",
+        "Reference End": "Luke 12:59"
+    },
+    {
+        "Pericope": "Jesus calls people to repent",
+        "Reference Start": "Luke 13:1",
+        "Reference End": "Luke 13:5"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the fruitless tree",
+        "Reference Start": "Luke 13:6",
+        "Reference End": "Luke 13:9"
+    },
+    {
+        "Pericope": "Jesus heals a crippled woman",
+        "Reference Start": "Luke 13:10",
+        "Reference End": "Luke 13:17"
+    },
+    {
+        "Pericope": "Jesus' brothers ridicule him",
+        "Reference Start": "John 7:1",
+        "Reference End": "John 7:9"
+    },
+    {
+        "Pericope": "Jesus is rejected at a Samaritan village",
+        "Reference Start": "Luke 9:51",
+        "Reference End": "Luke 9:56"
+    },
+    {
+        "Pericope": "Jesus teaches about the cost of following him",
+        "Reference Start": "Matt 8:18",
+        "Reference End": "Matt 8:22"
+    },
+    {
+        "Pericope": "Jesus teaches about the cost of following him",
+        "Reference Start": "Luke 9:57",
+        "Reference End": "Luke 9:62"
+    },
+    {
+        "Pericope": "Jesus travels to Jerusalem in secret",
+        "Reference Start": "John 7:10",
+        "Reference End": "John 7:13"
+    },
+    {
+        "Pericope": "Jesus teaches openly at the temple",
+        "Reference Start": "John 7:14",
+        "Reference End": "John 7:31"
+    },
+    {
+        "Pericope": "The religious leaders attempt to arrest Jesus",
+        "Reference Start": "John 7:32",
+        "Reference End": "John 7:36"
+    },
+    {
+        "Pericope": "Jesus teaches about living water",
+        "Reference Start": "John 7:37",
+        "Reference End": "John 7:39"
+    },
+    {
+        "Pericope": "The people are divided over Jesus",
+        "Reference Start": "John 7:40",
+        "Reference End": "John 7:44"
+    },
+    {
+        "Pericope": "The religious leaders refuse to believe in Jesus",
+        "Reference Start": "John 7:45",
+        "Reference End": "John 7:52"
+    },
+    {
+        "Pericope": "Jesus forgives an adulterous woman",
+        "Reference Start": "John 7:53",
+        "Reference End": "John 8:11"
+    },
+    {
+        "Pericope": "Jesus is the light of the world",
+        "Reference Start": "John 8:12",
+        "Reference End": "John 8:20"
+    },
+    {
+        "Pericope": "Jesus warns of coming judgment",
+        "Reference Start": "John 8:21",
+        "Reference End": "John 8:30"
+    },
+    {
+        "Pericope": "Jesus speaks about true freedom",
+        "Reference Start": "John 8:31",
+        "Reference End": "John 8:36"
+    },
+    {
+        "Pericope": "Jesus speaks about God's true children",
+        "Reference Start": "John 8:37",
+        "Reference End": "John 8:47"
+    },
+    {
+        "Pericope": "Jesus declares that he is eternal",
+        "Reference Start": "John 8:48",
+        "Reference End": "John 8:59"
+    },
+    {
+        "Pericope": "Jesus heals a man who was born blind",
+        "Reference Start": "John 9:1",
+        "Reference End": "John 9:12"
+    },
+    {
+        "Pericope": "The religious leaders question the blind man",
+        "Reference Start": "John 9:13",
+        "Reference End": "John 9:34"
+    },
+    {
+        "Pericope": "Jesus teaches about spiritual blindness",
+        "Reference Start": "John 9:35",
+        "Reference End": "John 9:41"
+    },
+    {
+        "Pericope": "Jesus is the Good Shepherd",
+        "Reference Start": "John 10:1",
+        "Reference End": "John 10:18"
+    },
+    {
+        "Pericope": "The Jews are divided about Jesus",
+        "Reference Start": "John 10:19",
+        "Reference End": "John 10:21"
+    },
+    {
+        "Pericope": "The Jews confront Jesus at the temple",
+        "Reference Start": "John 10:22",
+        "Reference End": "John 10:39"
+    },
+    {
+        "Pericope": "Jesus goes beyond the Jordan",
+        "Reference Start": "John 10:40",
+        "Reference End": "John 10:42"
+    },
+    {
+        "Pericope": "Jesus teaches about entering the kingdom",
+        "Reference Start": "Luke 13:22",
+        "Reference End": "Luke 13:30"
+    },
+    {
+        "Pericope": "The Pharisees warn Jesus that Herod wants to kill Him",
+        "Reference Start": "Luke 13:31",
+        "Reference End": "Luke 13:33"
+    },
+    {
+        "Pericope": "Jesus grieves over Jerusalem",
+        "Reference Start": "Matt 23:37",
+        "Reference End": "Matt 23:39"
+    },
+    {
+        "Pericope": "Jesus grieves over Jerusalem",
+        "Reference Start": "Luke 13:34",
+        "Reference End": "Luke 13:35"
+    },
+    {
+        "Pericope": "Jesus heals a man with dropsy",
+        "Reference Start": "Luke 14:1",
+        "Reference End": "Luke 14:6"
+    },
+    {
+        "Pericope": "Jesus warns against seeking honor",
+        "Reference Start": "Luke 14:7",
+        "Reference End": "Luke 14:14"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the great feast",
+        "Reference Start": "Luke 14:15",
+        "Reference End": "Luke 14:24"
+    },
+    {
+        "Pericope": "Jesus teaches about the cost of being a disciple",
+        "Reference Start": "Luke 14:25",
+        "Reference End": "Luke 14:35"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the lost sheep",
+        "Reference Start": "Luke 15:1",
+        "Reference End": "Luke 15:7"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the lost coin",
+        "Reference Start": "Luke 15:8",
+        "Reference End": "Luke 15:10"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the lost son",
+        "Reference Start": "Luke 15:11",
+        "Reference End": "Luke 15:32"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the shrewd manager",
+        "Reference Start": "Luke 16:1",
+        "Reference End": "Luke 16:9"
+    },
+    {
+        "Pericope": "Jesus teaches about being faithful",
+        "Reference Start": "Luke 16:10",
+        "Reference End": "Luke 16:12"
+    },
+    {
+        "Pericope": "Jesus criticizes the Pharisees for their love of money",
+        "Reference Start": "Luke 16:14",
+        "Reference End": "Luke 16:15"
+    },
+    {
+        "Pericope": "Jesus teaches about the Law and the Kingdom",
+        "Reference Start": "Luke 16:16",
+        "Reference End": "Luke 16:17"
+    },
+    {
+        "Pericope": "Jesus tells about the rich man and the beggar",
+        "Reference Start": "Luke 16:19",
+        "Reference End": "Luke 16:31"
+    },
+    {
+        "Pericope": "Jesus teaches about faith",
+        "Reference Start": "Luke 17:5",
+        "Reference End": "Luke 17:6"
+    },
+    {
+        "Pericope": "Jesus teaches about doing your duty",
+        "Reference Start": "Luke 17:7",
+        "Reference End": "Luke 17:10"
+    },
+    {
+        "Pericope": "Lazarus becomes ill and dies",
+        "Reference Start": "John 11:1",
+        "Reference End": "John 11:16"
+    },
+    {
+        "Pericope": "Jesus comforts Mary and Martha",
+        "Reference Start": "John 11:17",
+        "Reference End": "John 11:37"
+    },
+    {
+        "Pericope": "Jesus raises Lazarus from the dead",
+        "Reference Start": "John 11:38",
+        "Reference End": "John 11:44"
+    },
+    {
+        "Pericope": "Caiaphas advises the religious leaders to kill Jesus",
+        "Reference Start": "John 11:45",
+        "Reference End": "John 11:53"
+    },
+    {
+        "Pericope": "Jesus withdraws to Ephraim",
+        "Reference Start": "John 11:54",
+        "Reference End": "John 11:57"
+    },
+    {
+        "Pericope": "Jesus heals ten men with leprosy",
+        "Reference Start": "Luke 17:11",
+        "Reference End": "Luke 17:19"
+    },
+    {
+        "Pericope": "Jesus answers the Pharisees about the coming of the Kingdom of God",
+        "Reference Start": "Luke 17:20",
+        "Reference End": "Luke 17:21"
+    },
+    {
+        "Pericope": "Jesus teaches about the coming day of the Son of Man",
+        "Reference Start": "Luke 17:22",
+        "Reference End": "Luke 17:37"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the persistent widow",
+        "Reference Start": "Luke 18:1",
+        "Reference End": "Luke 18:8"
+    },
+    {
+        "Pericope": "Jesus tells the parable of two men who prayed",
+        "Reference Start": "Luke 18:9",
+        "Reference End": "Luke 18:14"
+    },
+    {
+        "Pericope": "Jesus teaches about marriage and divorce",
+        "Reference Start": "Matt 19:1",
+        "Reference End": "Matt 19:9"
+    },
+    {
+        "Pericope": "Jesus teaches about marriage and divorce",
+        "Reference Start": "Mark 10:1",
+        "Reference End": "Mark 10:9"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples about celibacy",
+        "Reference Start": "Matt 19:10",
+        "Reference End": "Matt 19:12"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples about marriage and divorce",
+        "Reference Start": "Mark 10:10",
+        "Reference End": "Mark 10:12"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples about marriage and divorce",
+        "Reference Start": "Luke 16:18",
+        "Reference End": "Luke 16:18"
+    },
+    {
+        "Pericope": "Jesus blesses little children",
+        "Reference Start": "Matt 19:13",
+        "Reference End": "Matt 19:15"
+    },
+    {
+        "Pericope": "Jesus blesses little children",
+        "Reference Start": "Mark 10:13",
+        "Reference End": "Mark 10:16"
+    },
+    {
+        "Pericope": "Jesus blesses little children",
+        "Reference Start": "Luke 18:15",
+        "Reference End": "Luke 18:17"
+    },
+    {
+        "Pericope": "Jesus speaks to a rich young ruler",
+        "Reference Start": "Matt 19:16",
+        "Reference End": "Matt 19:22"
+    },
+    {
+        "Pericope": "Jesus speaks to a rich young ruler",
+        "Reference Start": "Mark 10:17",
+        "Reference End": "Mark 10:22"
+    },
+    {
+        "Pericope": "Jesus speaks to a rich young ruler",
+        "Reference Start": "Luke 18:18",
+        "Reference End": "Luke 18:23"
+    },
+    {
+        "Pericope": "Jesus teaches about riches",
+        "Reference Start": "Matt 19:23",
+        "Reference End": "Matt 19:26"
+    },
+    {
+        "Pericope": "Jesus teaches about riches",
+        "Reference Start": "Mark 10:23",
+        "Reference End": "Mark 10:27"
+    },
+    {
+        "Pericope": "Jesus teaches about riches",
+        "Reference Start": "Luke 18:24",
+        "Reference End": "Luke 18:27"
+    },
+    {
+        "Pericope": "Jesus teaches about the rewards of following him",
+        "Reference Start": "Matt 19:27",
+        "Reference End": "Matt 19:30"
+    },
+    {
+        "Pericope": "Jesus teaches about the rewards of following him",
+        "Reference Start": "Mark 10:28",
+        "Reference End": "Mark 10:31"
+    },
+    {
+        "Pericope": "Jesus teaches about the rewards of following him",
+        "Reference Start": "Luke 18:28",
+        "Reference End": "Luke 18:30"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the workers paid equally",
+        "Reference Start": "Matt 20:1",
+        "Reference End": "Matt 20:16"
+    },
+    {
+        "Pericope": "Jesus predicts his death the third time",
+        "Reference Start": "Matt 20:17",
+        "Reference End": "Matt 20:19"
+    },
+    {
+        "Pericope": "Jesus predicts his death the third time",
+        "Reference Start": "Mark 10:32",
+        "Reference End": "Mark 10:34"
+    },
+    {
+        "Pericope": "Jesus predicts his death the third time",
+        "Reference Start": "Luke 18:31",
+        "Reference End": "Luke 18:34"
+    },
+    {
+        "Pericope": "Jesus teaches about serving others",
+        "Reference Start": "Matt 20:20",
+        "Reference End": "Matt 20:28"
+    },
+    {
+        "Pericope": "Jesus teaches about serving others",
+        "Reference Start": "Mark 10:35",
+        "Reference End": "Mark 10:45"
+    },
+    {
+        "Pericope": "Jesus heals a blind beggar",
+        "Reference Start": "Matt 20:29",
+        "Reference End": "Matt 20:34"
+    },
+    {
+        "Pericope": "Jesus heals a blind beggar",
+        "Reference Start": "Mark 10:46",
+        "Reference End": "Mark 10:52"
+    },
+    {
+        "Pericope": "Jesus heals a blind beggar",
+        "Reference Start": "Luke 18:35",
+        "Reference End": "Luke 18:43"
+    },
+    {
+        "Pericope": "Jesus goes to Zacchaeus's house",
+        "Reference Start": "Luke 19:1",
+        "Reference End": "Luke 19:10"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the king's ten servants",
+        "Reference Start": "Luke 19:11",
+        "Reference End": "Luke 19:27"
+    },
+    {
+        "Pericope": "A woman anoints Jesus with expensive perfume",
+        "Reference Start": "Matt 26:6",
+        "Reference End": "Matt 26:13"
+    },
+    {
+        "Pericope": "A woman anoints Jesus with expensive perfume",
+        "Reference Start": "Mark 14:3",
+        "Reference End": "Mark 14:9"
+    },
+    {
+        "Pericope": "A woman anoints Jesus with expensive perfume",
+        "Reference Start": "John 12:1",
+        "Reference End": "John 12:8"
+    },
+    {
+        "Pericope": "The religious leaders plot to kill Lazarus",
+        "Reference Start": "John 12:9",
+        "Reference End": "John 12:11"
+    },
+    {
+        "Pericope": "Jesus rides into Jerusalem on a donkey",
+        "Reference Start": "Matt 21:1",
+        "Reference End": "Matt 21:11"
+    },
+    {
+        "Pericope": "Jesus rides into Jerusalem on a donkey",
+        "Reference Start": "Mark 11:1",
+        "Reference End": "Mark 11:11"
+    },
+    {
+        "Pericope": "Jesus rides into Jerusalem on a donkey",
+        "Reference Start": "Luke 19:28",
+        "Reference End": "Luke 19:40"
+    },
+    {
+        "Pericope": "Jesus rides into Jerusalem on a donkey",
+        "Reference Start": "John 12:12",
+        "Reference End": "John 12:19"
+    },
+    {
+        "Pericope": "Jesus weeps over Jerusalem",
+        "Reference Start": "Luke 19:41",
+        "Reference End": "Luke 19:44"
+    },
+    {
+        "Pericope": "Jesus curses a fig tree",
+        "Reference Start": "Matt 21:18",
+        "Reference End": "Matt 21:19"
+    },
+    {
+        "Pericope": "Jesus curses a fig tree",
+        "Reference Start": "Mark 11:12",
+        "Reference End": "Mark 11:14"
+    },
+    {
+        "Pericope": "Jesus clears the temple again",
+        "Reference Start": "Matt 21:12",
+        "Reference End": "Matt 21:17"
+    },
+    {
+        "Pericope": "Jesus clears the temple again",
+        "Reference Start": "Mark 11:15",
+        "Reference End": "Mark 11:17"
+    },
+    {
+        "Pericope": "Jesus clears the temple again",
+        "Reference Start": "Luke 19:45",
+        "Reference End": "Luke 19:46"
+    },
+    {
+        "Pericope": "The religious leaders conspire against Jesus",
+        "Reference Start": "Mark 11:18",
+        "Reference End": "Mark 11:19"
+    },
+    {
+        "Pericope": "The religious leaders conspire against Jesus",
+        "Reference Start": "Luke 19:47",
+        "Reference End": "Luke 19:48"
+    },
+    {
+        "Pericope": "Jesus explains why he must die",
+        "Reference Start": "John 12:20",
+        "Reference End": "John 12:36"
+    },
+    {
+        "Pericope": "Most of the people do not believe in Jesus",
+        "Reference Start": "John 12:37",
+        "Reference End": "John 12:43"
+    },
+    {
+        "Pericope": "Jesus summarizes his message",
+        "Reference Start": "John 12:44",
+        "Reference End": "John 12:50"
+    },
+    {
+        "Pericope": "Jesus teaches about faith and prayer",
+        "Reference Start": "Matt 21:20",
+        "Reference End": "Matt 21:22"
+    },
+    {
+        "Pericope": "Jesus teaches about faith and prayer",
+        "Reference Start": "Mark 11:20",
+        "Reference End": "Mark 11:26"
+    },
+    {
+        "Pericope": "The religious leaders challenge Jesus' authority",
+        "Reference Start": "Matt 21:23",
+        "Reference End": "Matt 21:27"
+    },
+    {
+        "Pericope": "The religious leaders challenge Jesus' authority",
+        "Reference Start": "Mark 11:27",
+        "Reference End": "Mark 11:33"
+    },
+    {
+        "Pericope": "The religious leaders challenge Jesus' authority",
+        "Reference Start": "Luke 20:1",
+        "Reference End": "Luke 20:8"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the two sons",
+        "Reference Start": "Matt 21:28",
+        "Reference End": "Matt 21:32"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the wicked tenants",
+        "Reference Start": "Matt 21:33",
+        "Reference End": "Matt 21:46"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the wicked tenants",
+        "Reference Start": "Mark 12:1",
+        "Reference End": "Mark 12:12"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the wicked tenants",
+        "Reference Start": "Luke 20:9",
+        "Reference End": "Luke 20:19"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the wedding feast",
+        "Reference Start": "Matt 22:1",
+        "Reference End": "Matt 22:14"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about paying taxes",
+        "Reference Start": "Matt 22:15",
+        "Reference End": "Matt 22:22"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about paying taxes",
+        "Reference Start": "Mark 12:13",
+        "Reference End": "Mark 12:17"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about paying taxes",
+        "Reference Start": "Luke 20:20",
+        "Reference End": "Luke 20:26"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about the resurrection",
+        "Reference Start": "Matt 22:23",
+        "Reference End": "Matt 22:33"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about the resurrection",
+        "Reference Start": "Mark 12:18",
+        "Reference End": "Mark 12:27"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about the resurrection",
+        "Reference Start": "Luke 20:27",
+        "Reference End": "Luke 20:40"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about the greatest commandment",
+        "Reference Start": "Matt 22:34",
+        "Reference End": "Matt 22:40"
+    },
+    {
+        "Pericope": "The religious leaders question Jesus about the greatest commandment",
+        "Reference Start": "Mark 12:28",
+        "Reference End": "Mark 12:34"
+    },
+    {
+        "Pericope": "Jesus questions religious leaders about the Christ",
+        "Reference Start": "Matt 22:41",
+        "Reference End": "Matt 22:46"
+    },
+    {
+        "Pericope": "Jesus questions religious leaders about the Christ",
+        "Reference Start": "Mark 12:35",
+        "Reference End": "Mark 12:37"
+    },
+    {
+        "Pericope": "Jesus questions religious leaders about the Christ",
+        "Reference Start": "Luke 20:41",
+        "Reference End": "Luke 20:44"
+    },
+    {
+        "Pericope": "Jesus warns against the practices of the religious leaders",
+        "Reference Start": "Matt 23:1",
+        "Reference End": "Matt 23:12"
+    },
+    {
+        "Pericope": "Jesus warns against the practices of the religious leaders",
+        "Reference Start": "Mark 12:38",
+        "Reference End": "Mark 12:40"
+    },
+    {
+        "Pericope": "Jesus warns against the practices of the religious leaders",
+        "Reference Start": "Luke 20:45",
+        "Reference End": "Luke 20:47"
+    },
+    {
+        "Pericope": "Jesus condemns the religious leaders",
+        "Reference Start": "Matt 23:13",
+        "Reference End": "Matt 23:36"
+    },
+    {
+        "Pericope": "A poor widow gives all she has",
+        "Reference Start": "Mark 12:41",
+        "Reference End": "Mark 12:44"
+    },
+    {
+        "Pericope": "A poor widow gives all she has",
+        "Reference Start": "Luke 21:1",
+        "Reference End": "Luke 21:4"
+    },
+    {
+        "Pericope": "Jesus predicts the destruction of the Temple",
+        "Reference Start": "Matt 24:1",
+        "Reference End": "Matt 24:2"
+    },
+    {
+        "Pericope": "Jesus predicts the destruction of the Temple",
+        "Reference Start": "Mark 13:1",
+        "Reference End": "Mark 13:2"
+    },
+    {
+        "Pericope": "Jesus predicts the destruction of the Temple",
+        "Reference Start": "Luke 21:5",
+        "Reference End": "Luke 21:6"
+    },
+    {
+        "Pericope": "Jesus predicts the signs before the end",
+        "Reference Start": "Matt 24:3",
+        "Reference End": "Matt 24:8"
+    },
+    {
+        "Pericope": "Jesus predicts the signs before the end",
+        "Reference Start": "Mark 13:3",
+        "Reference End": "Mark 13:8"
+    },
+    {
+        "Pericope": "Jesus predicts the signs before the end",
+        "Reference Start": "Luke 21:7",
+        "Reference End": "Luke 21:11"
+    },
+    {
+        "Pericope": "Jesus predicts persecutions before the end",
+        "Reference Start": "Matt 24:9",
+        "Reference End": "Matt 24:14"
+    },
+    {
+        "Pericope": "Jesus predicts persecutions before the end",
+        "Reference Start": "Mark 13:9",
+        "Reference End": "Mark 13:13"
+    },
+    {
+        "Pericope": "Jesus predicts persecutions before the end",
+        "Reference Start": "Luke 21:12",
+        "Reference End": "Luke 21:19"
+    },
+    {
+        "Pericope": "Jesus tells about the desolating sacrilege",
+        "Reference Start": "Matt 24:15",
+        "Reference End": "Matt 24:22"
+    },
+    {
+        "Pericope": "Jesus tells about the desolating sacrilege",
+        "Reference Start": "Mark 13:14",
+        "Reference End": "Mark 13:20"
+    },
+    {
+        "Pericope": "Jesus tells about the desolating sacrilege",
+        "Reference Start": "Luke 21:20",
+        "Reference End": "Luke 21:24"
+    },
+    {
+        "Pericope": "Jesus warns about false Christs and prophets",
+        "Reference Start": "Matt 24:23",
+        "Reference End": "Matt 24:28"
+    },
+    {
+        "Pericope": "Jesus warns about false Christs and prophets",
+        "Reference Start": "Mark 13:21",
+        "Reference End": "Mark 13:23"
+    },
+    {
+        "Pericope": "Jesus tells about his return",
+        "Reference Start": "Matt 24:29",
+        "Reference End": "Matt 24:31"
+    },
+    {
+        "Pericope": "Jesus tells about his return",
+        "Reference Start": "Mark 13:24",
+        "Reference End": "Mark 13:27"
+    },
+    {
+        "Pericope": "Jesus tells about his return",
+        "Reference Start": "Luke 21:25",
+        "Reference End": "Luke 21:28"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the fig tree",
+        "Reference Start": "Matt 24:32",
+        "Reference End": "Matt 24:36"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the fig tree",
+        "Reference Start": "Mark 13:28",
+        "Reference End": "Mark 13:32"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the fig tree",
+        "Reference Start": "Luke 21:29",
+        "Reference End": "Luke 21:33"
+    },
+    {
+        "Pericope": "Jesus compares his coming to the days of Noah",
+        "Reference Start": "Matt 24:37",
+        "Reference End": "Matt 24:41"
+    },
+    {
+        "Pericope": "Jesus tells about remaining watchful",
+        "Reference Start": "Matt 24:42",
+        "Reference End": "Matt 24:44"
+    },
+    {
+        "Pericope": "Jesus tells about remaining watchful",
+        "Reference Start": "Mark 13:33",
+        "Reference End": "Mark 13:37"
+    },
+    {
+        "Pericope": "Jesus tells about remaining watchful",
+        "Reference Start": "Luke 12:35",
+        "Reference End": "Luke 12:40"
+    },
+    {
+        "Pericope": "Jesus warns against not watching for his coming",
+        "Reference Start": "Luke 21:34",
+        "Reference End": "Luke 21:36"
+    },
+    {
+        "Pericope": "Jesus tells about the wise and foolish managers",
+        "Reference Start": "Matt 24:45",
+        "Reference End": "Matt 24:51"
+    },
+    {
+        "Pericope": "Jesus tells about the wise and foolish managers",
+        "Reference Start": "Luke 12:41",
+        "Reference End": "Luke 12:48"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the ten bridesmaids",
+        "Reference Start": "Matt 25:1",
+        "Reference End": "Matt 25:13"
+    },
+    {
+        "Pericope": "Jesus tells the parable of the loaned money",
+        "Reference Start": "Matt 25:14",
+        "Reference End": "Matt 25:30"
+    },
+    {
+        "Pericope": "Jesus tells about the final judgment",
+        "Reference Start": "Matt 25:31",
+        "Reference End": "Matt 25:46"
+    },
+    {
+        "Pericope": "Jesus teaches daily in the temple",
+        "Reference Start": "Luke 21:37",
+        "Reference End": "Luke 21:38"
+    },
+    {
+        "Pericope": "Jesus tells his disciples about his coming crucifixion",
+        "Reference Start": "Matt 26:1",
+        "Reference End": "Matt 26:2"
+    },
+    {
+        "Pericope": "The religious leaders plot to kill Jesus",
+        "Reference Start": "Matt 26:3",
+        "Reference End": "Matt 26:5"
+    },
+    {
+        "Pericope": "The religious leaders plot to kill Jesus",
+        "Reference Start": "Mark 14:1",
+        "Reference End": "Mark 14:2"
+    },
+    {
+        "Pericope": "The religious leaders plot to kill Jesus",
+        "Reference Start": "Luke 22:1",
+        "Reference End": "Luke 22:2"
+    },
+    {
+        "Pericope": "Judas agrees to betray Jesus",
+        "Reference Start": "Matt 26:14",
+        "Reference End": "Matt 26:16"
+    },
+    {
+        "Pericope": "Judas agrees to betray Jesus",
+        "Reference Start": "Mark 14:10",
+        "Reference End": "Mark 14:11"
+    },
+    {
+        "Pericope": "Judas agrees to betray Jesus",
+        "Reference Start": "Luke 22:3",
+        "Reference End": "Luke 22:6"
+    },
+    {
+        "Pericope": "Disciples prepare for the Passover",
+        "Reference Start": "Matt 26:17",
+        "Reference End": "Matt 26:20"
+    },
+    {
+        "Pericope": "Disciples prepare for the Passover",
+        "Reference Start": "Mark 14:12",
+        "Reference End": "Mark 14:17"
+    },
+    {
+        "Pericope": "Disciples prepare for the Passover",
+        "Reference Start": "Luke 22:7",
+        "Reference End": "Luke 22:14"
+    },
+    {
+        "Pericope": "Jesus washes the disciples' feet",
+        "Reference Start": "John 13:1",
+        "Reference End": "John 13:11"
+    },
+    {
+        "Pericope": "Jesus teaches the disciples after washing their feet",
+        "Reference Start": "John 13:12",
+        "Reference End": "John 13:20"
+    },
+    {
+        "Pericope": "Jesus declares that one of the disciples will betray him ",
+        "Reference Start": "Matt 26:21",
+        "Reference End": "Matt 26:25"
+    },
+    {
+        "Pericope": "Jesus declares that one of the disciples will betray him ",
+        "Reference Start": "Mark 14:18",
+        "Reference End": "Mark 14:21"
+    },
+    {
+        "Pericope": "Jesus declares that one of the disciples will betray him ",
+        "Reference Start": "Luke 22:21",
+        "Reference End": "Luke 22:23"
+    },
+    {
+        "Pericope": "Jesus declares that one of the disciples will betray him ",
+        "Reference Start": "John 13:21",
+        "Reference End": "John 13:30"
+    },
+    {
+        "Pericope": "Jesus and the disciples have the Last Supper",
+        "Reference Start": "Matt 26:26",
+        "Reference End": "Matt 26:29"
+    },
+    {
+        "Pericope": "Jesus and the disciples have the Last Supper",
+        "Reference Start": "Mark 14:22",
+        "Reference End": "Mark 14:25"
+    },
+    {
+        "Pericope": "Jesus and the disciples have the Last Supper",
+        "Reference Start": "Luke 22:15",
+        "Reference End": "Luke 22:20"
+    },
+    {
+        "Pericope": "Jesus teaches about servanthood",
+        "Reference Start": "Luke 22:24",
+        "Reference End": "Luke 22:30"
+    },
+    {
+        "Pericope": "Jesus commands the disciples to love one another",
+        "Reference Start": "John 13:31",
+        "Reference End": "John 13:35"
+    },
+    {
+        "Pericope": "Jesus predicts Peter's denial",
+        "Reference Start": "Luke 22:31",
+        "Reference End": "Luke 22:34"
+    },
+    {
+        "Pericope": "Jesus predicts Peter's denial",
+        "Reference Start": "John 13:36",
+        "Reference End": "John 13:38"
+    },
+    {
+        "Pericope": "Jesus is the way to the Father",
+        "Reference Start": "John 14:1",
+        "Reference End": "John 14:14"
+    },
+    {
+        "Pericope": "Jesus promises the Holy Spirit",
+        "Reference Start": "John 14:15",
+        "Reference End": "John 14:31"
+    },
+    {
+        "Pericope": "Jesus teaches about the vine and the branches",
+        "Reference Start": "John 15:1",
+        "Reference End": "John 15:17"
+    },
+    {
+        "Pericope": "Jesus warns about the world's hatred",
+        "Reference Start": "John 15:18",
+        "Reference End": "John 16:4"
+    },
+    {
+        "Pericope": "Jesus teaches about the Holy Spirit",
+        "Reference Start": "John 16:5",
+        "Reference End": "John 16:15"
+    },
+    {
+        "Pericope": "Jesus tells the disciples their sorrow will turn to joy",
+        "Reference Start": "John 16:16",
+        "Reference End": "John 16:22"
+    },
+    {
+        "Pericope": "Jesus teaches about using his name in prayer",
+        "Reference Start": "John 16:23",
+        "Reference End": "John 16:28"
+    },
+    {
+        "Pericope": "Jesus predicts that the disciples will be scattered",
+        "Reference Start": "John 16:29",
+        "Reference End": "John 16:33"
+    },
+    {
+        "Pericope": "Jesus prays for himself",
+        "Reference Start": "John 17:1",
+        "Reference End": "John 17:5"
+    },
+    {
+        "Pericope": "Jesus prays for his disciples",
+        "Reference Start": "John 17:6",
+        "Reference End": "John 17:19"
+    },
+    {
+        "Pericope": "Jesus prays for future believers",
+        "Reference Start": "John 17:20",
+        "Reference End": "John 17:26"
+    },
+    {
+        "Pericope": "Jesus tells the disciples to prepare for his arrest",
+        "Reference Start": "Luke 22:35",
+        "Reference End": "Luke 22:38"
+    },
+    {
+        "Pericope": "Jesus and the disciples go to the Mount of Olives",
+        "Reference Start": "Matt 26:30",
+        "Reference End": "Matt 26:30"
+    },
+    {
+        "Pericope": "Jesus and the disciples go to the Mount of Olives",
+        "Reference Start": "Mark 14:26",
+        "Reference End": "Mark 14:26"
+    },
+    {
+        "Pericope": "Jesus and the disciples go to the Mount of Olives",
+        "Reference Start": "Luke 22:39",
+        "Reference End": "Luke 22:39"
+    },
+    {
+        "Pericope": "Jesus and the disciples go to the Mount of Olives",
+        "Reference Start": "John 18:1",
+        "Reference End": "John 18:1"
+    },
+    {
+        "Pericope": "Jesus again predicts Peter's denial",
+        "Reference Start": "Matt 26:31",
+        "Reference End": "Matt 26:35"
+    },
+    {
+        "Pericope": "Jesus again predicts Peter's denial",
+        "Reference Start": "Mark 14:27",
+        "Reference End": "Mark 14:31"
+    },
+    {
+        "Pericope": "Jesus agonizes in the garden",
+        "Reference Start": "Matt 26:36",
+        "Reference End": "Matt 26:46"
+    },
+    {
+        "Pericope": "Jesus agonizes in the garden",
+        "Reference Start": "Mark 14:32",
+        "Reference End": "Mark 14:42"
+    },
+    {
+        "Pericope": "Jesus agonizes in the garden",
+        "Reference Start": "Luke 22:40",
+        "Reference End": "Luke 22:46"
+    },
+    {
+        "Pericope": "Jesus is betrayed and arrested",
+        "Reference Start": "Matt 26:47",
+        "Reference End": "Matt 26:50"
+    },
+    {
+        "Pericope": "Jesus is betrayed and arrested",
+        "Reference Start": "Mark 14:43",
+        "Reference End": "Mark 14:46"
+    },
+    {
+        "Pericope": "Jesus is betrayed and arrested",
+        "Reference Start": "Luke 22:47",
+        "Reference End": "Luke 22:49"
+    },
+    {
+        "Pericope": "Jesus is betrayed and arrested",
+        "Reference Start": "John 18:2",
+        "Reference End": "John 18:3"
+    },
+    {
+        "Pericope": "Jesus identifies himself to those who have come to arrest him",
+        "Reference Start": "John 18:4",
+        "Reference End": "John 18:9"
+    },
+    {
+        "Pericope": "Peter strikes the high priest's servant",
+        "Reference Start": "Matt 26:51",
+        "Reference End": "Matt 26:54"
+    },
+    {
+        "Pericope": "Peter strikes the high priest's servant",
+        "Reference Start": "Mark 14:47",
+        "Reference End": "Mark 14:47"
+    },
+    {
+        "Pericope": "Peter strikes the high priest's servant",
+        "Reference Start": "Luke 22:50",
+        "Reference End": "Luke 22:51"
+    },
+    {
+        "Pericope": "Peter strikes the high priest's servant",
+        "Reference Start": "John 18:10",
+        "Reference End": "John 18:11"
+    },
+    {
+        "Pericope": "Jesus questions why they have brought weapons to arrest him",
+        "Reference Start": "Matt 26:55",
+        "Reference End": "Matt 26:56"
+    },
+    {
+        "Pericope": "Jesus questions why they have brought weapons to arrest him",
+        "Reference Start": "Mark 14:48",
+        "Reference End": "Mark 14:50"
+    },
+    {
+        "Pericope": "Jesus questions why they have brought weapons to arrest him",
+        "Reference Start": "Luke 22:52",
+        "Reference End": "Luke 22:53"
+    },
+    {
+        "Pericope": "The last follower runs away naked",
+        "Reference Start": "Mark 14:51",
+        "Reference End": "Mark 14:52"
+    },
+    {
+        "Pericope": "Jesus is bound and taken to Annas",
+        "Reference Start": "John 18:12",
+        "Reference End": "John 18:14"
+    },
+    {
+        "Pericope": "Peter denies knowing Jesus a first time",
+        "Reference Start": "John 18:15",
+        "Reference End": "John 18:18"
+    },
+    {
+        "Pericope": "Annas questions Jesus",
+        "Reference Start": "John 18:19",
+        "Reference End": "John 18:24"
+    },
+    {
+        "Pericope": "Caiaphas questions Jesus",
+        "Reference Start": "Matt 26:57",
+        "Reference End": "Matt 26:68"
+    },
+    {
+        "Pericope": "Caiaphas questions Jesus",
+        "Reference Start": "Mark 14:53",
+        "Reference End": "Mark 14:65"
+    },
+    {
+        "Pericope": "Peter denies knowing Jesus",
+        "Reference Start": "Matt 26:69",
+        "Reference End": "Matt 26:75"
+    },
+    {
+        "Pericope": "Peter denies knowing Jesus",
+        "Reference Start": "Mark 14:66",
+        "Reference End": "Mark 14:72"
+    },
+    {
+        "Pericope": "Peter denies knowing Jesus",
+        "Reference Start": "Luke 22:54",
+        "Reference End": "Luke 22:62"
+    },
+    {
+        "Pericope": "Peter denies knowing Jesus",
+        "Reference Start": "John 18:25",
+        "Reference End": "John 18:27"
+    },
+    {
+        "Pericope": "Jesus' captors mock him",
+        "Reference Start": "Luke 22:63",
+        "Reference End": "Luke 22:65"
+    },
+    {
+        "Pericope": "The council of religious leaders condemns Jesus",
+        "Reference Start": "Matt 27:1",
+        "Reference End": "Matt 27:2"
+    },
+    {
+        "Pericope": "The council of religious leaders condemns Jesus",
+        "Reference Start": "Mark 15:1",
+        "Reference End": "Mark 15:1"
+    },
+    {
+        "Pericope": "The council of religious leaders condemns Jesus",
+        "Reference Start": "Luke 22:66",
+        "Reference End": "Luke 23:1"
+    },
+    {
+        "Pericope": "The council of religious leaders condemns Jesus",
+        "Reference Start": "John 18:28",
+        "Reference End": "John 18:28"
+    },
+    {
+        "Pericope": "Judas kills himself",
+        "Reference Start": "Matt 27:3",
+        "Reference End": "Matt 27:5"
+    },
+    {
+        "Pericope": "The chief priests use Judas' money to buy a field",
+        "Reference Start": "Matt 27:6",
+        "Reference End": "Matt 27:10"
+    },
+    {
+        "Pericope": "The religious leaders accuse Jesus before Pilate",
+        "Reference Start": "Matt 27:11",
+        "Reference End": "Matt 27:14"
+    },
+    {
+        "Pericope": "The religious leaders accuse Jesus before Pilate",
+        "Reference Start": "Mark 15:2",
+        "Reference End": "Mark 15:5"
+    },
+    {
+        "Pericope": "The religious leaders accuse Jesus before Pilate",
+        "Reference Start": "Luke 23:2",
+        "Reference End": "Luke 23:2"
+    },
+    {
+        "Pericope": "The religious leaders accuse Jesus before Pilate",
+        "Reference Start": "John 18:29",
+        "Reference End": "John 18:32"
+    },
+    {
+        "Pericope": "Pilate questions Jesus ",
+        "Reference Start": "Luke 23:3",
+        "Reference End": "Luke 23:3"
+    },
+    {
+        "Pericope": "Pilate questions Jesus ",
+        "Reference Start": "John 18:33",
+        "Reference End": "John 18:37"
+    },
+    {
+        "Pericope": "Pilate answers the religious leaders ",
+        "Reference Start": "Luke 23:4",
+        "Reference End": "Luke 23:5"
+    },
+    {
+        "Pericope": "Jesus stands trial before Herod",
+        "Reference Start": "Luke 23:6",
+        "Reference End": "Luke 23:12"
+    },
+    {
+        "Pericope": "Pilate answers the religious leaders a second time",
+        "Reference Start": "Matt 27:15",
+        "Reference End": "Matt 27:21"
+    },
+    {
+        "Pericope": "Pilate answers the religious leaders a second time",
+        "Reference Start": "Mark 15:6",
+        "Reference End": "Mark 15:11"
+    },
+    {
+        "Pericope": "Pilate answers the religious leaders a second time",
+        "Reference Start": "Luke 23:13",
+        "Reference End": "Luke 23:19"
+    },
+    {
+        "Pericope": "Pilate answers the religious leaders a second time",
+        "Reference Start": "John 18:38",
+        "Reference End": "John 18:40"
+    },
+    {
+        "Pericope": "Jesus is flogged",
+        "Reference Start": "John 19:1",
+        "Reference End": "John 19:3"
+    },
+    {
+        "Pericope": "The crowd calls for crucifixion",
+        "Reference Start": "Matt 27:22",
+        "Reference End": "Matt 27:22"
+    },
+    {
+        "Pericope": "The crowd calls for crucifixion",
+        "Reference Start": "Mark 15:12",
+        "Reference End": "Mark 15:13"
+    },
+    {
+        "Pericope": "The crowd calls for crucifixion",
+        "Reference Start": "Luke 23:20",
+        "Reference End": "Luke 23:21"
+    },
+    {
+        "Pericope": "The crowd calls for crucifixion",
+        "Reference Start": "John 19:4",
+        "Reference End": "John 19:7"
+    },
+    {
+        "Pericope": "Pilate questions Jesus again",
+        "Reference Start": "John 19:8",
+        "Reference End": "John 19:11"
+    },
+    {
+        "Pericope": "Pilate hands Jesus over to be crucified",
+        "Reference Start": "Matt 27:23",
+        "Reference End": "Matt 27:26"
+    },
+    {
+        "Pericope": "Pilate hands Jesus over to be crucified",
+        "Reference Start": "Mark 15:14",
+        "Reference End": "Mark 15:15"
+    },
+    {
+        "Pericope": "Pilate hands Jesus over to be crucified",
+        "Reference Start": "Luke 23:22",
+        "Reference End": "Luke 23:25"
+    },
+    {
+        "Pericope": "Pilate hands Jesus over to be crucified",
+        "Reference Start": "John 19:12",
+        "Reference End": "John 19:16"
+    },
+    {
+        "Pericope": "Roman soldiers mock Jesus",
+        "Reference Start": "Matt 27:27",
+        "Reference End": "Matt 27:31"
+    },
+    {
+        "Pericope": "Roman soldiers mock Jesus",
+        "Reference Start": "Mark 15:16",
+        "Reference End": "Mark 15:20"
+    },
+    {
+        "Pericope": "Simon of Cyrene carries Jesus' cross",
+        "Reference Start": "Matt 27:32",
+        "Reference End": "Matt 27:32"
+    },
+    {
+        "Pericope": "Simon of Cyrene carries Jesus' cross",
+        "Reference Start": "Mark 15:21",
+        "Reference End": "Mark 15:21"
+    },
+    {
+        "Pericope": "Simon of Cyrene carries Jesus' cross",
+        "Reference Start": "Luke 23:26",
+        "Reference End": "Luke 23:26"
+    },
+    {
+        "Pericope": "Jesus speaks to those who follow and mourn",
+        "Reference Start": "Luke 23:27",
+        "Reference End": "Luke 23:32"
+    },
+    {
+        "Pericope": "Jesus is crucified",
+        "Reference Start": "Matt 27:33",
+        "Reference End": "Matt 27:37"
+    },
+    {
+        "Pericope": "Jesus is crucified",
+        "Reference Start": "Mark 15:22",
+        "Reference End": "Mark 15:26"
+    },
+    {
+        "Pericope": "Jesus is crucified",
+        "Reference Start": "Luke 23:33",
+        "Reference End": "Luke 23:34"
+    },
+    {
+        "Pericope": "Jesus is crucified",
+        "Reference Start": "John 19:17",
+        "Reference End": "John 19:27"
+    },
+    {
+        "Pericope": "Jesus is mocked on the cross",
+        "Reference Start": "Matt 27:38",
+        "Reference End": "Matt 27:44"
+    },
+    {
+        "Pericope": "Jesus is mocked on the cross",
+        "Reference Start": "Mark 15:27",
+        "Reference End": "Mark 15:32"
+    },
+    {
+        "Pericope": "Jesus is mocked on the cross",
+        "Reference Start": "Luke 23:35",
+        "Reference End": "Luke 23:38"
+    },
+    {
+        "Pericope": "A criminal asks Jesus to remember him",
+        "Reference Start": "Luke 23:39",
+        "Reference End": "Luke 23:43"
+    },
+    {
+        "Pericope": "Jesus dies on the cross",
+        "Reference Start": "Matt 27:45",
+        "Reference End": "Matt 27:54"
+    },
+    {
+        "Pericope": "Jesus dies on the cross",
+        "Reference Start": "Mark 15:33",
+        "Reference End": "Mark 15:39"
+    },
+    {
+        "Pericope": "Jesus dies on the cross",
+        "Reference Start": "Luke 23:44",
+        "Reference End": "Luke 23:48"
+    },
+    {
+        "Pericope": "Jesus dies on the cross",
+        "Reference Start": "John 19:28",
+        "Reference End": "John 19:37"
+    },
+    {
+        "Pericope": "Women watch the crucifixion from a distance",
+        "Reference Start": "Matt 27:55",
+        "Reference End": "Matt 27:56"
+    },
+    {
+        "Pericope": "Women watch the crucifixion from a distance",
+        "Reference Start": "Mark 15:40",
+        "Reference End": "Mark 15:41"
+    },
+    {
+        "Pericope": "Women watch the crucifixion from a distance",
+        "Reference Start": "Luke 23:49",
+        "Reference End": "Luke 23:49"
+    },
+    {
+        "Pericope": "Jesus is laid in the tomb",
+        "Reference Start": "Matt 27:57",
+        "Reference End": "Matt 27:61"
+    },
+    {
+        "Pericope": "Jesus is laid in the tomb",
+        "Reference Start": "Mark 15:42",
+        "Reference End": "Mark 15:47"
+    },
+    {
+        "Pericope": "Jesus is laid in the tomb",
+        "Reference Start": "Luke 23:50",
+        "Reference End": "Luke 23:56"
+    },
+    {
+        "Pericope": "Jesus is laid in the tomb",
+        "Reference Start": "John 19:38",
+        "Reference End": "John 19:42"
+    },
+    {
+        "Pericope": "Guards are posted at the tomb",
+        "Reference Start": "Matt 27:62",
+        "Reference End": "Matt 27:66"
+    },
+    {
+        "Pericope": "Some women find the tomb empty",
+        "Reference Start": "Matt 28:1",
+        "Reference End": "Matt 28:7"
+    },
+    {
+        "Pericope": "Some women find the tomb empty",
+        "Reference Start": "Mark 16:1",
+        "Reference End": "Mark 16:8"
+    },
+    {
+        "Pericope": "Some women find the tomb empty",
+        "Reference Start": "Luke 24:1",
+        "Reference End": "Luke 24:7"
+    },
+    {
+        "Pericope": "Some women find the tomb empty",
+        "Reference Start": "John 20:1",
+        "Reference End": "John 20:1"
+    },
+    {
+        "Pericope": "The women tell the disciples of the empty tomb",
+        "Reference Start": "Luke 24:8",
+        "Reference End": "Luke 24:11"
+    },
+    {
+        "Pericope": "The women tell the disciples of the empty tomb",
+        "Reference Start": "John 20:2",
+        "Reference End": "John 20:2"
+    },
+    {
+        "Pericope": "Peter and John go to the empty tomb",
+        "Reference Start": "Luke 24:12",
+        "Reference End": "Luke 24:12"
+    },
+    {
+        "Pericope": "Peter and John go to the empty tomb",
+        "Reference Start": "John 20:3",
+        "Reference End": "John 20:9"
+    },
+    {
+        "Pericope": "Jesus appears to Mary Magdalene",
+        "Reference Start": "Mark 16:9",
+        "Reference End": "Mark 16:11"
+    },
+    {
+        "Pericope": "Jesus appears to Mary Magdalene",
+        "Reference Start": "John 20:10",
+        "Reference End": "John 20:18"
+    },
+    {
+        "Pericope": "Jesus appears to the women",
+        "Reference Start": "Matt 28:8",
+        "Reference End": "Matt 28:10"
+    },
+    {
+        "Pericope": "The religious leaders bribe the guards",
+        "Reference Start": "Matt 28:11",
+        "Reference End": "Matt 28:15"
+    },
+    {
+        "Pericope": "Jesus appears to two believers traveling on the road",
+        "Reference Start": "Mark 16:12",
+        "Reference End": "Mark 16:13"
+    },
+    {
+        "Pericope": "Jesus appears to two believers traveling on the road",
+        "Reference Start": "Luke 24:13",
+        "Reference End": "Luke 24:35"
+    },
+    {
+        "Pericope": "Jesus appears to the disciples behind locked doors",
+        "Reference Start": "Luke 24:36",
+        "Reference End": "Luke 24:43"
+    },
+    {
+        "Pericope": "Jesus appears to the disciples behind locked doors",
+        "Reference Start": "John 20:19",
+        "Reference End": "John 20:23"
+    },
+    {
+        "Pericope": "Jesus appears to the eleven disciples as they are eating",
+        "Reference Start": "Mark 16:14",
+        "Reference End": "Mark 16:18"
+    },
+    {
+        "Pericope": "Jesus appears to the disciples including Thomas",
+        "Reference Start": "John 20:24",
+        "Reference End": "John 20:29"
+    },
+    {
+        "Pericope": "John's purpose in writing",
+        "Reference Start": "John 20:30",
+        "Reference End": "John 20:31"
+    },
+    {
+        "Pericope": "Jesus appears to the disciples while fishing",
+        "Reference Start": "John 21:1",
+        "Reference End": "John 21:14"
+    },
+    {
+        "Pericope": "Jesus talks with Peter",
+        "Reference Start": "John 21:15",
+        "Reference End": "John 21:25"
+    },
+    {
+        "Pericope": "Jesus appears to the disciples in Jerusalem",
+        "Reference Start": "Luke 24:44",
+        "Reference End": "Luke 24:49"
+    },
+    {
+        "Pericope": "Jesus gives the Great Commission",
+        "Reference Start": "Matt 28:16",
+        "Reference End": "Matt 28:20"
+    },
+    {
+        "Pericope": "Jesus ascends into heaven",
+        "Reference Start": "Mark 16:19",
+        "Reference End": "Mark 16:20"
+    },
+    {
+        "Pericope": "Jesus ascends into heaven",
+        "Reference Start": "Luke 24:50",
+        "Reference End": "Luke 24:53"
+    }
+]

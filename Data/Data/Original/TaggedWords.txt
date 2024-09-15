@@ -1,0 +1,576 @@
+1 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 2, 3, 4, 5
+
+144000 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 143999, 144001
+
+2 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: to, too, two
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 1, 3, 4, 5
+
+24th NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 23rd, 25th
+
+2nd NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 1st, 3rd
+
+3 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: tree, free, thee
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 2, 4, 5, 6
+
+3rd NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 2nd, 4th
+
+4 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: for, fore, four
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 3, 5, 6, 7
+
+40 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 39, 41
+
+4256 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 4255, 4257
+
+5 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: high, hi
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 4, 6, 7, 8
+
+5152 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 5151, 5153
+
+5555 NUM
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: number
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: 5554, 5556
+
+a DET
+- Synonyms: an, one, each, any, certain
+- Antonyms: none, zero
+- Homophones: eh
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: article, determiner
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: an, the
+
+aaron NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Moses, Miriam
+
+aaronic ADJ
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: descriptive, biblical
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+aaronites NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Israelites, Hebrews
+- Hypernyms: people, ethnic group
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Levites, Israelites
+
+aarons NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: people, biblical figures
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Moses, Miriam
+
+abaddon NOUN
+- Synonyms: abyss, hell, underworld, perdition, Gehenna
+- Antonyms: heaven, paradise, Zion
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: afterlife
+- Hypernyms: place, spiritual realm
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Sheol, Hades
+
+abagtha NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abana NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: river, geographical feature
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Pharpar
+
+abarim NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Canaan, Promised Land
+- Hypernyms: mountain range, geographical feature
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Mount Nebo
+
+abase VERB
+- Synonyms: humiliate, demean, belittle, degrade, lower
+- Antonyms: elevate, honor, uplift, exalt, promote
+- Homophones: a base
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: change, affect
+- Hyponyms: demean, belittle
+- Troponyms: N/A
+- Coordinate Terms: degrade, demean
+
+abased VERB
+- Synonyms: humiliated, demeaned, belittled, degraded, lowered
+- Antonyms: elevated, honored, uplifted, exalted, promoted
+- Homophones: a based
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: changed, affected
+- Hyponyms: demeaned, belittled
+- Troponyms: N/A
+- Coordinate Terms: degraded, demeaned
+
+abasing VERB
+- Synonyms: humiliating, demeaning, belittling, degrading, lowering
+- Antonyms: elevating, honoring, uplifting, exalting, promoting
+- Homophones: a basing
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: changing, affecting
+- Hyponyms: demeaning, belittling
+- Troponyms: N/A
+- Coordinate Terms: degrading, demeaning
+
+abated VERB
+- Synonyms: decreased, diminished, lessened, subsided, waned
+- Antonyms: increased, escalated, grew, expanded, rose
+- Homophones: abetted
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: changed, lessened
+- Hyponyms: waned, subsided
+- Troponyms: N/A
+- Coordinate Terms: diminished, lessened
+
+abba NOUN
+- Synonyms: father, dad, papa, sire, padre
+- Antonyms: mother, mom, daughter, son
+- Homophones: N/A
+- Homographs: ABBA (band)
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: parent, family member
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: mother, parent
+
+abda NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abdeel NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abdi NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abdiel NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abdon NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abednego NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Shadrach, Meshach
+
+abel NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: able
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Cain, Adam, Eve
+
+abelbethmaachah NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Israel, Canaan
+- Hypernyms: location, city
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Jerusalem, Bethlehem
+
+abelmaim NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Israel, Canaan
+- Hypernyms: location, city
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Jerusalem, Bethlehem
+
+abelmeholah NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Israel, Canaan
+- Hypernyms: location, city
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Jerusalem, Bethlehem
+
+abelmizraim NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Egypt
+- Hypernyms: location, city
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Cairo, Memphis
+
+abelshittim NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Canaan, Israel
+- Hypernyms: location, place
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Jerusalem, Bethel
+
+abez NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: Israel, Canaan
+- Hypernyms: location, city
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: Jerusalem, Bethlehem
+
+abhor VERB
+- Synonyms: despise, loathe, detest, hate, abominate
+- Antonyms: love, admire, cherish, adore, like
+- Homophones: abhor
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: feel, dislike
+- Hyponyms: loathe, detest
+- Troponyms: N/A
+- Coordinate Terms: despise, loathe
+
+abhorred VERB
+- Synonyms: despised, loathed, detested, hated, abominated
+- Antonyms: loved, admired, cherished, adored, liked
+- Homophones: a board
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: felt, disliked
+- Hyponyms: loathed, detested
+- Troponyms: N/A
+- Coordinate Terms: despised, loathed
+
+abhorrest VERB
+- Synonyms: despisest, loathest, detestest, hatest, abominatest
+- Antonyms: lovest, admirest, cherishest, adorest, likest
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: feel, dislike
+- Hyponyms: loathest, detestest
+- Troponyms: N/A
+- Coordinate Terms: despisest, loathest
+
+abhorreth VERB
+- Synonyms: despises, loathes, detests, hates, abominates
+- Antonyms: loves, admires, cherishes, adores, likes
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: feels, dislikes
+- Hyponyms: loathes, detests
+- Troponyms: N/A
+- Coordinate Terms: despises, loathes
+
+abhorring VERB
+- Synonyms: despising, loathing, detesting, hating, abominating
+- Antonyms: loving, admiring, cherishing, adoring, liking
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: feeling, disliking
+- Hyponyms: loathing, detesting
+- Troponyms: N/A
+- Coordinate Terms: despising, loathing
+
+abi NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abia NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+
+abiah NOUN
+- Synonyms: N/A
+- Antonyms: N/A
+- Homophones: N/A
+- Homographs: N/A
+- Meronyms: N/A
+- Holonyms: N/A
+- Hypernyms: person, biblical figure
+- Hyponyms: N/A
+- Troponyms: N/A
+- Coordinate Terms: N/A
+

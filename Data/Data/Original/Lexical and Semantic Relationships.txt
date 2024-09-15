@@ -1,0 +1,21 @@
+    Synonyms: Words that have similar meanings.
+
+    Antonyms: Words that have opposite meanings.
+
+    Homonyms: Words that sound alike but have different meanings.
+
+    Homophones: A subset of homonyms, these words sound alike but have different meanings and spellings (e.g., "bare" and "bear").
+
+    Homographs: Words that are spelled the same but have different meanings and may be pronounced differently (e.g., "lead" as in leadership and "lead" as in the metal).
+
+    Meronyms: Words that refer to a part of or a member of the whole (e.g., "wheel" is a meronym of "car").
+
+    Holonyms: The opposite of meronyms; they refer to the whole of which the meronym is a part (e.g., "car" is a holonym of "wheel").
+
+    Hypernyms: Words that serve as a more general term under which more specific words fall (e.g., "animal" is a hypernym of "dog").
+
+    Hyponyms: The more specific terms that fall under a general term (e.g., "poodle" and "bulldog" are hyponyms of "dog").
+
+    Troponyms: Words that denote a specific manner of doing something, and are usually derived from a more general verb (e.g., "stroll" is a troponym of "walk").
+
+    Coordinate Terms: Words that have the same hypernym and are in the same category level (e.g., "brother" and "sister" are coordinate terms under "sibling").

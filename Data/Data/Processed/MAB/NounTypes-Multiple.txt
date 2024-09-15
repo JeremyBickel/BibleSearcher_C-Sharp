@@ -1,0 +1,2527 @@
+-^accusative dative genitive nominative vocative 
+a^accusative nominative 
+a basket^accusative dative 
+a beast^accusative nominative 
+a better^accusative genitive 
+a blind man^accusative nominative 
+a boat^accusative nominative 
+a body^accusative nominative 
+a bride^accusative genitive 
+a brother^accusative nominative 
+a certain^accusative dative genitive nominative 
+a certain one^accusative nominative 
+a chain^accusative dative 
+a child^accusative genitive nominative 
+a christian^accusative nominative 
+a city^accusative genitive nominative 
+a cloud^accusative dative nominative 
+a conscience^accusative dative genitive 
+a crowd^accusative genitive nominative 
+a crown^accusative nominative 
+a cry^accusative nominative 
+a curse^accusative genitive nominative 
+a day^accusative dative genitive 
+a demon^accusative nominative 
+a denarius^accusative genitive 
+a door^accusative genitive nominative 
+a faith^accusative genitive 
+a famine^accusative nominative 
+a father^accusative nominative 
+a feast^accusative nominative 
+a few^accusative nominative 
+a field^accusative genitive 
+a fig tree^accusative nominative 
+a fire^accusative dative nominative 
+a fish^accusative genitive 
+a flame^accusative dative nominative 
+a fool^accusative nominative 
+a footstool^accusative nominative 
+a foundation^accusative genitive 
+a friend^accusative nominative 
+a garment^accusative genitive nominative 
+a gift^accusative nominative 
+a girl^accusative nominative 
+a good^accusative genitive nominative 
+a great^accusative dative nominative 
+a greek^genitive nominative 
+a habitation^accusative nominative 
+a hand^accusative nominative 
+a heart^accusative dative genitive nominative 
+a herald^accusative nominative 
+a high priest^accusative genitive nominative 
+a house^accusative dative nominative 
+a hundred^accusative dative genitive nominative 
+a husband^accusative genitive 
+a jew^dative genitive nominative 
+a judge^accusative nominative 
+a king^accusative dative nominative 
+a kingdom^accusative nominative 
+a kiss^accusative dative 
+a lamb^dative nominative 
+a law^accusative nominative 
+a letter^accusative nominative 
+a liar^accusative nominative 
+a lie^accusative nominative 
+a light^accusative nominative 
+a linen cloth^accusative dative 
+a lion^dative nominative 
+a little^accusative dative nominative 
+a long^accusative dative genitive 
+a man^accusative dative genitive nominative 
+a master of a house^dative nominative 
+a measure^accusative genitive 
+a mighty^dative nominative 
+a millstone^accusative nominative 
+a minister^accusative nominative 
+a mountain^accusative nominative 
+a mouth^accusative nominative 
+a multitude^accusative nominative 
+a murderer^accusative nominative 
+a mystery^accusative dative nominative 
+a name^accusative nominative 
+a nation^dative nominative 
+a new^accusative nominative 
+a parable^accusative genitive 
+a pattern^accusative nominative 
+a people^accusative nominative 
+a persecution^accusative nominative 
+a place^accusative dative genitive nominative 
+a priest^accusative nominative 
+a prisoner^accusative nominative 
+a promise^dative genitive 
+a prophet^accusative nominative 
+a prophetess^accusative nominative 
+a pure^dative genitive 
+a reed^accusative dative 
+a resurrection^accusative nominative 
+a revelation^accusative genitive 
+a rich man^accusative nominative 
+a righteous man^accusative genitive 
+a robber^accusative nominative 
+a rock^accusative genitive nominative 
+a roman^accusative nominative 
+a root^accusative nominative 
+a sacrifice^accusative nominative 
+a savior^accusative nominative 
+a scroll^accusative nominative 
+a sea^accusative nominative 
+a season^accusative genitive 
+a second^accusative nominative 
+a second time^accusative genitive 
+a servant^accusative nominative 
+a shadow^accusative nominative 
+a ship^accusative dative 
+a sign^accusative nominative 
+a sin^accusative nominative 
+a sinner^accusative nominative 
+a sister^accusative nominative 
+a slave^accusative nominative 
+a snare^accusative nominative 
+a son^accusative nominative 
+a sound^accusative nominative 
+a south wind^accusative genitive 
+a spirit^accusative dative nominative 
+a staff^accusative dative 
+a star^accusative nominative 
+a stone^accusative dative nominative 
+a stranger^accusative dative nominative 
+a stumbling block^accusative genitive nominative 
+a sword^accusative nominative 
+a tanner^dative genitive 
+a tax collector^accusative nominative 
+a teacher^accusative nominative 
+a temple^accusative nominative 
+a third^accusative nominative 
+a thousand^accusative nominative 
+a throne^accusative nominative 
+a time^accusative dative genitive nominative 
+a tomb^accusative dative nominative 
+a tongue^accusative dative 
+a trance^dative nominative 
+a transgressor^accusative nominative 
+a tree^accusative genitive nominative 
+a tribe^accusative genitive 
+a veil^accusative nominative 
+a vessel^accusative nominative 
+a vision^accusative dative genitive nominative 
+a voice^accusative dative genitive nominative 
+a widow^accusative nominative 
+a wife^accusative genitive nominative 
+a wild olive tree^genitive nominative 
+a wind^genitive nominative 
+a witness^accusative nominative 
+a woman^accusative dative genitive nominative 
+a word^accusative genitive nominative 
+a work^accusative genitive 
+a young man^accusative nominative 
+abel^accusative nominative 
+abhorring^nominative vocative 
+abiding^accusative genitive nominative 
+abijah^accusative nominative 
+abiud^accusative nominative 
+abounding^accusative nominative 
+about^genitive nominative 
+about the^accusative dative 
+above reproach^accusative nominative 
+abraham^accusative dative genitive nominative vocative 
+abundance^accusative dative genitive nominative 
+abyss^accusative genitive 
+acceptable^accusative dative nominative 
+acceptance^genitive nominative 
+account^accusative genitive 
+accusation^accusative dative genitive 
+accuser^dative nominative 
+accusers^accusative dative nominative 
+accusing^genitive nominative 
+achaia^accusative dative genitive nominative 
+achim^accusative nominative 
+adam^dative genitive nominative 
+administration^accusative nominative 
+admonishing^accusative nominative 
+admonition^accusative dative 
+adulterers^accusative nominative 
+adulterous^dative nominative 
+adversary^genitive nominative 
+aeneas^accusative vocative 
+affections^accusative dative nominative 
+affliction^dative genitive nominative 
+afterward^accusative nominative 
+against^accusative genitive 
+against him^dative genitive 
+age^accusative dative genitive 
+ages^accusative dative genitive 
+agony^accusative dative 
+agrippa^genitive nominative vocative 
+ahaz^accusative nominative 
+ailing^accusative genitive nominative 
+air^accusative genitive nominative 
+alexander^accusative nominative 
+aliens^accusative nominative 
+all^accusative dative genitive nominative vocative 
+all of you^accusative nominative 
+all these things^accusative nominative 
+all things^accusative dative genitive nominative 
+almighty^genitive nominative vocative 
+alms^accusative nominative 
+alone^accusative dative genitive nominative 
+altar^accusative dative genitive nominative 
+amazement^genitive nominative 
+amminadab^accusative nominative 
+among all^dative genitive 
+among the^dative genitive 
+among them^dative genitive 
+among you^dative genitive 
+amos^accusative nominative 
+an adulteress^accusative nominative 
+an angel^accusative genitive nominative 
+an elder^dative genitive 
+an end^accusative nominative 
+an enemy^accusative nominative 
+an eye^genitive nominative 
+an hour^accusative dative nominative 
+an odor^accusative nominative 
+an ox^accusative nominative 
+an upper room^accusative dative 
+ananias^accusative nominative vocative 
+ancients^dative genitive nominative 
+and i^accusative nominative 
+and peace^accusative nominative 
+andrew^accusative dative genitive nominative 
+angel^accusative dative genitive nominative 
+angels^accusative dative genitive nominative 
+anger^accusative dative genitive nominative 
+annas^accusative nominative 
+another^accusative dative genitive nominative 
+anothers^accusative dative genitive 
+antichrist^genitive nominative 
+antioch^accusative dative genitive 
+any^accusative dative genitive nominative 
+anyone^accusative genitive nominative 
+anything^accusative genitive nominative 
+apollos^accusative genitive nominative 
+apostasy^accusative nominative 
+apostle^accusative genitive nominative 
+apostles^accusative dative genitive nominative vocative 
+apostleship^accusative genitive 
+apparel^accusative dative 
+appearance^accusative dative genitive nominative 
+appearing^accusative dative genitive nominative 
+approved^accusative nominative 
+aquila^accusative nominative 
+arabia^accusative dative 
+are coming^accusative dative genitive 
+are seeking^dative nominative 
+area^accusative dative genitive 
+ares^accusative genitive 
+arising^genitive nominative 
+aristarchus^accusative genitive nominative 
+ark^accusative nominative 
+arm^genitive nominative 
+armies^accusative genitive nominative 
+artemis^genitive nominative 
+as^accusative dative nominative 
+as a footstool^accusative nominative 
+as he^accusative genitive 
+as many as^accusative nominative 
+as much as^accusative dative genitive 
+as slaves^accusative nominative 
+asa^accusative nominative 
+asia^accusative dative genitive nominative 
+asking^dative nominative 
+assembly^accusative dative nominative 
+at midnight^accusative genitive 
+at the^accusative dative 
+athens^dative genitive 
+authorities^accusative dative genitive nominative 
+authority^accusative dative genitive nominative 
+avenging^accusative nominative 
+awaiting^dative nominative 
+awe^genitive nominative 
+azor^accusative nominative 
+baby^accusative nominative 
+babylon^dative genitive nominative vocative 
+bad^accusative nominative 
+bag^accusative genitive 
+baptism^accusative dative genitive nominative 
+baptist^accusative genitive nominative 
+baptizing^genitive nominative 
+barabbas^accusative nominative 
+barley^accusative genitive 
+barnabas^accusative dative genitive nominative 
+barren^dative nominative 
+bartholomew^accusative nominative 
+base^genitive nominative 
+baskets^accusative genitive 
+beam^accusative nominative 
+bearing^accusative nominative vocative 
+bearing witness^dative genitive nominative 
+beast^accusative dative genitive nominative 
+beasts^genitive nominative 
+beautiful^accusative dative nominative 
+bed^accusative genitive 
+beelzebul^accusative dative 
+before^accusative nominative 
+beginning^accusative dative genitive nominative 
+beholding^accusative genitive nominative 
+being^accusative dative genitive nominative vocative 
+being able^accusative dative genitive nominative 
+being about^accusative dative genitive nominative 
+being accused^accusative nominative 
+being burdened^nominative vocative 
+being called^accusative genitive nominative 
+being carried^accusative nominative 
+being circumcised^dative nominative 
+being distant^accusative genitive 
+being distressed^accusative nominative 
+being full^accusative genitive nominative 
+being ignorant^dative nominative 
+being kept^accusative nominative 
+being made^accusative nominative 
+being mistreated^genitive nominative 
+being oppressed^accusative dative nominative 
+being possessed by demons^accusative dative genitive nominative 
+being present^accusative genitive nominative 
+being puffed up^genitive nominative 
+being sanctified^accusative nominative 
+being saved^dative nominative 
+being seen^accusative genitive nominative 
+being shaken^genitive nominative 
+being spoken^accusative dative nominative 
+being subject^accusative nominative 
+being tempted^dative nominative 
+being weak^accusative dative genitive nominative 
+believe^accusative dative 
+believers^genitive nominative 
+believing^accusative dative genitive nominative 
+believing ones^dative nominative 
+belly^accusative dative genitive nominative 
+beloved^accusative dative genitive nominative vocative 
+belt^accusative nominative 
+benefit^accusative nominative 
+berea^accusative dative 
+bernice^genitive nominative 
+bethany^accusative dative genitive nominative 
+bethlehem^accusative dative genitive nominative vocative 
+bethsaida^accusative genitive vocative 
+betraying^genitive nominative 
+better^accusative dative nominative 
+birds^accusative dative genitive nominative 
+birth^dative genitive nominative 
+bithynia^accusative genitive 
+black^accusative nominative 
+blameless^accusative nominative 
+blasphemies^accusative nominative 
+blaspheming^accusative nominative 
+blasphemous^accusative genitive 
+blasphemy^accusative genitive nominative 
+blessed^accusative genitive nominative 
+blessedness^accusative nominative 
+blessing^accusative dative nominative 
+blind^accusative genitive nominative vocative 
+blind man^accusative dative genitive 
+blood^accusative dative genitive nominative 
+boastful^accusative nominative 
+boasting^accusative genitive nominative 
+boat^accusative dative genitive nominative 
+boats^accusative genitive nominative 
+boaz^accusative nominative 
+bodies^accusative nominative 
+body^accusative dative genitive nominative 
+boldness^accusative dative genitive nominative 
+bond^dative genitive 
+bones^accusative genitive 
+book^accusative dative genitive nominative 
+books^accusative dative nominative 
+born^dative nominative 
+bosom^accusative dative 
+both^accusative dative nominative 
+bound^accusative nominative 
+boy^accusative nominative 
+branch^accusative nominative 
+branches^accusative dative genitive nominative 
+bread^accusative dative genitive nominative 
+breadth^accusative nominative 
+breaking^dative nominative 
+breasts^accusative dative nominative 
+breath^accusative dative 
+bride^accusative nominative 
+bridegroom^accusative genitive nominative 
+bright^accusative dative nominative 
+brightness^accusative genitive 
+brimstone^accusative dative genitive nominative 
+brood^accusative vocative 
+brother^accusative dative genitive nominative vocative 
+brotherhood^accusative dative 
+brotherly affection^accusative dative 
+brotherly love^accusative genitive nominative 
+brothers^accusative dative genitive nominative vocative 
+brothers ^accusative vocative 
+building^dative nominative 
+building up^accusative nominative 
+buildings^accusative nominative 
+burden^accusative nominative 
+burdens^accusative dative 
+burial^accusative genitive 
+burning^accusative dative genitive nominative 
+burnt offerings^accusative genitive 
+business^accusative genitive 
+buying^accusative nominative 
+by^accusative dative nominative 
+by groups^accusative nominative 
+by that^dative genitive 
+by the^accusative dative genitive 
+by this^accusative dative 
+by which^accusative dative 
+by you^accusative dative 
+caesar^accusative dative genitive 
+caesarea^accusative dative genitive 
+caiaphas^accusative genitive nominative 
+called^accusative dative genitive nominative 
+calling^accusative dative genitive nominative 
+calling on^accusative dative genitive nominative 
+camp^accusative genitive 
+cana^accusative dative genitive 
+capernaum^accusative dative vocative 
+cappadocia^accusative genitive 
+captains^accusative dative nominative 
+care^genitive nominative 
+cares^dative genitive nominative 
+cargo^accusative genitive 
+carousing^dative nominative 
+carpenter^genitive nominative 
+carrying^genitive nominative 
+carrying away^accusative genitive 
+casting^accusative genitive nominative 
+casting out^accusative nominative 
+cause^accusative genitive nominative 
+causes of sin^accusative genitive 
+caves^accusative dative 
+centurion^accusative dative genitive nominative 
+centurions^accusative genitive 
+cephas^accusative nominative 
+certain^accusative dative genitive nominative 
+certain ones^accusative nominative 
+chains^accusative dative genitive nominative 
+character^accusative nominative 
+charging^accusative nominative 
+chariot^accusative dative genitive 
+chief^accusative dative 
+chief priests^accusative dative genitive nominative 
+child^accusative dative genitive nominative vocative 
+children^accusative dative genitive nominative vocative 
+chosen^accusative nominative 
+christ^accusative dative genitive nominative vocative 
+christ ^dative genitive 
+church^accusative dative genitive nominative 
+churches^accusative dative genitive nominative 
+cilicia^accusative genitive 
+circumcision^accusative dative genitive nominative 
+cities^accusative dative genitive nominative 
+citizenship^accusative nominative 
+city^accusative dative genitive nominative vocative 
+claiming^accusative genitive nominative 
+claudius^accusative genitive nominative 
+clay^accusative genitive 
+clean^dative nominative 
+clear^accusative dative nominative 
+clothed in^accusative nominative 
+clothed with^accusative nominative 
+clothing^accusative dative genitive nominative 
+cloud^accusative dative genitive 
+clouds^genitive nominative 
+cohort^accusative genitive 
+cold^accusative dative nominative 
+comfort^accusative dative genitive nominative 
+coming^accusative dative genitive nominative 
+coming down^accusative nominative 
+coming near^genitive nominative 
+coming one^accusative dative genitive nominative 
+coming together^genitive nominative 
+coming up^genitive nominative 
+commander^accusative dative nominative 
+commandment^accusative genitive nominative 
+commandments^accusative dative genitive nominative 
+commending^genitive nominative 
+committing adultery^accusative nominative 
+common^accusative genitive nominative 
+compassions^genitive nominative 
+complete^dative nominative 
+condemnation^accusative nominative 
+conduct^accusative dative genitive 
+confessing^genitive nominative 
+confession^accusative genitive 
+confidence^accusative dative nominative 
+confirmation^accusative dative 
+conflict^accusative dative 
+conscience^accusative dative genitive nominative 
+contrary^accusative genitive nominative 
+controversies^accusative genitive 
+converts^genitive nominative 
+corinth^accusative dative 
+corinthians^genitive vocative 
+cornelius^genitive nominative vocative 
+corners^accusative dative 
+council^accusative dative genitive nominative 
+counsel^accusative dative 
+country^accusative genitive 
+countrymen^dative genitive 
+court^accusative dative genitive 
+courts^accusative nominative 
+courtyard^accusative dative genitive 
+covenant^accusative dative genitive nominative 
+covenants^genitive nominative 
+covetousness^accusative dative genitive nominative 
+craftiness^accusative dative 
+craftsmen^dative nominative 
+created thing^dative nominative 
+creation^dative genitive nominative 
+creature^accusative genitive nominative 
+creeping things^accusative genitive nominative 
+crete^accusative dative genitive 
+criminals^accusative genitive nominative 
+crippled^accusative nominative 
+crispus^accusative nominative 
+crooked^genitive nominative 
+cross^accusative dative genitive nominative 
+crowd^accusative dative genitive nominative 
+crowds^accusative dative genitive nominative 
+crown^accusative nominative vocative 
+crowns^accusative nominative 
+crying^accusative genitive nominative 
+crying out^accusative genitive nominative 
+crystal^accusative dative 
+cup^accusative dative genitive nominative 
+curse^genitive nominative 
+cursing^accusative nominative 
+custom^accusative dative 
+customs^accusative dative genitive 
+cyprus^accusative genitive 
+daily^accusative dative 
+damascus^accusative dative 
+dark^accusative genitive nominative 
+darkness^accusative dative genitive nominative 
+daughter^accusative dative genitive nominative vocative 
+daughter-in-law^accusative nominative 
+daughters^accusative genitive nominative vocative 
+david^accusative dative genitive nominative 
+dawn^accusative genitive 
+day^accusative dative genitive nominative 
+days^accusative dative genitive nominative 
+deacons^accusative dative nominative 
+dead^accusative genitive nominative 
+deadly^accusative genitive 
+deaf^accusative nominative vocative 
+death^accusative dative genitive nominative 
+debtors^dative genitive nominative 
+decay^accusative dative genitive nominative 
+deceit^accusative dative genitive nominative 
+deceitful^dative nominative 
+declaring^accusative genitive nominative 
+decrees^accusative dative genitive 
+deed^accusative dative genitive 
+deeds^accusative dative genitive nominative 
+deep^accusative dative genitive nominative 
+defense^accusative dative genitive nominative 
+delay^accusative nominative 
+delicate clothing^accusative dative 
+deliverance^accusative dative 
+delivering^accusative nominative 
+demon^accusative genitive nominative 
+demons^accusative genitive nominative 
+denarii^accusative genitive 
+departure^accusative genitive 
+depth^accusative dative nominative 
+descendants^accusative dative nominative 
+descending^accusative genitive 
+descent^dative genitive 
+deserts^accusative dative 
+deserving^accusative nominative 
+desire^accusative dative genitive nominative 
+desires^accusative dative genitive nominative 
+desiring^accusative dative genitive nominative 
+desolate^accusative nominative 
+desolation^genitive nominative 
+destitute^accusative genitive 
+destroying^nominative vocative 
+destruction^accusative dative genitive nominative 
+devil^accusative dative genitive nominative 
+devoted^accusative nominative 
+devout^accusative nominative 
+dignity^accusative dative 
+diligence^accusative dative 
+dinner^accusative genitive 
+disaster^accusative genitive 
+disciple^accusative dative nominative 
+disciples^accusative dative genitive nominative 
+discipline^accusative nominative 
+diseases^accusative dative genitive 
+dish^dative genitive 
+dishonor^accusative dative genitive 
+disobedience^accusative dative genitive nominative 
+disobedient^accusative nominative 
+disobeying^accusative dative genitive 
+dispersion^accusative dative 
+distinction^accusative nominative 
+distinguishing^accusative nominative 
+distress^dative genitive nominative 
+distresses^dative genitive 
+district^accusative genitive 
+divine adoption as sons^accusative nominative 
+division^accusative genitive nominative 
+divisions^accusative nominative 
+doctrine^accusative dative 
+dogs^accusative dative nominative 
+doing^accusative dative genitive nominative vocative 
+doing evil^accusative nominative 
+doing good^accusative nominative 
+dominion^accusative genitive nominative 
+done^accusative nominative 
+door^accusative dative genitive nominative 
+doorkeeper^dative nominative 
+doors^accusative dative genitive nominative 
+doves^accusative nominative 
+dragon^accusative dative genitive nominative 
+drawing near^accusative dative genitive nominative 
+drink^accusative dative nominative 
+drinking^dative nominative 
+dry^dative genitive 
+dwelling^accusative dative genitive nominative vocative 
+each^accusative dative genitive nominative 
+each one^nominative vocative 
+each other^accusative dative genitive 
+ear^accusative dative genitive nominative 
+early^genitive nominative 
+earnest expectation^accusative nominative 
+earnestness^accusative dative genitive 
+ears^accusative dative nominative 
+earth^accusative dative genitive nominative 
+earthen^dative nominative 
+earthly^accusative genitive nominative 
+earthquake^accusative dative nominative 
+ease^accusative nominative 
+east^dative genitive 
+eating^accusative dative genitive nominative 
+edification^accusative genitive 
+egypt^accusative dative genitive nominative 
+egyptian^accusative nominative 
+eight^accusative genitive nominative 
+eighth^dative nominative 
+elderhood^genitive nominative 
+elders^accusative dative genitive nominative vocative 
+eleazar^accusative nominative 
+elect^accusative genitive 
+eleven^accusative dative genitive 
+eleventh^accusative nominative 
+eliakim^accusative nominative 
+elijah^accusative dative nominative 
+eliud^accusative nominative 
+elizabeth^accusative dative nominative 
+empty^accusative genitive 
+encouragement^accusative dative genitive nominative 
+end^accusative genitive nominative 
+ends^accusative genitive nominative 
+endurance^accusative dative genitive nominative 
+enduring^accusative nominative 
+enemies^accusative nominative 
+enemy^accusative genitive nominative vocative 
+entering^accusative nominative 
+entirely^accusative nominative 
+envy^accusative dative nominative 
+epaphras^genitive nominative 
+epaphroditus^accusative genitive 
+ephesus^accusative dative genitive 
+equal^accusative nominative 
+equality^genitive nominative 
+erastus^accusative nominative 
+error^dative genitive 
+esau^accusative nominative 
+esteemed^genitive nominative 
+eternal^accusative dative genitive nominative 
+euphrates^accusative dative 
+eve^accusative nominative 
+evening^accusative genitive nominative 
+every^accusative dative genitive nominative 
+every one^accusative nominative 
+everyone^accusative dative genitive nominative 
+everything^accusative dative genitive nominative 
+evil^accusative dative genitive nominative vocative 
+evil one^accusative dative genitive nominative 
+evils^accusative nominative 
+examining^dative nominative 
+excellence^dative nominative 
+exhortation^dative genitive 
+existing^accusative nominative 
+expectation^genitive nominative 
+expecting^accusative nominative 
+eye^accusative dative genitive nominative 
+eyes^accusative dative genitive nominative 
+fables^accusative dative 
+face^accusative genitive nominative 
+faces^accusative nominative 
+factions^accusative nominative 
+fainting^genitive nominative 
+faith^accusative dative genitive nominative 
+faithful^accusative dative genitive nominative vocative 
+faithfulness^accusative nominative 
+falling^genitive nominative 
+false brothers^accusative dative 
+false prophet^genitive nominative 
+false prophets^dative genitive nominative 
+false witnesses^genitive nominative 
+falsehood^accusative dative 
+family^genitive nominative 
+famine^dative nominative 
+farmer^accusative nominative 
+farmers^accusative dative genitive nominative 
+fasting^genitive nominative 
+father^accusative dative genitive nominative vocative 
+fathers^accusative dative genitive nominative vocative 
+fear^accusative dative genitive nominative 
+fearing^dative nominative vocative 
+feast^accusative dative genitive nominative 
+feet^accusative dative genitive nominative 
+felix^accusative dative genitive nominative vocative 
+fellow bond-servant^genitive nominative 
+fellow partakers^accusative nominative 
+fellow servant^accusative nominative 
+fellow servants^accusative genitive nominative 
+fellow soldier^accusative dative 
+fellow worker^accusative dative nominative 
+fellow workers^accusative nominative 
+fellowship^accusative nominative 
+female^accusative dative genitive nominative 
+festus^accusative dative genitive nominative vocative 
+fever^dative nominative 
+fevering^accusative nominative 
+few^accusative nominative 
+field^accusative dative genitive nominative 
+fields^accusative genitive 
+fifteen^accusative genitive 
+fifth^accusative nominative 
+fifty^accusative dative genitive 
+fig tree^accusative dative genitive nominative 
+filling^genitive nominative 
+filthiness^accusative nominative 
+finding fault^genitive nominative 
+fine^accusative dative 
+finger^accusative dative genitive 
+fingers^accusative genitive 
+fire^accusative dative genitive nominative 
+firm^accusative nominative 
+first^accusative dative genitive nominative 
+firstborn^accusative nominative 
+firstfruit^accusative nominative 
+fish^accusative genitive nominative 
+five^accusative dative genitive nominative 
+five hundred^accusative dative 
+five thousand^accusative genitive nominative 
+flesh^accusative dative genitive nominative 
+fleshly^dative genitive nominative 
+flock^accusative dative genitive nominative vocative 
+flood^genitive nominative 
+flute players^accusative genitive 
+flying^accusative dative genitive 
+foaming^genitive nominative 
+fold^accusative genitive 
+following^accusative dative nominative 
+food^accusative dative genitive nominative 
+foods^dative nominative 
+foolish^accusative dative nominative vocative 
+foolishness^accusative dative genitive nominative 
+fools^genitive vocative 
+foot^accusative nominative 
+for a woman^accusative dative 
+for all^dative genitive 
+for god^accusative genitive 
+for him^accusative dative 
+for me^accusative dative genitive 
+for that^dative genitive 
+for the^accusative dative genitive nominative 
+for them^dative genitive 
+for this^accusative nominative 
+for those^dative genitive 
+for us^accusative dative 
+for what^dative genitive 
+for you^accusative dative genitive 
+for yourselves^dative nominative 
+forbearance^accusative dative genitive 
+forbidding^accusative genitive 
+forehead^accusative genitive 
+forgiveness^accusative dative nominative 
+form^accusative dative genitive 
+forty^accusative dative genitive nominative 
+foundation^accusative dative genitive nominative 
+foundations^accusative nominative 
+four^accusative dative genitive nominative 
+four hundred^accusative dative genitive 
+four thousand^accusative genitive nominative 
+fourteen^genitive nominative 
+fourth^accusative genitive nominative 
+fragments^accusative genitive 
+fragrance^accusative genitive 
+fragrant oil^accusative dative genitive nominative 
+free^accusative genitive nominative 
+freedom^accusative dative genitive nominative 
+friend^accusative nominative vocative 
+friends^accusative dative genitive nominative 
+from the^accusative genitive 
+from us^dative genitive 
+from you^dative genitive 
+fruit^accusative genitive nominative 
+fruits^accusative genitive 
+full^accusative nominative vocative 
+full assurance^accusative dative genitive 
+fullness^accusative genitive nominative 
+fury^accusative genitive nominative 
+futile^genitive nominative 
+gain^accusative genitive nominative 
+gaius^accusative nominative 
+galatia^accusative genitive 
+galilean^genitive nominative 
+galileans^accusative genitive nominative vocative 
+galilee^accusative dative genitive nominative 
+gallio^genitive nominative 
+garden^accusative dative 
+garment^accusative genitive 
+garments^accusative dative genitive nominative 
+gate^accusative dative genitive nominative 
+gates^accusative dative genitive nominative 
+gathered together^accusative nominative 
+genealogies^accusative dative 
+generation^accusative dative genitive nominative vocative 
+generations^accusative dative genitive nominative 
+generosity^accusative dative genitive 
+gentiles^accusative dative genitive nominative vocative 
+gentiles ^accusative dative genitive 
+gentle^accusative dative genitive nominative 
+gentleness^accusative dative genitive nominative 
+gethsemane^accusative nominative 
+gift^accusative dative genitive nominative 
+gifts^accusative dative nominative 
+girl^dative nominative 
+giving^accusative dative genitive nominative 
+giving life^genitive nominative 
+gladness^dative genitive nominative 
+glass^accusative dative nominative 
+gloom^accusative nominative 
+glorious^accusative genitive 
+glory^accusative dative genitive nominative 
+goats^dative genitive 
+god^accusative dative genitive nominative vocative 
+goddess^accusative genitive 
+godliness^accusative dative nominative 
+gods^accusative dative genitive nominative 
+going^accusative dative genitive nominative 
+going astray^accusative dative nominative 
+going before^accusative nominative 
+going forth^genitive nominative 
+going out^accusative nominative 
+gold^accusative dative genitive nominative 
+golden^accusative genitive nominative 
+golgotha^accusative nominative 
+gomorrah^genitive nominative 
+good^accusative dative genitive nominative vocative 
+good pleasure^accusative genitive 
+good thing^accusative genitive nominative 
+good things^accusative dative genitive nominative 
+goodness^dative nominative 
+goods^accusative nominative 
+gospel^accusative dative genitive nominative 
+gossips^accusative nominative 
+governor^accusative dative genitive nominative 
+governors^accusative genitive 
+grace^accusative dative genitive nominative 
+grain^accusative nominative 
+grapes^accusative nominative 
+grass^accusative dative genitive nominative 
+great^accusative dative genitive nominative vocative 
+greater^accusative genitive nominative 
+greater than^accusative nominative 
+greatest^genitive nominative 
+greek^dative genitive nominative 
+greeks^accusative dative genitive nominative 
+green^dative nominative 
+greeting^accusative genitive nominative 
+grief^accusative dative genitive nominative 
+ground^accusative dative genitive nominative 
+groups^accusative nominative 
+growing old^accusative nominative 
+guard^accusative genitive 
+guards^accusative genitive nominative 
+guides^nominative vocative 
+guiltless^accusative nominative 
+guilty^accusative nominative 
+hades^accusative dative genitive nominative 
+hail^genitive nominative 
+hair^accusative dative genitive 
+hairs^dative nominative 
+half^accusative genitive 
+hand^accusative dative genitive nominative 
+hand-baskets^accusative genitive nominative 
+hands^accusative dative genitive nominative 
+hanging^accusative nominative 
+hardened^accusative nominative 
+hardness^accusative dative 
+hardship^accusative dative 
+harps^accusative dative 
+harvest^accusative genitive nominative 
+has been done^accusative nominative 
+has been written^accusative nominative 
+haste^dative genitive 
+hating^dative genitive nominative 
+having^accusative dative genitive nominative 
+having adjudged^genitive nominative 
+having appeared^genitive nominative 
+having appointed^dative nominative 
+having arisen^genitive nominative 
+having arrived^accusative genitive nominative 
+having ascended^accusative nominative 
+having become^accusative genitive nominative 
+having been^accusative dative genitive nominative 
+having been adorned^accusative nominative vocative 
+having been appointed^accusative nominative 
+having been baptized^genitive nominative 
+having been begotten^accusative nominative 
+having been born^accusative genitive nominative 
+having been bound^accusative nominative 
+having been called^accusative genitive nominative 
+having been cast^accusative dative nominative 
+having been caught^accusative genitive 
+having been clothed^accusative nominative 
+having been clothed with^accusative nominative vocative 
+having been completed^accusative genitive nominative 
+having been created^accusative genitive nominative 
+having been crucified^accusative nominative 
+having been dead^accusative genitive nominative 
+having been delivered^dative genitive 
+having been done^accusative genitive 
+having been enlightened^accusative nominative 
+having been filled^nominative vocative 
+having been gathered together^accusative genitive nominative 
+having been given^accusative dative genitive nominative 
+having been healed^accusative dative nominative 
+having been hidden^accusative dative genitive 
+having been inscribed^accusative nominative 
+having been invited^accusative dative genitive nominative 
+having been loved^accusative dative 
+having been made^accusative genitive nominative 
+having been made manifest^accusative genitive 
+having been mixed^genitive nominative 
+having been opened^accusative genitive nominative 
+having been paralyzed^dative nominative 
+having been perfected^accusative genitive nominative 
+having been prepared^accusative dative genitive nominative 
+having been proclaimed^genitive nominative 
+having been raised^accusative dative nominative 
+having been refined^accusative genitive 
+having been said^accusative nominative 
+having been sanctified^dative nominative 
+having been saved^accusative nominative 
+having been scattered^accusative nominative 
+having been sealed^accusative genitive nominative 
+having been sent^accusative dative nominative 
+having been slain^accusative genitive nominative 
+having been sown^accusative nominative 
+having been spoken^accusative dative genitive nominative 
+having been spoken of^accusative nominative 
+having been subjected^accusative genitive 
+having been written^accusative dative genitive nominative 
+having begun^genitive nominative 
+having believed^accusative dative genitive nominative 
+having borne^dative nominative 
+having bought^accusative nominative 
+having bound^accusative nominative 
+having brought^accusative nominative 
+having built^dative nominative 
+having called^accusative genitive nominative 
+having chosen^accusative dative nominative 
+having come^accusative dative genitive nominative 
+having come down^genitive nominative 
+having come in^dative genitive nominative 
+having come out^accusative nominative 
+having come to pass^accusative nominative 
+having come together^genitive nominative 
+having come up^accusative nominative 
+having come up with^dative nominative 
+having commanded^genitive nominative 
+having completed^genitive nominative 
+having created^dative genitive nominative 
+having departed^genitive nominative 
+having died^dative genitive nominative 
+having done^accusative genitive nominative 
+having drawn near^genitive nominative 
+having eaten^dative nominative 
+having endured^accusative nominative 
+having entered^accusative dative genitive nominative 
+having fallen^accusative genitive nominative 
+having fallen asleep^accusative genitive nominative 
+having fallen down^genitive nominative 
+having followed^genitive nominative 
+having gathered^dative genitive nominative 
+having gathered together^accusative dative nominative 
+having given^accusative genitive nominative 
+having given thanks^genitive nominative 
+having gone^dative nominative 
+having gone away^dative nominative 
+having gone down^accusative nominative 
+having gone forth^accusative dative genitive nominative 
+having gone out^accusative genitive nominative 
+having gone up^genitive nominative 
+having had^accusative nominative 
+having happened^accusative dative genitive 
+having heard^accusative dative genitive nominative 
+having invited^dative nominative 
+having killed^genitive nominative 
+having known^accusative nominative 
+having known it^dative nominative 
+having laid^genitive nominative 
+having left^accusative nominative 
+having loved^genitive nominative 
+having made^dative nominative 
+having made a sign^genitive nominative 
+having made it^genitive nominative 
+having married^dative nominative 
+having neglected^accusative nominative 
+having obtained^dative nominative 
+having passed^genitive nominative 
+having passed over^genitive nominative 
+having passed through^accusative nominative 
+having prayed^genitive nominative 
+having proclaimed the gospel to^genitive nominative 
+having promised^accusative nominative 
+having put^accusative genitive nominative 
+having put in subjection^dative genitive 
+having raised^accusative genitive nominative 
+having raised up^accusative genitive nominative 
+having received^accusative nominative 
+having repented^genitive nominative 
+having returned^dative nominative 
+having risen^genitive nominative 
+having said^accusative genitive nominative 
+having sat down^genitive nominative 
+having saved^genitive nominative 
+having seen^dative nominative 
+having sent^accusative dative genitive nominative 
+having shown^dative nominative 
+having sinned^accusative dative genitive 
+having sown^dative genitive nominative 
+having spent^genitive nominative 
+having spoken^genitive nominative 
+having stood^accusative genitive nominative 
+having suffered^genitive nominative 
+having taken^accusative nominative 
+having taken place^accusative genitive nominative 
+having tasted^accusative nominative 
+having withdrawn^accusative genitive nominative 
+he^accusative dative genitive nominative 
+he having entered^accusative nominative 
+he himself^accusative genitive nominative 
+head^accusative dative genitive nominative 
+heads^accusative genitive nominative 
+healing^accusative genitive nominative 
+hearing^accusative dative genitive nominative 
+heart^accusative dative genitive nominative 
+hearts^accusative dative genitive nominative 
+heat^genitive nominative 
+heaven^accusative dative genitive nominative 
+heavenly^accusative dative genitive nominative 
+heavens^accusative dative genitive nominative vocative 
+heavy^accusative nominative 
+hebrews^accusative genitive nominative 
+heir^accusative nominative 
+heirs^accusative dative nominative 
+hell^accusative dative genitive 
+hellenists^accusative genitive 
+help^accusative genitive 
+helper^accusative nominative 
+henceforth^accusative genitive 
+her^accusative dative genitive 
+herd^accusative nominative 
+herod^accusative dative genitive nominative 
+herodias^accusative genitive nominative 
+herself^accusative dative nominative 
+hezekiah^accusative nominative 
+hezron^accusative nominative 
+high^accusative dative 
+high priest^accusative dative genitive nominative 
+higher^accusative nominative 
+highways^accusative genitive 
+hill^accusative genitive nominative 
+hill country^accusative dative 
+him^accusative dative genitive nominative 
+him ^accusative genitive 
+him who is^accusative dative 
+himself^accusative dative genitive nominative 
+hired servants^genitive nominative 
+his^accusative dative genitive nominative 
+his own^accusative dative genitive 
+his son^accusative dative 
+his words^dative genitive 
+holding^accusative genitive nominative 
+holes^accusative dative 
+holiness^accusative dative genitive 
+holy^accusative dative genitive nominative vocative 
+holy one^accusative genitive nominative vocative 
+holy places^accusative genitive 
+home^accusative dative 
+hometown^accusative dative 
+homosexuals^dative nominative 
+honey^accusative nominative 
+honor^accusative dative genitive nominative 
+hope^accusative dative genitive nominative 
+horns^accusative genitive nominative 
+horse^genitive nominative 
+horses^accusative dative genitive 
+hospitable^accusative nominative 
+host^dative nominative 
+hostility^accusative nominative 
+hour^accusative dative genitive nominative 
+hours^accusative genitive nominative 
+house^accusative dative genitive nominative 
+household^accusative dative genitive nominative 
+households^accusative genitive 
+houses^accusative dative genitive 
+housetop^accusative genitive 
+how^accusative nominative 
+how great^accusative nominative 
+how many^accusative nominative 
+how much^accusative dative 
+humiliation^accusative dative 
+humility^accusative dative genitive 
+hungering^accusative nominative 
+hungry^accusative nominative 
+husband^accusative dative genitive nominative vocative 
+husbands^accusative dative nominative vocative 
+hypocrisy^accusative dative nominative 
+hypocrites^genitive nominative vocative 
+i^accusative genitive nominative 
+iconium^accusative dative genitive 
+idle^accusative nominative 
+idol^dative genitive 
+idolaters^dative nominative 
+idolatry^genitive nominative 
+idols^accusative genitive 
+ignorance^accusative dative 
+ignorant^accusative nominative 
+image^accusative dative genitive nominative 
+immortality^accusative dative 
+imperishable^accusative dative nominative 
+impurity^accusative dative genitive nominative 
+in^accusative dative 
+in all^dative nominative 
+in all things^accusative dative 
+in common^accusative nominative 
+in glory^accusative dative 
+in honor^accusative dative 
+in it^accusative dative 
+in me^accusative dative genitive 
+in mind^accusative dative 
+in one^accusative dative 
+in spirit^dative genitive 
+in that^accusative dative 
+in the^accusative dative genitive 
+in the middle^accusative nominative 
+in this^accusative dative 
+in what^accusative dative nominative 
+in which^accusative dative genitive 
+in you^accusative dative 
+incense^accusative genitive nominative 
+increasing^genitive nominative 
+individual^accusative genitive 
+individually^accusative dative 
+inexpressible^accusative dative 
+infants^accusative nominative 
+inferior^accusative nominative 
+infirmities^accusative genitive 
+inflicting^genitive nominative 
+inhabited world^accusative genitive 
+inhabiting^accusative dative nominative vocative 
+inheritance^accusative genitive nominative 
+iniquities^accusative dative 
+innocent^accusative nominative 
+inscription^accusative nominative 
+instruction^accusative dative genitive 
+insubordinate^accusative dative nominative 
+insult^accusative genitive 
+insurrection^accusative dative 
+intending^genitive nominative 
+interpretation^genitive nominative 
+into the^dative genitive 
+invisible^dative genitive nominative 
+is^dative nominative 
+is called^accusative genitive nominative 
+is coming^accusative dative genitive nominative 
+is good^accusative nominative 
+is holy^accusative nominative 
+is life^accusative nominative 
+is righteous^accusative nominative 
+isaac^accusative dative genitive nominative 
+isaiah^accusative dative genitive nominative 
+iscariot^accusative genitive nominative 
+island^accusative dative genitive nominative 
+israel^accusative dative genitive nominative 
+israelites^nominative vocative 
+it^accusative dative genitive nominative 
+italy^accusative genitive 
+its^accusative dative genitive 
+itself^accusative genitive nominative 
+jacob^accusative genitive nominative 
+jailer^dative nominative 
+james^accusative genitive nominative 
+jason^accusative genitive nominative 
+jasper^dative nominative 
+jealousy^accusative dative nominative 
+jeconiah^accusative nominative 
+jehoshaphat^accusative nominative 
+jeremiah^accusative genitive 
+jericho^accusative genitive 
+jerusalem^accusative dative genitive nominative vocative 
+jesse^accusative nominative 
+jesus^accusative dative genitive nominative vocative 
+jesus ^accusative dative 
+jew^accusative genitive nominative 
+jews^accusative dative genitive nominative vocative 
+john^accusative dative genitive nominative 
+joint-heirs^accusative dative genitive nominative 
+joppa^accusative dative genitive 
+joram^accusative nominative 
+jordan^accusative dative genitive 
+joseph^accusative dative genitive nominative vocative 
+joshua^genitive nominative 
+josiah^accusative nominative 
+jotham^accusative nominative 
+journey^accusative genitive 
+journeying^accusative dative nominative 
+joy^accusative dative genitive nominative 
+judah^accusative genitive nominative 
+judas^accusative genitive nominative vocative 
+judas son^accusative nominative 
+judea^accusative dative genitive nominative 
+judge^accusative dative nominative 
+judges^accusative nominative 
+judging^accusative dative nominative vocative 
+judgment^accusative dative genitive nominative 
+judgment seat^accusative dative genitive 
+julius^dative nominative 
+just^accusative nominative 
+justice^accusative nominative 
+justifying^accusative nominative 
+justus^genitive nominative 
+keeping^genitive nominative 
+key^accusative nominative 
+killing^dative genitive nominative vocative 
+kind^accusative genitive nominative 
+kindness^accusative dative genitive nominative 
+kindred^accusative genitive 
+king^accusative dative genitive nominative vocative 
+kingdom^accusative dative genitive nominative 
+kings^accusative dative genitive nominative 
+kinsman^accusative nominative 
+kinsmen^accusative genitive nominative 
+knee^accusative nominative 
+knees^accusative dative 
+knocking^dative nominative 
+knowing^dative nominative 
+knowledge^accusative dative genitive nominative 
+known^accusative nominative 
+labor^accusative dative genitive nominative 
+labors^dative genitive 
+lacking^accusative nominative 
+lady^dative vocative 
+lake^accusative dative genitive nominative 
+lamb^dative genitive nominative 
+lame^accusative genitive nominative 
+lamps^accusative genitive nominative 
+lampstands^accusative genitive nominative 
+land^accusative dative genitive nominative vocative 
+lands^accusative nominative 
+laodicea^accusative dative genitive 
+large^accusative genitive nominative 
+last^accusative dative genitive nominative 
+late^genitive nominative 
+law^accusative dative genitive nominative 
+law ^dative nominative 
+lawful^dative nominative 
+lawlessness^accusative dative genitive nominative 
+lawyers^accusative dative genitive nominative 
+lazarus^accusative nominative vocative 
+lazy^nominative vocative 
+leading^accusative dative genitive nominative 
+learning^accusative nominative 
+least^genitive nominative 
+leaven^accusative dative genitive nominative 
+leaves^accusative nominative 
+left^accusative genitive nominative 
+legion^accusative nominative 
+lepers^accusative nominative 
+letter^accusative dative genitive nominative 
+letters^accusative dative genitive nominative 
+levi^accusative nominative 
+liars^dative nominative 
+lie^dative nominative 
+life^accusative dative genitive nominative 
+lifeboat^accusative genitive 
+light^accusative dative genitive nominative 
+lightness^dative nominative 
+lightning^accusative nominative 
+lights^accusative nominative 
+like^accusative nominative 
+likeness^accusative dative nominative 
+likewise^accusative genitive 
+linen cloth^accusative dative 
+linen cloths^accusative genitive 
+lips^accusative dative 
+little^accusative genitive nominative vocative 
+little child^accusative nominative 
+little children^accusative dative genitive nominative vocative 
+lives^accusative genitive 
+living^accusative dative genitive nominative 
+living creature^genitive nominative 
+living creatures^genitive nominative 
+loaf^accusative genitive nominative 
+loaves^accusative dative genitive nominative 
+locusts^accusative nominative 
+loin^dative genitive 
+loins^accusative genitive 
+long^accusative dative 
+longing^accusative nominative 
+looking^accusative dative nominative 
+lord^accusative dative genitive nominative vocative 
+lord is^dative genitive nominative 
+lords^dative genitive nominative 
+loss^accusative genitive nominative 
+lot^accusative nominative 
+loud^accusative dative genitive nominative 
+love^accusative dative genitive nominative 
+loving^accusative dative genitive nominative 
+lump^accusative genitive nominative 
+lusts^accusative dative 
+lydda^accusative genitive 
+lydia^accusative nominative 
+lying^accusative nominative 
+lying before^accusative genitive 
+lystra^accusative dative 
+macedonia^accusative dative genitive nominative 
+macedonians^accusative nominative 
+made by hands^accusative genitive 
+magdalene^dative nominative 
+magi^accusative genitive nominative 
+magic arts^accusative dative 
+magistrates^dative nominative 
+majesty^dative genitive nominative 
+majority^genitive nominative 
+making^accusative dative nominative 
+male^accusative nominative 
+males^dative nominative 
+malice^accusative dative 
+man^accusative dative genitive nominative vocative 
+management^accusative genitive 
+manager^accusative nominative 
+managing^accusative nominative 
+manasseh^accusative nominative 
+manifest^accusative nominative 
+manner of life^accusative genitive nominative 
+many^accusative dative genitive nominative 
+many things^accusative dative genitive 
+mark^accusative genitive nominative 
+marketplace^accusative dative 
+marriage^genitive nominative 
+martha^accusative genitive nominative vocative 
+marvelous^accusative nominative 
+mary^accusative dative genitive nominative vocative 
+master^accusative dative genitive nominative vocative 
+master of the feast^dative nominative 
+master of the house^accusative dative genitive nominative 
+masters^accusative dative genitive nominative vocative 
+mat^accusative dative 
+material things^accusative dative 
+mats^dative genitive 
+matter^accusative dative genitive nominative 
+matthan^accusative nominative 
+matthew^accusative nominative 
+mature^dative nominative 
+me^accusative dative genitive nominative 
+me ^dative genitive 
+measure^accusative dative genitive 
+members^accusative dative genitive nominative 
+men^accusative dative genitive nominative vocative 
+mercy^accusative dative genitive nominative 
+mesopotamia^accusative dative 
+message^dative nominative 
+messenger^accusative dative 
+messengers^accusative genitive 
+messiah^accusative nominative 
+midnight^accusative genitive 
+midst^accusative dative genitive 
+might^accusative genitive nominative 
+mighty^accusative genitive nominative 
+miletus^accusative dative genitive 
+milk^accusative genitive 
+mina^accusative nominative 
+mind^accusative dative genitive nominative 
+minds^accusative dative nominative 
+mine^accusative dative genitive nominative 
+ministering^genitive nominative 
+ministry^accusative dative genitive nominative 
+miracles^accusative dative nominative 
+misery^accusative nominative 
+mistreating^genitive nominative 
+money^accusative dative genitive 
+money changers^accusative genitive 
+month^accusative dative nominative 
+moon^dative genitive nominative 
+more^accusative dative nominative 
+more excellent^accusative genitive 
+more than^accusative genitive nominative 
+morning^accusative genitive nominative 
+mortal^accusative dative nominative 
+moses^accusative dative genitive nominative 
+most^accusative dative nominative 
+most excellent^dative vocative 
+most high^genitive nominative 
+most precious^dative genitive 
+mother^accusative dative genitive nominative 
+mother-in-law^accusative genitive nominative 
+mount^accusative dative genitive nominative 
+mountain^accusative dative genitive nominative 
+mountains^accusative dative genitive nominative 
+mourning^accusative dative nominative 
+mouth^accusative dative genitive nominative 
+mouths^accusative dative genitive 
+much^accusative dative genitive nominative 
+multitude^accusative dative genitive nominative 
+murder^accusative genitive 
+murderers^accusative dative nominative 
+murders^genitive nominative 
+murmuring^genitive nominative 
+mute^accusative nominative vocative 
+mute man^accusative nominative 
+my^accusative dative genitive nominative 
+my own^accusative dative 
+myriads^accusative dative genitive nominative 
+myself^accusative genitive nominative 
+mystery^accusative dative genitive nominative 
+myths^accusative dative 
+nahshon^accusative nominative 
+naked^accusative nominative 
+nakedness^dative genitive nominative 
+name^accusative dative genitive nominative 
+named^accusative dative genitive 
+names^accusative genitive nominative 
+nathanael^accusative nominative 
+nation^accusative dative genitive nominative 
+nations^accusative dative genitive nominative 
+natural^accusative genitive nominative 
+nature^accusative genitive nominative 
+nazarene^accusative genitive 
+nazareth^accusative genitive nominative 
+necessary^accusative nominative 
+necessity^accusative genitive nominative 
+need^accusative genitive 
+needs^accusative dative 
+neighbors^accusative nominative 
+net^accusative nominative 
+nets^accusative nominative 
+new^accusative dative genitive nominative 
+news^accusative nominative 
+night^accusative dative genitive nominative 
+nine^accusative dative 
+ninety^accusative dative 
+ninth^accusative dative genitive nominative 
+no^accusative nominative 
+no one^accusative dative genitive nominative 
+noah^accusative nominative 
+none^accusative dative nominative 
+not any^accusative genitive 
+not one^accusative dative genitive nominative 
+nothing^accusative dative genitive nominative 
+number^accusative genitive nominative 
+oath^accusative genitive nominative 
+obed^accusative nominative 
+obedience^accusative dative genitive nominative 
+of^accusative genitive nominative 
+of alexandria^accusative nominative 
+of another^dative genitive 
+of bread^accusative genitive 
+of cyrene^accusative nominative 
+of destruction^accusative genitive 
+of egypt^accusative dative genitive 
+of fragments^accusative genitive 
+of glass^accusative nominative 
+of hair^genitive nominative 
+of heart^dative genitive 
+of heaven^genitive nominative 
+of her^accusative genitive 
+of him^accusative dative genitive 
+of his^accusative genitive 
+of iron^accusative dative genitive 
+of itself^genitive nominative 
+of jerusalem^genitive nominative 
+of john^accusative genitive 
+of joppa^dative genitive 
+of joy^accusative genitive 
+of judas^accusative genitive nominative 
+of judea^genitive nominative vocative 
+of life ^dative genitive 
+of light^genitive nominative 
+of macedonia^genitive nominative 
+of me^accusative dative genitive nominative 
+of men^accusative genitive 
+of mine^genitive nominative 
+of myself^genitive nominative 
+of names^accusative genitive 
+of nazareth^genitive vocative 
+of others^dative genitive 
+of our fathers^dative genitive 
+of pontus^accusative genitive 
+of simon^genitive nominative 
+of some^dative genitive 
+of stone^dative genitive nominative 
+of tarsus^accusative nominative 
+of the^accusative dative genitive nominative 
+of the churches^accusative genitive 
+of the household^accusative nominative 
+of them^accusative genitive nominative 
+of these things^genitive nominative 
+of this man^accusative genitive 
+of those^accusative dative genitive 
+of us^accusative dative genitive nominative 
+of which^dative genitive 
+of whom^accusative genitive 
+of you^accusative dative genitive nominative 
+offering^accusative dative genitive nominative 
+officer^dative nominative 
+officers^accusative dative genitive nominative 
+offspring^accusative nominative vocative 
+oil^accusative genitive 
+old^accusative dative genitive nominative 
+olive tree^dative genitive 
+on him^accusative dative 
+on me^accusative dative 
+on the^accusative dative genitive 
+on them^accusative dative 
+one^accusative dative genitive nominative 
+one another^accusative dative genitive 
+one hundred^genitive nominative 
+one thing^accusative genitive nominative 
+one thousand^accusative genitive 
+onesimus^accusative dative 
+only^accusative dative genitive nominative 
+only begotten^accusative genitive nominative 
+opening^accusative genitive nominative 
+opposing^accusative dative genitive nominative 
+oppressed with^accusative nominative 
+oppressing^accusative dative 
+oracles^accusative genitive 
+order^accusative dative 
+ordinances^dative nominative 
+ordinary^accusative nominative 
+other^accusative dative genitive nominative 
+other things^accusative nominative 
+others^accusative dative genitive nominative 
+our^accusative dative genitive nominative 
+our people^dative nominative 
+ourselves^accusative dative genitive nominative 
+outcome^accusative nominative 
+outside the law^accusative dative nominative 
+over the^dative genitive 
+overcoming^dative nominative 
+own^accusative dative genitive nominative 
+oxen^accusative genitive nominative 
+pagans^dative nominative 
+pain^accusative nominative 
+pamphylia^accusative genitive 
+parable^accusative dative nominative 
+parables^accusative dative genitive 
+paradise^accusative dative 
+paralytic^dative nominative 
+paralyzed^genitive nominative 
+parents^accusative dative genitive nominative 
+part^accusative genitive nominative 
+partakers^accusative nominative vocative 
+partiality^accusative dative nominative 
+partners^dative nominative 
+parts^accusative dative 
+passing^accusative dative nominative 
+passing by^accusative nominative 
+passing on^dative nominative 
+passions^accusative dative genitive nominative 
+passover^accusative dative genitive nominative 
+passover lamb^accusative nominative 
+past^dative nominative 
+paths^accusative dative 
+patience^accusative dative genitive nominative 
+patient endurance^dative genitive 
+patriarch^genitive nominative 
+patriarchs^accusative nominative 
+paul^accusative dative genitive nominative vocative 
+peace^accusative dative genitive nominative 
+peaceable^accusative nominative 
+pearl^accusative dative genitive 
+pearls^accusative dative nominative 
+people^accusative dative genitive nominative vocative 
+peoples^dative genitive nominative 
+perez^accusative nominative 
+perfect^accusative nominative 
+perfecting^accusative nominative 
+perfection^accusative nominative 
+perga^accusative dative genitive 
+pergamum^accusative dative 
+perishable^accusative genitive nominative 
+perishing^dative genitive 
+persecuting^accusative genitive nominative 
+persecution^genitive nominative 
+persecutions^accusative dative 
+perseverance^accusative dative genitive nominative 
+perverted^genitive vocative 
+peter^accusative dative genitive nominative vocative 
+pharaoh^dative genitive 
+pharisee^genitive nominative vocative 
+pharisees^accusative dative genitive nominative vocative 
+philadelphia^accusative dative 
+philip^accusative dative genitive nominative vocative 
+philippi^accusative dative genitive 
+phoenicia^accusative genitive 
+physician^nominative vocative 
+pigs^accusative genitive nominative 
+pilate^accusative dative genitive nominative 
+pit^accusative genitive 
+place^accusative dative genitive nominative 
+places^accusative dative genitive 
+plague^dative genitive nominative 
+plagues^accusative dative genitive nominative 
+plan^dative nominative 
+pleasing^accusative genitive nominative 
+pleasures^dative genitive 
+plot^accusative nominative 
+plowing^accusative nominative 
+pollutions^accusative genitive 
+pontius^genitive nominative 
+poor^accusative dative genitive nominative 
+porch^accusative dative 
+portion^accusative nominative 
+possesses^dative genitive 
+possessing^accusative dative nominative 
+possessions^accusative dative genitive nominative 
+potter^genitive nominative 
+poverty^dative genitive nominative 
+power^accusative dative genitive nominative 
+powers^genitive nominative 
+practicing^accusative nominative 
+praetorium^accusative dative 
+praise^accusative nominative 
+praising^accusative genitive nominative 
+prayer^accusative dative genitive nominative 
+prayers^accusative dative genitive nominative 
+praying^accusative genitive nominative 
+preaching^accusative genitive nominative vocative 
+precious^accusative dative genitive 
+preparation^accusative nominative 
+prepared^accusative nominative 
+presence^dative genitive 
+present^accusative dative 
+presentation^genitive nominative 
+price^accusative nominative 
+priest^accusative dative nominative 
+priesthood^accusative genitive nominative 
+priests^accusative dative genitive nominative 
+prince^dative nominative 
+principle^accusative genitive 
+principles^accusative genitive 
+prisca^accusative nominative 
+priscilla^accusative nominative 
+prison^accusative dative genitive 
+prison house^accusative genitive 
+prisoner^accusative nominative 
+prisoners^accusative dative genitive nominative 
+prisons^accusative dative 
+proceeding^genitive nominative 
+proceeds^accusative genitive 
+proclaiming^accusative dative nominative 
+proclaiming the gospel^dative genitive nominative 
+proclamation^genitive nominative 
+proconsul^accusative dative genitive nominative 
+producing^dative nominative 
+profane^accusative dative 
+professing^dative nominative 
+profit^accusative genitive nominative 
+profitable^accusative nominative 
+progress^accusative nominative 
+promise^accusative genitive nominative 
+promises^accusative dative genitive nominative 
+proof^accusative dative genitive 
+property^accusative genitive 
+prophecy^accusative dative genitive nominative 
+prophet^accusative dative genitive nominative 
+prophetic^accusative genitive 
+prophets^accusative dative genitive nominative vocative 
+prostitute^accusative dative genitive nominative 
+prostitutes^genitive nominative 
+proverb^accusative genitive 
+providing^dative nominative 
+province^dative genitive 
+provisions^accusative genitive 
+punishment^accusative genitive nominative 
+pure^accusative dative genitive nominative 
+purification^accusative genitive 
+purity^dative genitive 
+purpose^accusative dative genitive nominative 
+purposing^accusative nominative 
+purse^accusative genitive 
+putting^dative nominative 
+quadrupeds^accusative genitive nominative 
+quarrels^accusative nominative 
+question^accusative genitive 
+questioning^accusative nominative 
+questions^accusative genitive 
+quiet^accusative genitive 
+quietness^dative genitive 
+race^accusative dative genitive 
+radiance^accusative nominative 
+rage^accusative nominative 
+rahab^genitive nominative 
+rain^accusative nominative 
+ram^accusative nominative 
+readiness^accusative dative genitive nominative 
+reading^accusative dative genitive nominative 
+ready^accusative nominative 
+reason^accusative dative 
+reasonable^accusative nominative 
+reasoning^accusative genitive nominative 
+receiving^genitive nominative 
+reckoning^accusative dative nominative 
+reclining^accusative dative genitive nominative 
+reclining with him^accusative dative genitive 
+recompense^accusative nominative 
+red^accusative nominative 
+redemption^accusative genitive nominative 
+reed^accusative dative 
+region^accusative dative genitive nominative 
+regions^accusative dative 
+registration^genitive nominative 
+rehoboam^accusative nominative 
+rejoicing^genitive nominative 
+relating^genitive nominative 
+relatives^accusative dative genitive nominative 
+religion^genitive nominative 
+remaining^accusative genitive nominative 
+remembering^genitive nominative 
+remembrance^accusative dative 
+renewing^dative genitive 
+report^dative nominative 
+requests^accusative nominative 
+resolving^genitive nominative 
+respect^accusative dative 
+respectable^accusative dative 
+rest^accusative dative genitive nominative 
+resurrection^accusative dative genitive nominative 
+returning^dative nominative 
+revelation^accusative dative genitive 
+revelations^accusative genitive 
+reverence^dative genitive 
+reward^accusative nominative 
+rich^accusative dative genitive nominative vocative 
+rich man^genitive nominative 
+riches^accusative genitive nominative 
+right^accusative dative genitive nominative 
+right hand^accusative dative genitive nominative 
+righteous^accusative genitive nominative vocative 
+righteous man^dative nominative 
+righteous one^accusative genitive nominative 
+righteous ones^accusative dative 
+righteousness^accusative dative genitive nominative 
+righteousness is^genitive nominative 
+rising^accusative genitive 
+river^accusative dative genitive 
+rivers^accusative genitive nominative 
+road^accusative dative genitive 
+robbers^accusative dative nominative 
+robes^accusative dative nominative 
+rock^accusative dative genitive nominative 
+rocks^accusative dative nominative 
+romans^accusative dative genitive nominative 
+rome^accusative dative genitive 
+room^accusative nominative 
+root^accusative genitive nominative 
+royal crowns^accusative nominative 
+rufus^accusative genitive 
+ruin^accusative nominative 
+rule^dative genitive 
+ruler^accusative genitive nominative 
+ruler of the synagogue^accusative dative genitive nominative 
+rulers^accusative dative genitive nominative vocative 
+running^genitive nominative 
+sabbath^accusative dative genitive nominative 
+sabbath ^dative genitive 
+sabbaths^accusative dative genitive 
+sackcloth^accusative dative nominative 
+sacred^accusative genitive 
+sacrifice^accusative dative genitive nominative 
+sacrificed to idols^accusative genitive 
+sacrifices^accusative dative genitive nominative 
+sadducees^accusative genitive nominative 
+sailing^accusative genitive nominative 
+sailors^genitive nominative 
+saints^accusative dative genitive nominative 
+salmon^accusative nominative 
+salt^accusative nominative 
+salvation^accusative genitive nominative 
+samaria^accusative dative genitive nominative 
+samaritan^genitive nominative 
+samaritans^genitive nominative 
+same^accusative dative genitive nominative 
+same things^accusative genitive 
+sanctification^accusative nominative 
+sand^accusative nominative 
+sandal^accusative genitive 
+sandals^accusative genitive 
+sardis^accusative dative 
+sardius^dative nominative 
+satan^accusative genitive nominative vocative 
+saul^accusative genitive nominative vocative 
+savior^accusative dative genitive nominative 
+saying^accusative genitive nominative vocative 
+sayings^accusative nominative 
+scarlet^accusative genitive 
+scoffers^nominative vocative 
+scorching heat^accusative nominative 
+scorpions^dative genitive nominative 
+scribes^accusative dative genitive nominative vocative 
+scripture^accusative dative genitive nominative 
+scriptures^accusative dative genitive nominative 
+sea^accusative dative genitive nominative 
+seal^accusative nominative 
+seals^accusative genitive 
+season^accusative dative nominative 
+seasons^accusative dative genitive 
+second^accusative dative genitive nominative 
+second time^accusative dative 
+secret^accusative dative nominative 
+secrets^accusative nominative 
+sect^accusative genitive 
+security^accusative dative nominative 
+seed^accusative dative genitive nominative 
+seeing^accusative genitive nominative 
+seeking^dative genitive nominative 
+self-control^accusative dative genitive nominative 
+self-interest^accusative genitive 
+self-willed^accusative nominative 
+selling^accusative dative genitive 
+sensuality^accusative dative genitive nominative 
+sentence^accusative genitive 
+serpent^accusative genitive nominative 
+serpents^accusative dative genitive nominative vocative 
+servant^accusative dative genitive nominative vocative 
+servants^accusative dative genitive nominative vocative 
+service^accusative dative genitive nominative 
+serving^accusative nominative 
+setting forth^accusative nominative 
+seven^accusative dative genitive nominative 
+seventh^accusative dative genitive nominative 
+seventy^accusative dative nominative 
+severity^accusative nominative 
+sexual immorality^accusative dative genitive nominative 
+sexually immoral^dative nominative 
+shackles^accusative dative 
+shadow^accusative dative nominative 
+shame^accusative dative genitive nominative 
+sharp^accusative nominative 
+she^accusative dative nominative 
+shealtiel^accusative nominative 
+shechem^accusative dative 
+sheep^accusative genitive nominative 
+shepherd^accusative nominative 
+shepherding^accusative nominative 
+shepherds^accusative genitive nominative 
+shining^dative nominative 
+ship^accusative dative genitive nominative 
+ships^accusative genitive nominative 
+showing^accusative genitive nominative 
+showing mercy^genitive nominative 
+sick^accusative dative nominative 
+sickness^accusative genitive nominative 
+sidon^accusative dative genitive 
+sign^accusative nominative 
+signs^accusative dative genitive nominative 
+silas^accusative dative nominative 
+silence^genitive nominative 
+siloam^accusative dative 
+silvanus^genitive nominative 
+silver^accusative genitive nominative 
+simon^accusative dative genitive nominative vocative 
+sin^accusative dative genitive nominative 
+sinai^dative genitive nominative 
+sincere^accusative genitive nominative 
+sincerity^dative genitive 
+sinful^dative genitive nominative 
+sinner^dative nominative 
+sinners^accusative genitive nominative 
+sinning^accusative dative nominative 
+sins^accusative dative genitive nominative 
+sister^accusative dative genitive nominative 
+sisters^accusative nominative 
+sitting^accusative dative genitive nominative 
+sitting by^dative nominative 
+six^accusative dative genitive nominative 
+six hundred^genitive nominative 
+sixth^accusative dative genitive nominative 
+sixty^accusative dative genitive nominative 
+sky^accusative genitive nominative 
+slander^accusative nominative 
+slaughter^accusative dative genitive 
+slave woman^accusative genitive 
+slaves^dative genitive nominative vocative 
+sleeping^accusative nominative vocative 
+slow^nominative vocative 
+small^accusative genitive nominative vocative 
+smoke^accusative genitive nominative 
+smyrna^accusative dative 
+snare^accusative genitive 
+so great^accusative nominative 
+so long^accusative dative 
+so many^accusative genitive nominative 
+so much^accusative dative 
+sodom^dative genitive nominative 
+soil^accusative dative 
+sojourn^dative genitive 
+sojourners^accusative dative nominative 
+soldier^dative nominative 
+soldiers^accusative dative genitive nominative 
+solitary^accusative dative 
+solomon^accusative nominative 
+some^accusative dative genitive nominative 
+someone^accusative genitive nominative 
+something^accusative nominative 
+son^accusative dative genitive nominative vocative 
+sons^accusative dative genitive nominative vocative 
+sorcerers^dative nominative 
+sorcery^dative nominative 
+sores^accusative genitive 
+sorrow^accusative dative nominative 
+sosthenes^accusative nominative 
+soul^accusative dative genitive nominative vocative 
+souls^accusative dative genitive nominative 
+sound^accusative dative genitive nominative 
+sour wine^accusative genitive 
+sowing^dative nominative 
+sparrows^genitive nominative 
+speaking^accusative dative genitive nominative 
+speech^accusative dative nominative 
+spices^accusative genitive 
+spirit^accusative dative genitive nominative vocative 
+spirits^accusative dative genitive nominative 
+spiritual^accusative dative nominative 
+spiritual gifts^accusative genitive 
+splendid^accusative dative 
+spoken^accusative dative 
+spring^genitive nominative 
+springs^accusative nominative 
+sprinkling^accusative nominative 
+stadia^accusative genitive 
+staff^accusative genitive nominative 
+stairs^accusative genitive 
+standing^accusative genitive nominative 
+standing by^accusative dative genitive nominative 
+star^accusative genitive nominative 
+stars^accusative dative genitive nominative 
+statement^accusative dative nominative 
+steadfastness^accusative genitive 
+stephen^accusative dative nominative 
+stern^dative genitive 
+steward^accusative nominative 
+stewards^accusative dative nominative 
+stewardship^accusative genitive 
+stirring up^accusative nominative 
+stomach^accusative nominative 
+stone^accusative dative nominative 
+stones^accusative genitive nominative 
+straining^accusative nominative 
+strange^dative genitive 
+strangers^accusative dative genitive nominative 
+street^accusative genitive nominative 
+streets^accusative dative genitive 
+strength^accusative dative genitive nominative 
+strengthening^dative nominative 
+strife^accusative genitive nominative 
+strong^accusative genitive nominative vocative 
+strong man^accusative genitive nominative 
+such^accusative dative genitive nominative 
+such a great^accusative genitive 
+such a man^accusative genitive nominative 
+such a one^accusative dative nominative 
+such as^accusative nominative 
+such great^accusative nominative 
+such things^accusative genitive 
+suffering^accusative nominative 
+sufferings^accusative dative genitive nominative 
+sufficiency^accusative nominative 
+sun^accusative dative genitive nominative 
+superior^genitive nominative 
+supper^accusative dative genitive 
+supplication^accusative dative genitive nominative 
+surpassing^accusative nominative 
+surpassingness^dative nominative 
+surrounding region^accusative dative genitive 
+swift^accusative nominative 
+swindlers^dative nominative 
+sword^accusative dative genitive nominative 
+swords^genitive nominative 
+synagogue^accusative dative genitive 
+synagogues^accusative dative genitive 
+syria^accusative genitive 
+tabernacle^accusative dative genitive nominative 
+tabitha^nominative vocative 
+table^genitive nominative 
+tables^accusative dative 
+tablets^dative nominative 
+tails^accusative dative nominative 
+taking away^genitive nominative 
+taking place^accusative dative genitive 
+talents^accusative genitive 
+talk^accusative genitive nominative 
+tarsus^accusative dative 
+taught^dative nominative 
+tax collectors^genitive nominative 
+teacher^accusative nominative vocative 
+teachers^accusative genitive nominative 
+teaching^accusative dative genitive nominative vocative 
+teachings^accusative dative 
+tear^accusative nominative 
+tears^dative genitive 
+teeth^accusative genitive nominative 
+telling^accusative dative nominative 
+temple^accusative dative genitive nominative 
+temptation^accusative dative genitive nominative 
+ten^accusative dative genitive nominative 
+ten and eight^accusative nominative 
+tent^dative genitive 
+terrified^genitive nominative 
+tertullus^genitive nominative 
+testifying^genitive nominative 
+testimony^accusative genitive nominative 
+testing^dative nominative 
+tetrarch^genitive nominative 
+thaddaeus^accusative nominative 
+thankful^accusative nominative 
+thankfulness^accusative genitive 
+thanksgiving^accusative dative genitive nominative 
+that^accusative dative genitive nominative 
+that are^accusative dative genitive nominative 
+that is^accusative dative genitive nominative 
+that one^accusative genitive nominative 
+that were^accusative nominative 
+that which^accusative dative genitive nominative 
+that which is^accusative dative genitive 
+the^accusative dative genitive nominative vocative 
+the age^accusative genitive 
+the angels^accusative genitive nominative 
+the author^accusative nominative 
+the beginning^accusative dative genitive nominative 
+the blood^accusative dative genitive nominative 
+the boat^accusative nominative 
+the body^accusative dative nominative 
+the bond^accusative nominative 
+the book^dative nominative 
+the church^accusative dative genitive nominative 
+the circumcision^accusative genitive 
+the city^accusative dative nominative 
+the cohort^genitive nominative 
+the commandment^accusative nominative 
+the commandments^dative genitive 
+the consummation^dative nominative 
+the country^accusative genitive 
+the covenant^accusative genitive 
+the crowd^genitive nominative 
+the day^accusative dative genitive nominative 
+the days^dative nominative 
+the dead^accusative genitive nominative 
+the death^accusative genitive 
+the disciples^genitive nominative 
+the discipline^dative genitive 
+the earth^genitive nominative 
+the elect^genitive nominative 
+the end^accusative genitive nominative 
+the eyes^accusative dative nominative 
+the face^accusative dative genitive nominative 
+the faith^accusative dative genitive 
+the father^accusative dative genitive nominative 
+the field^dative nominative 
+the fire^accusative genitive 
+the first^genitive nominative 
+the first day^accusative dative 
+the flesh^accusative dative genitive nominative 
+the foolish^dative nominative 
+the foremost^dative nominative 
+the form^accusative dative 
+the foundation^accusative genitive 
+the fourteenth^accusative nominative 
+the fruit^accusative nominative 
+the gentiles^accusative dative genitive nominative 
+the glory^accusative nominative 
+the goal^accusative nominative 
+the god^dative nominative 
+the good^accusative genitive nominative 
+the grace^dative nominative 
+the hand^dative genitive nominative 
+the head^accusative nominative 
+the heart^accusative dative genitive nominative 
+the heavens^dative genitive nominative 
+the high priest^genitive nominative 
+the hope^accusative dative genitive 
+the hour^genitive nominative 
+the house^accusative dative genitive nominative 
+the household^dative genitive nominative 
+the husband^accusative nominative 
+the image^accusative nominative 
+the jerusalem^accusative dative 
+the jews^accusative genitive nominative 
+the joy^genitive vocative 
+the judgment^accusative nominative 
+the king^dative nominative 
+the knowledge^accusative dative 
+the land^accusative dative genitive 
+the last^dative genitive nominative 
+the law^accusative dative genitive nominative 
+the law is^genitive nominative 
+the least^accusative genitive nominative 
+the likeness^accusative dative 
+the living^accusative dative genitive 
+the lord^accusative dative genitive nominative 
+the lord is^accusative nominative 
+the man^accusative dative nominative 
+the measure^accusative dative 
+the mediator^dative nominative 
+the middle^accusative dative 
+the midst^accusative dative genitive 
+the mind^accusative dative nominative 
+the mother^dative nominative 
+the mouth^genitive nominative 
+the name^accusative dative nominative 
+the one^accusative dative genitive nominative vocative 
+the one who^accusative nominative 
+the ones^accusative dative genitive nominative 
+the person^accusative dative 
+the place^dative nominative 
+the power^accusative dative nominative 
+the presence^accusative genitive nominative 
+the promise^accusative genitive 
+the proud^accusative dative 
+the purpose^accusative genitive 
+the region^dative genitive 
+the rest^dative nominative 
+the resurrection^accusative genitive 
+the revelation^accusative dative nominative 
+the reward^accusative genitive 
+the right^accusative genitive 
+the right hand^dative genitive 
+the righteous^accusative nominative 
+the righteousness^accusative dative genitive nominative 
+the rooster^accusative nominative 
+the sabbath^dative genitive 
+the salvation^accusative genitive 
+the same^accusative dative genitive nominative 
+the savior^accusative genitive nominative 
+the sea^accusative dative nominative 
+the second^accusative nominative 
+the servant^dative genitive 
+the servants^dative nominative 
+the sexually immoral^accusative dative nominative 
+the sixth^accusative genitive nominative 
+the son^accusative nominative 
+the sons^accusative genitive nominative 
+the soul^accusative genitive 
+the sound^accusative nominative 
+the south^accusative genitive 
+the spirit^accusative dative genitive nominative 
+the stone^accusative nominative 
+the sword^accusative dative 
+the temple^dative nominative 
+the thing^genitive nominative 
+the things^accusative dative genitive nominative 
+the things that^accusative nominative 
+the third^accusative genitive 
+the third time^accusative genitive 
+the thoughts^genitive nominative 
+the throne^genitive nominative 
+the time^accusative dative genitive nominative 
+the times^genitive nominative 
+the trumpet^dative nominative 
+the truth^accusative dative genitive nominative 
+the uncircumcision^accusative nominative 
+the ungodly^dative genitive 
+the unrighteous^accusative genitive 
+the voice^accusative dative nominative 
+the weeds^accusative nominative 
+the wife^accusative genitive nominative 
+the will^dative genitive nominative 
+the wisdom^accusative dative 
+the word^accusative dative genitive nominative 
+the words^accusative nominative 
+the world^accusative dative nominative 
+thefts^genitive nominative 
+their^accusative dative genitive nominative 
+their own^accusative dative genitive 
+theirs^accusative genitive 
+them^accusative dative genitive nominative 
+themselves^accusative dative genitive nominative 
+these^accusative dative genitive nominative 
+these things^accusative dative genitive nominative 
+thessalonica^accusative dative genitive 
+they^accusative dative genitive nominative 
+thing^accusative nominative 
+things^accusative genitive nominative 
+things sacrificed to idols^accusative genitive 
+thinking^dative genitive nominative 
+third^accusative dative genitive nominative 
+thirsting^accusative dative nominative 
+thirty^accusative genitive 
+this^accusative dative genitive nominative 
+this is^accusative nominative 
+this man^accusative genitive nominative 
+this one^accusative genitive nominative 
+this very^accusative nominative 
+thistles^accusative genitive 
+thomas^accusative nominative 
+thorns^accusative genitive nominative 
+those^accusative dative genitive nominative vocative 
+those who^accusative dative genitive nominative 
+those whom^accusative genitive 
+thoughts^accusative genitive nominative 
+thousand^accusative dative genitive nominative 
+threats^accusative genitive 
+three^accusative dative genitive nominative 
+throne^accusative dative genitive nominative 
+thrones^accusative genitive nominative 
+thus^accusative genitive 
+thyatira^accusative dative 
+time^accusative dative genitive nominative 
+times^accusative dative genitive nominative 
+timothy^accusative genitive nominative vocative 
+titus^accusative genitive nominative 
+to^accusative dative genitive 
+to caesar^accusative dative 
+to each^accusative dative 
+to god^dative genitive 
+to good^dative genitive 
+to her^accusative dative 
+to him^accusative dative genitive 
+to many^accusative dative 
+to me^dative genitive nominative 
+to none^accusative dative 
+to one another^accusative dative 
+to others^accusative dative 
+to the^accusative dative genitive 
+to the things^accusative dative 
+to them^accusative dative genitive nominative 
+to those^accusative dative genitive 
+to us^dative genitive 
+to what^accusative dative 
+to which^accusative dative genitive 
+to whom^accusative dative 
+to you^accusative dative genitive 
+to yourselves^accusative dative 
+toil^dative nominative 
+toiling^accusative vocative 
+tomb^accusative dative genitive nominative 
+tombs^accusative dative genitive nominative 
+tongue^accusative dative genitive nominative 
+tongues^accusative dative genitive nominative 
+tooth^accusative genitive 
+torment^accusative dative genitive nominative 
+toward you^dative genitive 
+town^accusative genitive nominative 
+towns^accusative dative genitive 
+tradition^accusative dative 
+traditions^accusative genitive 
+transgression^dative genitive nominative 
+transgressions^accusative genitive 
+treasure^accusative dative genitive nominative 
+treasures^accusative genitive nominative 
+treasuring up^accusative nominative 
+treasury^accusative dative genitive 
+tree^accusative dative genitive nominative 
+trees^accusative genitive nominative 
+trembling^dative genitive nominative 
+trespass^dative genitive nominative 
+trespasses^accusative dative genitive 
+trial^accusative genitive 
+trials^dative genitive 
+tribe^accusative genitive 
+tribes^accusative dative genitive nominative 
+tribulation^accusative dative genitive nominative 
+tribulations^dative genitive nominative 
+tribute^accusative genitive 
+trickery^dative nominative 
+troas^accusative dative genitive 
+troop^accusative dative 
+trophimus^accusative nominative 
+trouble^accusative nominative 
+true^accusative dative genitive nominative vocative 
+trumpet^accusative dative genitive 
+trumpets^accusative nominative 
+trusting^accusative nominative 
+truth^accusative dative genitive nominative 
+truth ^accusative dative 
+tunic^accusative nominative 
+turning away from^genitive nominative 
+twelve^accusative dative genitive nominative 
+twenty^accusative genitive nominative 
+two^accusative dative genitive nominative 
+two hundred^accusative genitive nominative 
+two years^accusative genitive 
+two-edged^accusative nominative 
+tychicus^accusative nominative 
+tyre^accusative dative genitive 
+unbelief^accusative dative nominative 
+unbelievers^genitive nominative 
+unbelieving^accusative dative genitive nominative vocative 
+unblemished^accusative nominative 
+unceasing^accusative nominative 
+uncircumcision^accusative dative genitive nominative 
+unclean^accusative dative genitive nominative vocative 
+undefiled^accusative nominative 
+understanding^accusative dative genitive nominative 
+unestablished^accusative nominative 
+unfruitful^accusative dative nominative 
+ungodliness^accusative genitive 
+ungodly^accusative nominative 
+ungrateful^accusative nominative 
+uninstructed^genitive nominative 
+unleavened bread^dative genitive 
+unmarried^dative nominative 
+unquenchable^accusative dative 
+unrighteous^accusative dative genitive nominative 
+unrighteousness^accusative dative genitive nominative 
+unsearchable^accusative nominative 
+upon you^dative genitive 
+upper room^accusative dative 
+upright^accusative nominative 
+us^accusative dative genitive nominative 
+use^accusative dative 
+useful^accusative nominative 
+uzziah^accusative nominative 
+vanishing^genitive nominative 
+various kinds^accusative nominative 
+veil^accusative genitive nominative 
+vengeance^accusative nominative 
+very^accusative genitive 
+vessel^accusative dative nominative 
+vessels^accusative dative genitive nominative 
+victory^accusative nominative 
+village^accusative genitive 
+vine^accusative dative genitive nominative 
+vinedresser^accusative nominative 
+vineyard^accusative dative genitive 
+violence^accusative genitive 
+violent^genitive nominative 
+virgin^accusative genitive nominative 
+virgins^dative genitive nominative 
+virtue^accusative dative 
+vision^accusative dative genitive nominative 
+voice^accusative dative genitive nominative 
+voices^accusative genitive nominative 
+voyage^accusative genitive 
+wages^accusative dative genitive nominative 
+wailing^accusative nominative 
+waist^accusative nominative 
+waiting for^dative genitive nominative 
+walking^accusative dative genitive nominative 
+wall^accusative genitive nominative vocative 
+war^accusative dative nominative 
+warfare^accusative genitive 
+warming himself^accusative nominative 
+was betraying^accusative nominative 
+was called^dative nominative 
+was speaking^accusative genitive 
+washing^dative nominative 
+washings^accusative dative 
+watch^accusative dative 
+watching^accusative nominative 
+water^accusative dative genitive nominative 
+waters^accusative dative genitive nominative 
+waves^genitive nominative 
+way^accusative dative genitive nominative 
+way of life^accusative genitive 
+ways^accusative dative nominative 
+we^accusative genitive nominative 
+weak^accusative dative genitive nominative 
+weakness^accusative dative genitive nominative 
+weaknesses^accusative dative 
+wealth^accusative dative genitive nominative 
+weapons^genitive nominative 
+wearing^accusative nominative 
+wedding feast^accusative nominative 
+wedding feasts^accusative genitive 
+weeds^accusative genitive nominative 
+weeping^accusative dative genitive nominative 
+weight^accusative dative 
+well^accusative dative nominative 
+well-pleasing^accusative nominative 
+were hearing^genitive nominative 
+what^accusative dative genitive nominative 
+what is^accusative genitive nominative 
+what is it^accusative nominative 
+what kind^accusative nominative 
+what kind of^accusative nominative 
+what things^accusative genitive 
+what will be^accusative nominative 
+whatever^accusative dative nominative 
+whatever things^accusative nominative 
+whatsoever^accusative nominative 
+wheat^accusative genitive 
+which^accusative dative genitive nominative 
+which are^accusative genitive 
+which is^accusative dative genitive nominative 
+which things^accusative nominative 
+which time^dative genitive 
+which was^accusative nominative 
+while^accusative genitive 
+white^accusative dative nominative 
+who^accusative dative genitive nominative vocative 
+who are^accusative dative nominative 
+who is^accusative dative genitive nominative vocative 
+who was^accusative dative nominative 
+who were^accusative genitive nominative 
+whole^accusative genitive nominative 
+whom^accusative dative genitive nominative 
+whom are^accusative genitive 
+whose^dative genitive nominative 
+wicked^accusative nominative vocative 
+wickedness^accusative dative genitive 
+wickednesses^genitive nominative 
+widow^accusative nominative 
+widows^accusative dative genitive nominative 
+wife^accusative dative genitive nominative vocative 
+wild^accusative nominative 
+wilderness^accusative dative genitive 
+will^accusative dative genitive nominative 
+willing^dative genitive nominative 
+willingly^accusative nominative 
+wind^accusative dative genitive nominative 
+winds^accusative dative genitive nominative 
+wine^accusative dative genitive nominative 
+winepress^accusative genitive nominative 
+wineskins^accusative nominative 
+wings^accusative genitive nominative 
+winter^genitive nominative 
+wisdom^accusative dative genitive nominative 
+wise^accusative dative genitive nominative 
+wishing^nominative vocative 
+with^dative genitive 
+with fear^accusative dative genitive 
+with him^dative nominative 
+with joy^dative genitive 
+with me^dative genitive 
+with one^dative nominative 
+with the^accusative dative genitive 
+with the spirit^dative genitive 
+with them^accusative dative genitive 
+with those^dative genitive nominative 
+with water^dative genitive 
+with what^dative nominative 
+with which^accusative dative genitive 
+with wonder^accusative genitive 
+with you^dative genitive 
+withered^accusative nominative 
+without blemish^genitive nominative 
+without offense^accusative nominative 
+without spot^genitive nominative 
+without understanding^dative nominative 
+witness^accusative genitive nominative 
+witnesses^accusative dative genitive nominative 
+wives^accusative dative genitive nominative vocative 
+wolf^accusative nominative 
+woman^accusative dative genitive nominative vocative 
+woman is^genitive nominative 
+womb^accusative dative genitive nominative 
+women^accusative dative genitive nominative 
+wonders^accusative dative genitive nominative 
+wood^accusative genitive 
+wooden^accusative nominative 
+wool^genitive nominative 
+word^accusative dative genitive nominative 
+words^accusative dative genitive nominative 
+work^accusative dative genitive nominative 
+workers^accusative nominative 
+working^accusative dative genitive nominative vocative 
+workmen^accusative genitive nominative 
+works^accusative dative genitive nominative 
+world^accusative dative genitive nominative 
+wormwood^accusative nominative 
+worse^accusative genitive nominative 
+worshiping^accusative dative genitive nominative 
+worshipping^accusative genitive 
+worthless^accusative nominative 
+worthy^accusative dative nominative 
+wound^accusative nominative 
+wounds^accusative dative genitive 
+wrath^accusative dative genitive nominative 
+writings^accusative dative 
+written^accusative nominative 
+wrong^accusative nominative 
+year^accusative dative genitive 
+years^accusative dative genitive nominative 
+years old^accusative genitive 
+yoke^accusative nominative 
+you^accusative dative genitive nominative vocative 
+you ^accusative nominative 
+you all^accusative genitive nominative 
+you are^accusative nominative 
+young man^accusative nominative vocative 
+young men^nominative vocative 
+younger^accusative dative nominative 
+younger men^accusative nominative 
+your^accusative dative genitive nominative 
+your own^accusative dative genitive 
+yours^accusative dative genitive nominative 
+yourself^accusative dative genitive nominative 
+yourselves^accusative dative genitive nominative 
+zacchaeus^nominative vocative 
+zadok^accusative nominative 
+zeal^accusative nominative 
+zealot^accusative nominative 
+zealous^accusative nominative 
+zebedee^accusative genitive 
+zechariah^accusative nominative vocative 
+zerubbabel^accusative nominative 
+zion^dative genitive 

@@ -1,0 +1,573 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+/*
+http://colorschemedesigner.com/#1q61Tw0w0w0w0
+
+header background-color:#A68900;
+body, footer background-color:#A66F00;
+main background, sidebar text color:#FFE773
+
+seealso color:#412C84;
+seealso a color:#6A48D7;
+
+button background-color: #6A48D7;
+
+headings, searchbox color: #3914AF;
+sidebar background-color:#200772;
+*/
+
+/*reset css*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset css */
+/* now set what we want */
+
+body {
+	line-height:1.6;
+}
+strong, b {
+	font-weight:700;
+}
+em, i, cite {
+	font-style:italic;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom:0.5em;
+}
+p {
+	margin-bottom:1em;
+	margin-top:1em;
+}
+ol, ul, blockquote {
+	margin-bottom:1em;
+	margin-top:1em;
+	padding-left:3em;
+}
+h1, h2, h3, h4, h5, h6, .seealso {
+	font-family: 'Cinzel', sans-serif;
+	font-weight:700;
+}
+h5 {
+	font-size:1.1em;
+}
+h4 {
+	font-size:1.2em;
+}
+h3 {
+	font-size:1.3em;
+}
+h2 {
+	font-size:1.5em;
+}
+h1 {
+	font-size:1.7em;
+}
+html {
+	font-size:17px;
+}
+body {
+	/* footer background too */
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	background-image:url(bkg/tile.png);
+	background-repeat:repeat;
+	background-color:#A66F00;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #3914AF;
+}
+a {
+	text-decoration: none;
+	color:#00F;
+}
+a:visited {
+	color: #06F;
+}
+#topad {
+	margin:0px auto;
+	padding:0px;
+	overflow:hidden;
+}
+#header {
+	background-image:url(bkg/tile.png);
+	background-position:center center;
+	background-repeat:repeat;
+	background-color:#A68900;
+	color:#FFF;
+	border-bottom:1px solid #FFF;
+	border-top:1px solid #FFF;
+	-webkit-box-shadow:0px 10px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:0px 10px 0px rgba(50, 50, 50, 1);
+	box-shadow:0px 0px 10px rgba(50, 50, 50, 1);
+}
+#searchbox {
+	font-size:0.8em;
+	width:100%;
+	margin-bottom:1em;
+	background-image:url(bkg/search-box.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align:left;
+}
+
+#searchbox div {
+}
+#searchbox input[type="text"] {
+	margin: 10px 10px 10px 40px;
+	color:#FFF;
+	background-color:transparent;
+	border: 0 none;
+}
+#indexselector {
+	margin:1em 0;
+}
+#indexselector select {
+	width:100%;
+	padding:5px;
+	border: 1px solid #666;
+}
+#rightside {
+	float:left;
+	width:35%;
+}
+#rightsideinner {
+	margin-left:2em;
+}
+#footer {
+	margin-top:1em;
+	font-size:0.8em;
+}
+#postfooter {
+	clear:both;
+	text-align:center;
+	font-size:0.9em;
+	padding-bottom:1.5em;
+}
+#outer {
+	margin-top:0.5em;
+}
+#sssidebar {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:0.8em;
+}
+#sssidebar img {
+	margin-bottom:-1em;
+}
+#content {
+	float:left;
+	width:65%;
+}
+#frontpage {
+}
+#frontintro {
+	float:left;
+	width:60%;
+}
+#frontfeature {
+	text-align:center;
+	float:right;
+	width:35%;
+	margin:0 0 1em 1em;
+}
+#frontfeature img {
+	max-width:100%;
+	height:auto;
+	border-radius:5px;
+}
+#frontlower {
+	clear:both;
+	padding:1em 3em;
+}
+.featureimg {
+	text-align:center;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+	margin-bottom:1em;
+}
+.featureimg img {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow:0px 0px 5px rgba(50, 50, 50, 0.5);
+	border:1px solid #FFF;
+	max-width:95%;
+	height:auto;
+}
+.leftstyleimage {
+	float:left;
+	margin:1em 1em 1em -1em;
+	max-width:20%;
+	height:auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:2px solid #000;
+}
+.quote {
+	margin-left:3em;
+	font-family: 'Cinzel', sans-serif;
+	font-style:italic;
+}
+.nav {
+	font-size:0.7em;
+	font-variant:small-caps;
+}
+.nav-prev {
+	float:left;
+	max-width:50%;
+	padding-right:1em;
+	margin-bottom:1em;
+}
+.nav-next {
+	text-align:right;
+	margin-bottom:1em;
+}
+.title {
+	font-family: 'Cinzel', sans-serif;
+	font-weight:700;
+	font-size:1.3em;
+	text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.9);
+}
+.bigtitle {
+	font-size:2em;
+}
+.title a {
+	color:inherit;
+}
+.subtitle {
+	font-family: 'Cinzel', sans-serif;
+	font-size:0.8em;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+	color: #3914AF;
+}
+.clearall {
+	clear:both;
+	font-size:0.1em;
+	height:1px;
+	overflow:hidden;
+	margin-bottom:-1px;
+}
+.mainbackground {
+	background-image:url(bkg/tile.png);
+	background-repeat:repeat;
+	background-color:#FFE773;
+	border-bottom:1px solid #FFF;
+	-webkit-box-shadow:0px 5px 5px rgba(50, 50, 50, 0.6);
+	-moz-box-shadow:0px 5px 5px rgba(50, 50, 50, 0.6);
+	box-shadow:0px 5px 5px rgba(50, 50, 50, 0.6);
+}
+.seealso {
+	font-weight:700;
+	font-variant:small-caps;
+	text-align:center;
+	color:#412C84;
+}
+.seealso a {
+	color:#6A48D7;
+}
+.lowerglow {
+	background-image:url(bkg/bottom-glow.png);
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+.innerdiv {
+	padding:1em 3em;
+	margin:0px auto;
+}
+.resourcebox {
+	background-image:url(bkg/tile.png);
+	background-repeat:repeat;
+	background-position:center center;
+	background-color:#FFBF40;
+	-webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	-moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	border: 1px solid #FFF;
+	padding:1em 2em;
+	margin-bottom:2em;
+	font-size:0.9em;
+}
+.sidebar {
+	background-image:url(bkg/tile.png);
+	background-repeat:repeat;
+	background-color:#200772;
+	-webkit-box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	-moz-box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	box-shadow:0px 0px 5px rgba(0, 0, 0, 1);
+	border: 1px solid #FFF;
+	border-radius: 4px;
+	color:#FFE773;
+	margin-bottom:1em;
+}
+.sidebar img {
+	max-width:100%;
+	height:auto;
+}
+.innersidebar {
+	margin:1em 1.5em;
+}
+.innersidebar ol, .innersidebar ul, .innersidebar blockquote {
+	padding-left:1em;
+	font-size:0.9em;
+	color:#FFF;
+}
+.innersidebar ul {
+	list-style-type:square;
+}
+.innersidebar a {
+	color:#FFF;
+	text-decoration:underline;
+}
+.button {
+	background-color: #6A48D7;
+	background-image:url(bkg/tile.png);
+	background-position:center center;
+	background-repeat:repeat;
+	color: #FFF;
+	padding: 0.5em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	border: 0 none;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	line-height:2.6;
+	white-space:nowrap;
+}
+.button a{
+	color: #FFF;
+}
+.button a:visited{
+	color: #FFF;
+}
+.button:visited{
+	color: #FFF;
+}
+#rightside .button{
+	color:#FFF;
+	display:block;
+	width:90%;
+	text-align:center;
+	font-size:0.7em;
+	padding:0;
+	margin:0.5em auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	white-space:normal;
+}
+#indexbuttons {
+	text-align:center;
+}
+#indexbuttons ul {
+	list-style:none;
+	padding-left:0;
+}
+#indexbuttons li {
+	display:inline;
+}
+#indexbuttons a {
+	background-color: #6A48D7;
+	background-image:url(bkg/tile.png);
+	background-position:center center;
+	background-repeat:repeat;
+	color: #FFF;
+	padding: 0.6em;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	border: 0 none;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 1);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	line-height:2.6;
+}
+#google-responsiveside {
+	/* background-color:#000; */
+	margin:1em auto;
+	overflow:hidden;
+}
+#google-largerect {
+	width:336px;
+	height:280px;
+	background-color:#000;
+	margin:1em auto;
+}
+#google-square {
+	width:250px;
+	margin:1em auto;
+}
+#google-halfbanner {
+	width:234px;
+	height:60px;
+	background-color:#000;
+	margin:1em auto;
+}
+#google-verticlebanner {
+	width:120px;
+	height:240px;
+	background-color:#000;
+	margin:1em auto;
+}
+#google-wideskyscraper {
+	width:160px;
+	height:600px;
+	background-color:#000;
+	margin:1em auto;
+}
+.bookspicture {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 0 none;
+	float:left;
+	margin:1em 1em 1em 0px;
+	max-width:15%;
+	height:auto;
+}
+.sslink {
+	text-align:center;
+	color:#FFF;
+}
+.sslink a {
+	text-decoration:none;
+	color:#FFF;
+}
+ @media screen and (min-width: 1100px) {
+.innerdiv {
+	width:960px;
+}
+ }
+ @media screen and (min-width: 960px) {
+#google-largerect {
+ float:right;
+ margin:1em 0 1em 1em;
+}
+}
+ @media screen and (max-width: 960px), screen and (max-device-width: 960px) {
+body {
+
+}
+}
+ @media screen and (max-width: 800px), screen and (max-device-width: 800px) {
+.lowerglow {
+	background-size:100% auto;
+}
+}
+ @media screen and (max-width: 720px), screen and (max-device-width: 720px) {
+#indexbuttons {
+	display:none;
+}
+.innerdiv {
+	padding:0.8em 1.2em;
+}
+}
+ @media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+body {
+	
+}
+.innerdiv {
+	padding:0.6em 1em;
+}
+.innersidebar {
+	margin:0.5em 1em;
+}
+#frontintro {
+	float:none;
+	width:100%;
+}
+#frontintro h1 {
+	font-size:1.4em;
+}
+#frontlower {
+	padding:1em 0;
+}
+#content {
+	float:none;
+	width:100%;
+}
+#rightside {
+	float:none;
+	width:100%;
+	overflow:hidden;
+}
+#rightsideinner {
+	margin:0px;
+}
+}
+
+/* verseclick styles */
+.vcVerseLink{
+	color:#3914AF;
+	border-bottom:1px dotted #3914AF;
+}
+
+.vcPopupVerseText {
+	background-image:url(bkg/tile.png);
+	background-repeat:repeat;
+	background-color:#FFF;
+	color:#000;
+}
+.vcPopupHeaderText {
+	background-image:url(bkg/tile.png);
+	background-position:center center;
+	background-repeat:repeat;
+	background-color:#A68900;
+	color:#FFF;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+
+/* styles for content */
+
+.bibleoutline table {
+	border:0;
+}
+.bibleoutline .chapterheading{
+	font-size:1.1em;
+	font-weight:700;
+	padding:1em 0em 0em 0em;
+}
+.bibleoutline .verses {
+	text-align:right;
+	vertical-align:top;
+	padding:0.4em 0.5em 0em 0em;
+	white-space:nowrap;
+}
+.bibleoutline .summary {
+	text-align:left;
+	vertical-align:top;
+	padding:0.4em 0em 0em 0em;
+}

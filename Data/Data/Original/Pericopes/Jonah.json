@@ -1,0 +1,128 @@
+[
+    {
+        "Pericope": "God’s first call and Jonah’s response",
+        "Pericope Literary Stage": "Pericope 1",
+        "Pericope Hierarchy": 1,
+        "Reference Start": "Jonah 1:1",
+        "Reference End": "Jonah 1:16"
+    },
+    {
+        "Pericope": "God’s call and Jonah’s flight",
+        "Pericope Literary Stage": "Background",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 1:1",
+        "Reference End": "Jonah 1:3"
+    },
+    {
+        "Pericope": "Yahweh challenges Jonah’s fleeing by sending great wind to the sea",
+        "Pericope Literary Stage": "Conflict",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 1:4",
+        "Reference End": "Jonah 1:4"
+    },
+    {
+        "Pericope": "The efforts of the sailors and captain",
+        "Pericope Literary Stage": "Rising Action",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 1:5",
+        "Reference End": "Jonah 1:13"
+    },
+    {
+        "Pericope": "The sailors’ prayer to Yahweh, and Jonah is thrown into the sea",
+        "Pericope Literary Stage": "Climax",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 1:14",
+        "Reference End": "Jonah 1:14"
+    },
+    {
+        "Pericope": "The sea stills, and the sailors worship Yahweh",
+        "Pericope Literary Stage": "Resolution",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 1:15",
+        "Reference End": "Jonah 1:16"
+    },
+    {
+        "Pericope": "Jonah in the belly of the fish",
+        "Pericope Literary Stage": "Pericope Two",
+        "Pericope Hierarchy": 1,
+        "Reference Start": "Jonah 2:1",
+        "Reference End": "Jonah 2:11"
+    },
+    {
+        "Pericope": "Jonah goes inside the fish",
+        "Pericope Literary Stage": "Conflict",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 2:1",
+        "Reference End": "Jonah 2:1"
+    },
+    {
+        "Pericope": "Jonah prays to Yahweh",
+        "Pericope Literary Stage": "Rising Action",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 2:2",
+        "Reference End": "Jonah 2:10"
+    },
+    {
+        "Pericope": "Jonah comes out of the fish",
+        "Pericope Literary Stage": "Resolution",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 2:11",
+        "Reference End": "Jonah 2:11"
+    },
+    {
+        "Pericope": "Yahweh’s second call and Jonah’s response",
+        "Pericope Literary Stage": "Pericope Three",
+        "Pericope Hierarchy": 1,
+        "Reference Start": "Jonah 3:1",
+        "Reference End": "Jonah 3:10"
+    },
+    {
+        "Pericope": "The command of Yahweh and obedience of Jonah",
+        "Pericope Literary Stage": "Background",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 3:1",
+        "Reference End": "Jonah 3:4"
+    },
+    {
+        "Pericope": "The repentance of people and a king in Nineveh",
+        "Pericope Literary Stage": "Rising Action",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 3:5",
+        "Reference End": "Jonah 3:8"
+    },
+    {
+        "Pericope": "A king turns to the grace of Yahweh",
+        "Pericope Literary Stage": "Climax",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 3:9",
+        "Reference End": "Jonah 3:9"
+    },
+    {
+        "Pericope": "Yahweh revokes evil",
+        "Pericope Literary Stage": "Resolution",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 3:10",
+        "Reference End": "Jonah 3:10"
+    },
+    {
+        "Pericope": "Jonah’s anger and Yahweh’s response",
+        "Pericope Literary Stage": "Pericope Four",
+        "Pericope Hierarchy": 1,
+        "Reference Start": "Jonah 4:1",
+        "Reference End": "Jonah 4:11"
+    },
+    {
+        "Pericope": "Jonah is angry with Yahweh",
+        "Pericope Literary Stage": "Conflict",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 4:1",
+        "Reference End": "Jonah 4:4"
+    },
+    {
+        "Pericope": "Yahweh persuades Jonah",
+        "Pericope Literary Stage": "Resolution",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Jonah 4:5",
+        "Reference End": "Jonah 4:11"
+    }    
+]

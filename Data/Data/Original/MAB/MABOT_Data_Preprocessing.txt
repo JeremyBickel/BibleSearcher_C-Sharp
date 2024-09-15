@@ -1,0 +1,3 @@
+v41.3.3 toward the end of word 7, between "ξηράν</grk>" and "<gloss>withered," I removed:
+
+<sup><clinfo>1</clinfo></sup>

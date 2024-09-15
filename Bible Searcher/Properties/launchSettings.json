@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Bible Searcher": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,2371 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLBConcordance\BLBConcordance.csproj" />
+    <ProjectReference Include="..\BLBLexicon\BLBLexicon.csproj" />
+    <ProjectReference Include="..\Categories\Categories.csproj" />
+    <ProjectReference Include="..\KJVStrongs\KJVStrongs.csproj" />
+    <ProjectReference Include="..\KJVSynonyms\KJVSynonyms.csproj" />
+    <ProjectReference Include="..\MAB\MAB.csproj" />
+    <ProjectReference Include="..\Marvel\Marvel.csproj" />
+    <ProjectReference Include="..\Moby\Moby.csproj" />
+    <ProjectReference Include="..\Pericope\Pericope.csproj" />
+    <ProjectReference Include="..\Roget\Roget.csproj" />
+    <ProjectReference Include="..\STEPLexicon\STEPLexicon.csproj" />
+    <ProjectReference Include="..\Synonyms\Synonyms.csproj" />
+    <ProjectReference Include="..\TreasuryOfScriptureKnowledge\TreasuryOfScriptureKnowledge.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\AAASemanticGroups.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BibleTruthPublishersLinks.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBGreekConcordance.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBGreekLexicon.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBGreekSyllableComparisons.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBHebrewConcordance.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBHebrewLexicon.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\BLBHebrewSyllableComparisons.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-2-Counts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-2.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-3-Counts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-3.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-4-Counts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-4.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-5-Counts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\ChainedPhrasalConcordance-5.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Counts for Phrases with Multiple Strongs Numbers, First English Translation.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Counts for Phrases with Multiple Strongs Numbers, First English Translation.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Counts for Phrases with Multiple Strongs Numbers.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Counts for Phrases with Multiple Strongs Numbers.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\CrossReferences.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Bible_English_KJV_Strong.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\cross_references.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\EnglishPhraseCountsByCount.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\EnglishPhraseCountsByPhrase.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\BLB\GrkConc.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\BLB\GrkLex.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\BLB\HebConc.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\BLB\HebLex.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\HebrewNon-Roots.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\HebrewRoots.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_1.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_10.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_100.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_101.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_102.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_103.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_104.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_105.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_106.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_107.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_108.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_109.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_11.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_110.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_111.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_112.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_113.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_114.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_115.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_116.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_117.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_118.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_119.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_12.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_120.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_121.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_122.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_123.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_124.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_125.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_126.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_127.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_128.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_129.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_13.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_130.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_131.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_132.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_133.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_134.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_135.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_136.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_137.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_138.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_139.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_14.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_140.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_141.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_142.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_143.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_144.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_145.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_146.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_147.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_148.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_149.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_15.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_150.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_151.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_152.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_153.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_154.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_155.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_156.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_157.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_158.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_159.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_16.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_160.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_161.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_162.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_163.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_164.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_165.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_166.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_167.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_168.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_169.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_17.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_170.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_171.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_172.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_173.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_174.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_175.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_176.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_177.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_178.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_179.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_18.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_180.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_181.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_182.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_183.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_184.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_185.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_186.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_187.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_188.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_189.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_19.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_190.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_191.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_192.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_193.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_194.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_195.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_196.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_197.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_198.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_199.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_2.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_20.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_200.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_201.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_202.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_203.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_204.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_205.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_206.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_207.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_208.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_209.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_21.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_210.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_211.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_212.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_213.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_214.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_215.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_216.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_217.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_218.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_219.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_22.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_220.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_221.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_222.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_223.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_224.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_225.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_226.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_227.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_228.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_229.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_23.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_230.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_231.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_232.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_233.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_234.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_235.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_236.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_237.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_238.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_239.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_24.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_240.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_241.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_242.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_243.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_244.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_245.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_246.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_247.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_248.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_249.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_25.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_250.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_251.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_252.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_253.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_254.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_255.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_256.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_257.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_258.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_259.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_26.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_260.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_261.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_262.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_263.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_264.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_265.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_266.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_267.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_268.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_269.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_27.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_270.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_271.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_272.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_273.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_274.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_275.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_276.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_277.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_278.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_279.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_28.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_280.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_281.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_282.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_283.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_284.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_285.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_286.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_287.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_288.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_289.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_29.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_290.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_291.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_292.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_293.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_294.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_295.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_296.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_297.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_298.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_299.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_3.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_30.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_300.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_301.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_302.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_303.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_304.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_305.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_306.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_307.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_308.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_309.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_31.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_310.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_311.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_312.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_32.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_33.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_34.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_35.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_36.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_37.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_38.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_39.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_4.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_40.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_41.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_42.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_43.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_44.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_45.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_46.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_47.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_48.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_49.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_5.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_50.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_51.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_52.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_53.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_54.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_55.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_56.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_57.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_58.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_59.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_6.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_60.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_61.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_62.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_63.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_64.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_65.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_66.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_67.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_68.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_69.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_7.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_70.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_71.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_72.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_73.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_74.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_75.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_76.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_77.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_78.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_79.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_8.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_80.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_81.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_82.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_83.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_84.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_85.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_86.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_87.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_88.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_89.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_9.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_90.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_91.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_92.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_93.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_94.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_95.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_96.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_97.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_98.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases\VerseRelatednesByPhraseSimilarity_99.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_1.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_10.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_100.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_101.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_102.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_103.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_104.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_105.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_106.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_107.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_108.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_109.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_11.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_110.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_111.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_112.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_113.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_114.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_115.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_116.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_117.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_118.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_119.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_12.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_120.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_121.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_122.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_123.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_124.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_125.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_126.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_127.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_128.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_129.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_13.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_130.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_131.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_132.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_133.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_134.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_135.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_136.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_137.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_138.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_139.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_14.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_140.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_141.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_142.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_143.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_144.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_145.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_146.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_147.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_148.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_149.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_15.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_150.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_151.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_152.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_153.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_154.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_155.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_156.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_157.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_158.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_159.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_16.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_160.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_161.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_162.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_163.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_164.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_165.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_166.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_167.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_168.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_169.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_17.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_170.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_171.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_172.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_173.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_174.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_175.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_176.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_177.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_178.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_179.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_18.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_180.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_181.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_182.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_183.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_184.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_185.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_186.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_187.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_188.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_189.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_19.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_190.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_191.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_192.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_193.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_194.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_195.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_196.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_197.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_198.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_199.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_2.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_20.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_200.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_201.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_202.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_203.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_204.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_205.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_206.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_207.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_208.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_209.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_21.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_210.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_211.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_212.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_213.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_214.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_215.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_216.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_217.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_218.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_219.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_22.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_220.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_221.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_222.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_223.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_224.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_225.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_226.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_227.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_228.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_229.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_23.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_230.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_231.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_232.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_233.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_234.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_235.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_236.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_237.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_238.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_239.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_24.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_240.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_241.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_242.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_243.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_244.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_245.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_246.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_247.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_248.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_249.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_25.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_250.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_251.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_252.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_253.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_254.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_255.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_256.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_257.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_258.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_259.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_26.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_260.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_261.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_262.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_263.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_264.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_265.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_266.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_267.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_268.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_269.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_27.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_270.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_271.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_272.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_273.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_274.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_275.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_276.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_277.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_278.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_279.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_28.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_280.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_281.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_282.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_283.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_284.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_285.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_286.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_287.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_288.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_289.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_29.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_290.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_291.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_292.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_293.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_294.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_295.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_296.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_297.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_298.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_299.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_3.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_30.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_300.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_301.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_302.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_303.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_304.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_305.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_306.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_307.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_308.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_309.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_31.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_310.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_311.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_312.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_32.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_33.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_34.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_35.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_36.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_37.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_38.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_39.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_4.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_40.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_41.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_42.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_43.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_44.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_45.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_46.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_47.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_48.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_49.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_5.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_50.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_51.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_52.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_53.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_54.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_55.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_56.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_57.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_58.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_59.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_6.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_60.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_61.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_62.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_63.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_64.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_65.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_66.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_67.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_68.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_69.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_7.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_70.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_71.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_72.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_73.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_74.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_75.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_76.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_77.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_78.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_79.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_8.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_80.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_81.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_82.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_83.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_84.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_85.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_86.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_87.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_88.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_89.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_9.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_90.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_91.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_92.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_93.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_94.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_95.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_96.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_97.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_98.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_backup\VerseRelatednesByPhraseSimilarity_99.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\IntersectingPhrases_WekaExperimentResult.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\KJV-RawText.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\HebrewNon-Roots.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\HebrewRoots.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\kjvstrongs.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\KJVStrongsMajorWords-English.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\KJVStrongsVector.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\KJVStrongsVectorStrongsOnly.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\KJVVerseCounts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\LocalPhraseClusters.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\LostSemanticWords.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Synonyms\10681-body.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Synonyms\mthesaur.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Synonyms\Synonyms.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PericopePassage_OrderedRelatedness.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PericopePassage_OrderedRelatedness_Verses.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Comparative Gospels\John.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Comparative Gospels\Luke.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Comparative Gospels\Mark.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Comparative Gospels\Matthew.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\John 2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Luke 2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Mark 2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Cranfordville.com\Matthew 2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Semantic Bible\Whole Bible.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Wikipedia\Acts.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\Wikipedia\Galatians.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PhrasalConcordance.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Phrases.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Phrases_Tagged.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\PositionIDs.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\POSParts.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SemanticallyTagged-Jude.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Processed\WordCategories.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\SimpleSVOs.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Strongs\StrongHebrewG.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Strongs\strongs-greek-dictionary.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\StrongsMajorWords-English.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\StrongsPhrasalConcordanceEnglish.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\StrongsPhrasalConcordanceStrongs.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\StrongsSequencesByCount.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\StrongsSequencesBySS.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\TAGNT Act-Rev - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\TAGNT Mat-Jhn - Translators Amalgamated Greek NT - STEPBible.org CC-BY.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\TOTHT.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1chronicles.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1corinthians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1john.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1kings.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1peter.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1samuel.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1thessalonians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\1timothy.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2chronicles.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2corinthians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2john.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2kings.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2peter.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2samuel.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2thessalonians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\2timothy.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\3john.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\acts.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\amos.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\colossians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\daniel.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\deuteronomy.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\ecclesiastes.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\ephesians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\esther.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\exodus.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\ezekiel.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\ezra.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\galatians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\genesis.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\habakkuk.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\haggai.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\hebrews.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\hosea.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\isaiah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\james.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\jeremiah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\job.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\joel.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\john.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\jonah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\joshua.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\jude.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\judges.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\lamentations.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\leviticus.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\luke.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\malachi.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\mark.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\matthew.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\micah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\nahum.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\nehemiah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\numbers.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\obadiah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\philemon.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\philippians.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\proverbs.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\psalms.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\README.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\revelation.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\romans.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\ruth.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\songofsolomon.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\titus.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\zechariah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Original\Pericopes\TSK_Headings\zephaniah.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\VerseRelatednessByPhraseSimilarity.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Verses.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Word2Vec-Output.bin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Word2Vec-Vocab.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\WordCounts.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\WordIDs.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
