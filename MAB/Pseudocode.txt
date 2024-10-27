@@ -1,0 +1,25 @@
+foreach(clause)
+-foreach(s in c)
+--if (lastSubclause.SF==thisSubclause.SF)
+---collapse them together
+---lastSubclause = lastSubclause.join(thisSubclause)
+
+foreach (subclauseFunction in clause) CLAUSE
+-dSubclauses.add(rowID, subclause) SUBCLAUSES
+-foreach (subclauseFunction==subject) SUBJECTS
+--if (dSubclauses.where(value==connectingsubclause).[rowID] ==  thisRowID - 1 && 
+       dSubclauses.where(value==connectingsubclause).[subclauseFunction] == subject) BUILD TOGETHER
+---strBuildGloss += " " + gloss + " "
+
+dSemantics[gloss.trim()] = ""
+
+foreach (sf in clause)
+-foreach (sf==verb)
+--
+
+
+~~~~~~~~~~~~
+
+gloss: of her,  clauselevel: 2  14:8.w8-w9 @14:8.w1-w18 --> 14:8.w11-w18 subclause: 14:8.w8  function: predicator  wordid: w8
+
+<cllevel>°°</cllevel>  <clinfo>14:8.w8-w9</clinfo>  <sup> <connector>@</connector><i><clinfo>14:8.w1-w18</clinfo></i></sup> <funcinfo>→</funcinfo> <i><clinfo>14:8.w11-w18</clinfo></i></sup> <wg><div class='p'><wg><div class='p'><subclinfo>14:8.w8</subclinfo>

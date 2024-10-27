@@ -1,0 +1,74 @@
+Phrasal Composition -> phrasal synonyms
+_________________
+
+If the count is greater than the number of words in the longer phrase, that phrase is made up of other phrasal units in a complex way.
+
+1) Find the tree of longer phrases (LP) which contains each smaller phrase (SP) when the count of words in any LP is less than the count of parts (CP). 
+1a) Only include LP in that tree which also have a CP greater than the number of words in the LP.
+1b) Include all LP when an SP is found in any LP with a total CP greater than the count of words in the LP
+2) Separate out the SP longer than one word, because the single words SP are obvious and would just clutter up things (like stopwords).
+
+Find synonyms for all these interesting SP to later add to synonyms of individual words. Order them by their count from Phrasal Concordance.
+
+Is the result identical with the counts from English Phrase Counts? If not, what's interesting about it?
+
+
+
+Counts for Phrases with Multiple Strongs Numbers, First English Translation
+_______________________________________________________________
+
+This is currently messed up and needs re-coding.
+
+1) The english phrase is composed of more than one original language term (or grammatical mark). So, these might be broken into their respective phrases when dealing with Phrasal Composition.
+
+
+
+Cross References
+_______________
+
+!!POSSIBLE NON-TRIVIAL CONTEXTS!! - Non-sequential contexts
+
+
+
+English Phrase Counts
+___________________
+
+How often is a phrase used? Starting with the most often, do they have synonymous phrases used elsewhere?
+
+
+
+KJV Strongs Major Words
+______________________
+
+Every English translation of each word.
+
+
+
+KJV Strongs Vector
+_________________
+
+A 52x31102 matrix of Strongs numbers.
+
+
+
+Phrasal Concordance
+__________________
+
+Locations of every phrase of any length that occurs more than once, with their counts.
+
+
+
+Phrasal Concordance - Phrase Book Distribution
+________________________________________
+
+Like Phrasal Concordance, but each book the phrase occurs in is listed once.
+
+
+
+Phrases
+_______
+
+I seem to have multiple computations of these phrases, but I'm not sure which are from Strongs and which are calculated exhaustively. Look into this later.
+
+
+

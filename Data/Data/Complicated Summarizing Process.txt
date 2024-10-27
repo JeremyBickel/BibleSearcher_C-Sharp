@@ -1,0 +1,26 @@
+7 Step Summary Process
+Each step is carried out by a different instance of LLM or in an instruction mode so that it does not consider answers from other steps unless specifically told to do so.
+
+1)  Sentence Analysis and Question Generation:
+        Count the sentences in the text and divide by three, rounding up to determine a base number. Generate questions based on the text, aiming for twice the base number. These questions should explore different dimensions of the text, such as key events, characters, arguments, or data presented.
+        
+2)  Concept Identification:
+        List the separate concepts represented in the text, ensuring that each concept is distinct and captures a unique aspect or idea from the text. This step involves deep comprehension and abstraction to distill complex information into identifiable themes or ideas.
+
+3)  Question Refinement and Concept Review:
+        Review and refine the questions generated in Step 1 to ensure they are comprehensive and accurately reflect the content and context of the text. This may involve rephrasing, combining, or adding new questions.
+        Re-examine the list of concepts identified in Step 2. Check for any missing concepts, remove redundant ones, and refine the definitions or descriptions to ensure clarity and precision.
+
+4)  Synthesis of Questions and Concepts:
+        Summarize the questions listed in Steps 1 and 3 to create a cohesive narrative or framework that captures the main points, arguments, or storylines within the text.
+        Similarly, synthesize the concepts identified and refined in Steps 2 and 3 into a comprehensive overview that highlights the core ideas, themes, or theories presented in the text.
+
+5)  Integrated Summary Creation:
+        Combine the summaries from Step 4 into a unified summary that seamlessly integrates the insights from the questions and concepts. This summary should be coherent, concise, and accurately reflect the depth and breadth of the original text.
+
+6)  Iterative Review and Refinement:
+        Compare the integrated summary to the original text to identify any discrepancies, omissions, or areas of misalignment. This step involves a critical evaluation of the summary's fidelity to the text and its effectiveness in conveying the text's full scope.
+        Refine the summary by addressing identified discrepancies, ensuring that the final version is a faithful and comprehensive representation of the original text.
+
+7)  Final Summary Adjustment:
+        Review the refined summary for coherence, clarity, and completeness. Make any necessary adjustments to ensure that the summary fully encapsulates the essence and nuances of the original text, leaving no significant aspect unaddressed.

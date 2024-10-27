@@ -1,0 +1,24 @@
+You'll have to merge these files. In Linux, you can use 'cat'. If nothing else, you can open them up in a text editor (!be sure it can handle large files!), and manually copy the parts and paste them into a reconstituted file. The parts all end in "-*", where the * is a group of letters that denotes the order of the pieces. I had to do this to avoid using git-lfs after this was downloaded enought that the free git-lfs account ran out of bandwidth.
+
+/Data/Data/Original/MAB/MAB-NT.xml
+/Data/Data/Original/MAB/MAB-OT.xml
+/Data/Data/Original/STEP[[:space:]]Bible/TOTHT.txt
+/Data/Data/Processed/BLBGreekSyllableComparisons.csv
+/Data/Data/Processed/BLBHebrewSyllableComparisons.csv
+/Data/Data/Processed/STEPHebrew.csv
+/Data/Data/Processed/Synonyms/Synonyms.csv
+/Data/Data/Processed/MAB/MAB-NT-Intermediate.csv
+/Data/Data/Processed/MAB/MAB-NT.csv
+/Data/Data/Processed/MAB/MAB-OT.csv
+/Data/Data/Processed/MAB/MAB-OT.json
+/Data/Data/Processed/MAB/MAB-Parse-Formatted.txt
+/Data/Data/Processed/MAB/NTWords.json
+/Data/Data/Processed/MAB/NTWordsStructuredByPericopeMorphology.csv
+
+/Data/Data/Processed/PericopeMAB.csv
+/Data/Data/Processed/PericopeMAB/PericopeMAB.csv
+NOTE: PericopeMAB.csv in Processed and Processed/PericopeMAB ARE DIFFERENT!
+
+/Data/Data/Processed/Synonyms/Moby.csv
+/Data/Data/Processed/Synonyms/Moby/Moby.csv
+NOTE: I don't know why I have a copy of Moby.csv in both Synonyms/ and Synonyms/Moby, but I'm leaving it in both places, because the code might use it in both places.

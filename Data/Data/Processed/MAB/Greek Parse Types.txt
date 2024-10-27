@@ -1,0 +1,102 @@
+1. Cases
+
+    Nominative
+    Accusative
+    Genitive
+    Dative
+    Vocative
+
+2. Gender
+
+    Masculine
+    Feminine
+    Neuter
+
+3. Number
+
+    Singular
+    Plural
+
+4. Person
+
+    First
+    Second
+    Third
+
+5. Miscellaneous Terms
+
+    Kai
+    Location
+    Person
+    Title
+
+6. Parts of Speech (POS)
+
+    Noun
+    Verb
+    Adjective
+    Adverb
+    Personal Pronoun
+    Demonstrative Pronoun
+    Interrogative Pronoun
+    Reflexive Pronoun
+    Relative Pronoun
+    Correlative Pronoun
+    Indefinite Pronoun
+    Reciprocal Pronoun
+    Correlative or Interrogative Pronoun
+    Possessive Pronoun
+    Preposition
+    Conjunction
+    Disjunctive Particle
+    Conjunction or Conjunctive Particle
+    Definite Article
+    Interjection
+    Participle
+    Particle
+    Adverb or Adverb and Particle Combined
+
+7. Indeclinables
+
+    Letter Indeclinable (n)
+    Hebrew Transliterated Word (Indeclinable)
+    Indeclinable Numeral (Adjective)
+    Aramaic Transliterated Word (Indeclinable)
+    Numerical Indeclinable (a)
+
+8. Other Descriptors
+
+    Gentilic
+    Comparative
+    Superlative
+    Imperative
+    Infinitive
+    Indicative
+    Interrogative
+    Negative
+    Contracted Form
+
+9. Verb Forms
+
+    Subjunctive
+    Optative
+    Middle Deponent
+    Aorist
+    Passive Deponent
+    Middle
+    Middle or Passive Deponent
+    Passive
+    Active
+    Imperfect
+    Perfect
+    Pluperfect
+    Either Middle or Passive
+
+10. Tenses
+
+    Present
+    Future
+
+11. Language Specific
+
+    Hebrew

@@ -1,0 +1,206 @@
+word function phrase ^ count
+* ^ 7
+* * ^ 5
+* * head ^ 2
+* * specifier head ^ 1
+adjunct ^ 3
+adjunct adjunct definer head ^ 1
+adjunct adjunct head ^ 2
+complement ^ 1
+complement complement head ^ 1
+complement complement head qualifier ^ 1
+connector ^ 50
+connector connector ^ 1
+connector connector definer specifier head ^ 1
+connector connector head ^ 7
+connector connector head qualifier ^ 1
+connector connector specifier head qualifier ^ 1
+connector definer head ^ 50
+connector definer head definer ^ 3
+connector definer head head ^ 1
+connector definer specifier ^ 2
+connector definer specifier head ^ 21
+connector definer specifier head qualifier ^ 2
+connector head ^ 1348
+connector head definer ^ 64
+connector head definer head ^ 1
+connector head definer qualifier ^ 1
+connector head head ^ 35
+connector head head head ^ 2
+connector head head qualifier ^ 1
+connector head qualifier ^ 80
+connector head specifier ^ 1
+connector head specifier head ^ 1
+connector qualifier ^ 1
+connector qualifier head ^ 16
+connector qualifier specifier head ^ 2
+connector specifier ^ 26
+connector specifier definer definer head ^ 1
+connector specifier definer head ^ 36
+connector specifier definer head qualifier ^ 3
+connector specifier definer qualifier head ^ 1
+connector specifier definer specifier head ^ 8
+connector specifier definer specifier head qualifier ^ 7
+connector specifier head ^ 621
+connector specifier head definer ^ 16
+connector specifier head head ^ 3
+connector specifier head qualifier ^ 109
+connector specifier head qualifier definer ^ 2
+connector specifier qualifier head ^ 1
+connector specifier specifier definer head ^ 5
+connector specifier specifier head ^ 62
+connector specifier specifier head head ^ 1
+connector specifier specifier head qualifier ^ 26
+definer ^ 278
+definer connector definer ^ 1
+definer connector definer specifier head qualifier ^ 1
+definer connector head ^ 1
+definer connector specifier head ^ 2
+definer definer ^ 1
+definer definer definer head ^ 2
+definer definer head ^ 4
+definer head ^ 638
+definer head connector ^ 2
+definer head definer ^ 35
+definer head definer head ^ 1
+definer head head ^ 17
+definer head qualifier ^ 26
+definer head specifier ^ 1
+definer head specifier head ^ 4
+definer qualifier ^ 1
+definer qualifier head head ^ 1
+definer specifier ^ 11
+definer specifier definer head ^ 2
+definer specifier definer head qualifier ^ 1
+definer specifier head ^ 295
+definer specifier head definer ^ 5
+definer specifier head qualifier ^ 20
+definer specifier qualifier head ^ 1
+head ^ 66159
+head connector ^ 48
+head connector connector ^ 1
+head connector connector head ^ 1
+head connector definer ^ 4
+head connector head ^ 1
+head connector qualifier ^ 5
+head definer ^ 778
+head definer connector definer ^ 1
+head definer connector definer connector definer ^ 1
+head definer definer ^ 1
+head definer definer definer definer ^ 1
+head definer head ^ 15
+head definer head definer ^ 2
+head definer qualifier ^ 5
+head definer specifier head ^ 1
+head head ^ 209
+head head definer ^ 6
+head head definer head ^ 2
+head head head ^ 51
+head head head definer ^ 3
+head head head head ^ 4
+head head head head head ^ 1
+head head head head head head head head ^ 1
+head head head qualifier ^ 3
+head head qualifier ^ 5
+head head specifier head ^ 3
+head qualifier ^ 759
+head qualifier definer ^ 12
+head qualifier head ^ 10
+head qualifier head definer ^ 1
+head qualifier head qualifier ^ 1
+head qualifier qualifier ^ 2
+head relator ^ 1
+head specifier ^ 8
+head specifier definer ^ 1
+head specifier head ^ 14
+qualifier ^ 176
+qualifier connector head ^ 3
+qualifier connector specifier head ^ 2
+qualifier definer ^ 2
+qualifier definer head ^ 1
+qualifier definer specifier head ^ 1
+qualifier head ^ 205
+qualifier head definer ^ 4
+qualifier head head ^ 14
+qualifier head head definer ^ 2
+qualifier head head head ^ 2
+qualifier head head qualifier ^ 1
+qualifier head specifier head ^ 2
+qualifier head specifier specifier head ^ 1
+qualifier qualifier head ^ 5
+qualifier qualifier head qualifier ^ 1
+qualifier qualifier qualifier head head ^ 1
+qualifier specifier ^ 1
+qualifier specifier definer ^ 1
+qualifier specifier definer head ^ 1
+qualifier specifier head ^ 198
+qualifier specifier head definer ^ 4
+qualifier specifier specifier head ^ 9
+relator ^ 2
+relator head ^ 1
+specifier ^ 1286
+specifier connector ^ 3
+specifier connector definer head ^ 1
+specifier connector definer qualifier head ^ 1
+specifier connector head ^ 25
+specifier connector head definer ^ 1
+specifier connector specifier head ^ 1
+specifier connector specifier head qualifier ^ 2
+specifier definer ^ 20
+specifier definer definer definer head ^ 1
+specifier definer definer head ^ 1
+specifier definer head ^ 592
+specifier definer head definer ^ 14
+specifier definer head definer head ^ 3
+specifier definer head head ^ 3
+specifier definer head qualifier ^ 22
+specifier definer head qualifier definer ^ 1
+specifier definer qualifier head ^ 8
+specifier definer qualifier head definer ^ 1
+specifier definer specifier ^ 2
+specifier definer specifier definer head ^ 1
+specifier definer specifier head ^ 142
+specifier definer specifier head definer ^ 5
+specifier definer specifier head head ^ 1
+specifier definer specifier head qualifier ^ 19
+specifier head ^ 14674
+specifier head connector ^ 3
+specifier head definer ^ 578
+specifier head definer connector ^ 1
+specifier head definer head ^ 11
+specifier head definer head qualifier ^ 2
+specifier head definer qualifier ^ 3
+specifier head definer qualifier head ^ 1
+specifier head definer specifier ^ 1
+specifier head head ^ 178
+specifier head head definer ^ 8
+specifier head head head ^ 3
+specifier head head head head ^ 1
+specifier head head qualifier ^ 5
+specifier head qualifier ^ 2147
+specifier head qualifier definer ^ 33
+specifier head qualifier head ^ 13
+specifier head specifier head ^ 10
+specifier qualifier head ^ 77
+specifier qualifier head definer ^ 2
+specifier specifier ^ 90
+specifier specifier definer ^ 3
+specifier specifier definer head ^ 130
+specifier specifier definer head definer ^ 2
+specifier specifier definer head head ^ 2
+specifier specifier definer head qualifier ^ 4
+specifier specifier definer head qualifier definer ^ 1
+specifier specifier definer qualifier head ^ 8
+specifier specifier definer qualifier head definer ^ 1
+specifier specifier definer specifier head ^ 1
+specifier specifier head ^ 3134
+specifier specifier head definer ^ 129
+specifier specifier head definer head ^ 2
+specifier specifier head head ^ 17
+specifier specifier head head head head ^ 1
+specifier specifier head qualifier ^ 702
+specifier specifier head qualifier definer ^ 7
+specifier specifier head qualifier head ^ 6
+specifier specifier qualifier head ^ 32
+specifier specifier specifier ^ 1
+subject subject ^ 1

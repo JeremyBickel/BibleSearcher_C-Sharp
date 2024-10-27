@@ -1,0 +1,134 @@
+[
+    {
+        "Pericope": "Prologue",
+        "Pericope Hierarchy": 1,
+        "Reference Start": "Genesis 1:1",
+        "Reference End": "Genesis 2:3"
+    },
+    {
+        "Pericope": "The origin of the world",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Genesis 1:1",
+        "Reference End": "Genesis 1:31"
+    },
+    {
+        "Pericope": "The origins of the nations",
+        "Pericope Hierarchy": 1.5,
+        "Reference Start": "Genesis 2:1",
+        "Reference End": "Genesis 11:32"
+    },
+    {
+        "Pericope": "Adam and Eve",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Genesis 2:1",
+        "Reference End": "Genesis 3:24"
+    },
+    {
+        "Pericope": "Heaven and Earth",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 2:4",
+        "Reference End": "Genesis 4:26"
+    },
+    {
+        "Pericope": "Cain and Abel",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 4:1",
+        "Reference End": "Genesis 5:32"
+    },
+    {
+        "Pericope": "The history of Adam",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 5:1",
+        "Reference End": "Genesis 6:8"
+    },
+    {
+        "Pericope": "Noah",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 6:1",
+        "Reference End": "Genesis 10:32"
+    },
+    {
+        "Pericope": "The history of Noah",
+        "Pericope Hierarchy": 3,
+        "Reference Start": "Genesis 6:9",
+        "Reference End": "Genesis 9:29"
+    },
+    {
+        "Pericope": "The history of Noah’s sons",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 10:1",
+        "Reference End": "Genesis 11:9"
+    },
+    {
+        "Pericope": "The Tower of Babel",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 11:1",
+        "Reference End": "Genesis 11:32"
+    },
+    {
+        "Pericope": "The history of Shem",
+        "Pericope Hierarchy": 3,
+        "Reference Start": "Genesis 11:10",
+        "Reference End": "Genesis 11:26"
+    },
+    {
+        "Pericope": "The origins of Israel",
+        "Pericope Hierarchy": 1.5,
+        "Reference Start": "Genesis 12:1",
+        "Reference End": "Genesis 50:26"
+    },
+    {
+        "Pericope": "The history of Abraham",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 11:27",
+        "Reference End": "Genesis 25:11"
+    },
+    {
+        "Pericope": "The life of Abraham",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 12:1",
+        "Reference End": "Genesis 25:18"
+    },
+    {
+        "Pericope": "The history of Ishmael",
+        "Pericope Hierarchy": 3,
+        "Reference Start": "Genesis 25:12",
+        "Reference End": "Genesis 25:18"
+    },
+    {
+        "Pericope": "The history of Isaac and Jacob",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Genesis 25:19",
+        "Reference End": "Genesis 35:29"
+    },
+    {
+        "Pericope": "The life of Isaac",
+        "Pericope Hierarchy": 3,
+        "Reference Start": "Genesis 25:19",
+        "Reference End": "Genesis 26:35"
+    },
+    {
+        "Pericope": "The life of Jacob",
+        "Pericope Hierarchy": 2.5,
+        "Reference Start": "Genesis 27:1",
+        "Reference End": "Genesis 37:1"
+    },
+    {
+        "Pericope": "The history of Esau-Edom",
+        "Pericope Hierarchy": 2.75,
+        "Reference Start": "Genesis 36:1",
+        "Reference End": "Genesis 37:1"
+    },
+    {
+        "Pericope": "The life of Joseph",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Genesis 37:2",
+        "Reference End": "Genesis 50:26"
+    },
+    {
+        "Pericope": "The history of Joseph",
+        "Pericope Hierarchy": 2,
+        "Reference Start": "Genesis 37:2",
+        "Reference End": "Genesis 50:26"
+    }
+]

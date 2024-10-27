@@ -1,0 +1,39 @@
+that ^ head ^ ^ conjunction ^ CONJunction or conjunctive particle
+
+a greek ^ head ^ ^ complement ^ Noun, Nominative, Location Gentilic 
+
+the ^ specifier ^ ^ subject ^ definite article, Nominative
+father ^ head ^  ^ subject ^ Noun, Nominative
+of him ^ qualifier ^ ^ subject ^ Personal pronoun, Genitive
+
+was. ^  head ^ ^ predicator ^ Verb, Imperfect, Active, Indicative, third
+
+~~~~~~~~~~~~~~~~~~~~~~~
+
+having prayed, ^  head ^  adjunct ^  predicator ^ Verb, Aorist, middle Deponent, Participle, Nominative, Plural, Masculine ^ προσευξάμενοι
+
+having said farewell ^  head ^ adjunct ^ predicator ^ Verb, Aorist, Middle, Indicative, first, Plural ^ ἀπησπασάμεθα
+
+to one another, ^ head ^  adjunct ^  complement ^  reCiprocal pronoun, Accusative, Plural, Masculine ^ ἀλλήλους
+
+
+
+then ^  head ^ adjunct ^ conjunction ^ CONJunction or conjunctive particle ^ καὶ
+
+we went up ^ head ^ adjunct predicator ^ Verb, second Aorist, Active, Indicative, first, Plural ^ ἀνέβημεν
+
+into ^ specifier ^ adjunct ^ adjunct ^ PREPosition ^ εἰς
+the ^  specifier ^ adjunct ^ adjunct ^ definite article, Accusative, Singular, Neuter ^ τὸ
+boat; ^  head ^ adjunct ^ adjunct ^ Noun, Accusative, Singular, Neuter ^ πλοῖον
+
+
+
+they ^ head ^ adjunct ^ subject ^ Demonstrative pronoun, Nominative, Plural, Masculine ^ ἐκεῖνοι
+
+then ^ head ^ adjunct ^  conjunction ^ CONJunction or conjunctive particle ^ δὲ
+
+returned ^ head ^ adjunct ^  predicator ^ Verb, Aorist, Active, Indicative, third, Plural ^ ὑπέστρεψαν
+
+to ^ specifier ^ adjunct ^adjunct ^ PREPosition ^ εἰς
+the ^ specifier ^ adjunct ^ adjunct ^ definite article, Accusative, Plural, Neuter ^ τὰ
+own. ^  head ^ adjunct ^ adjunct ^  Adjective, Accusative, Plural, Neuter ^ ἴδια

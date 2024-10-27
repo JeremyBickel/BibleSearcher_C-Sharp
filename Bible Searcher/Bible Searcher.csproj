@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Bible_Searcher</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <StartupObject>Bible_Searcher.Program</StartupObject>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <ErrorReport>none</ErrorReport>
+    <Title>Bible Searcher</Title>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" />
+  <ItemGroup>
+    <ProjectReference Include="..\BLBConcordance\BLBConcordance.csproj" />
+    <ProjectReference Include="..\Categories\Categories.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\DeepAI\DeepAIConnection.csproj" />
+    <ProjectReference Include="..\KJVSynonyms\KJVSynonyms.csproj" />
+    <ProjectReference Include="..\MAB\MAB.csproj" />
+    <ProjectReference Include="..\Moby\Moby.csproj" />
+    <ProjectReference Include="..\Pericope\Pericope.csproj" />
+    <ProjectReference Include="..\Roget\Roget.csproj" />
+    <ProjectReference Include="..\STEPLexicon\STEPLexicon.csproj" />
+    <ProjectReference Include="..\Synonyms\Synonyms.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
